@@ -49,6 +49,20 @@ _ZW = re.compile("[​‌‍⁠﻿­]")
 _DIG = str.maketrans("०१२३४५६७८९", "0123456789")
 _B64 = re.compile(r"[A-Za-z0-9+/]{24,}={0,2}")
 _UESC = re.compile(r"(?:\\u[0-9a-fA-F]{4})+")
+_PCT = re.compile(r"%[0-9A-Fa-f]{2}")
+_WORD_SPLIT = re.compile(r"[^\wऀ-ॿ]+")
+
+
+def word_counts(text: str) -> Counter:
+    """Whole-word token counts: one pass per text instead of one regex scan per name token."""
+    return Counter(t for t in _WORD_SPLIT.split(text) if t)
+
+
+def count_word(tok: str, text: str, counts: Counter) -> int:
+    if _WORD_SPLIT.search(tok) is None:          # plain word token: O(1) lookup
+        return counts.get(tok, 0)
+    rx = re.compile(r"(?<![\wऀ-ॿ])" + re.escape(tok) + r"(?![\wऀ-ॿ])")
+    return len(rx.findall(text))
 _PSN = re.compile(r"\bPSN-[0-9A-Z]{4,12}\b")
 
 
@@ -72,8 +86,11 @@ def decode_payloads(text: str) -> str:
             extra.append(m.group(0).encode().decode("unicode_escape"))
         except Exception:
             pass
-    for m in re.finditer(r"(?:%[0-9A-Fa-f]{2}|[A-Za-z0-9.\-_])*%[0-9A-Fa-f]{2}(?:%[0-9A-Fa-f]{2}|[A-Za-z0-9.\-_])*", text):
-        extra.append(urllib.parse.unquote(m.group(0)))
+    if "%" in text:
+        for m in re.finditer(r"[A-Za-z0-9.\-_%]+", text):
+            seg = m.group(0)
+            if "%" in seg and _PCT.search(seg):
+                extra.append(urllib.parse.unquote(seg))
     for m in re.finditer(r"(?:&#?\w+;)+", text):
         extra.append(html.unescape(m.group(0)))
     return text + ("\n" + "\n".join(extra) if extra else "")
@@ -202,6 +219,9 @@ def extra_checks(truth: dict, inp: Path, outA: Path, outC: Path, runs: dict) -> 
             src_raw = (inp / rel).read_bytes().decode("utf-16", errors="replace")
         src_n = norm(decode_payloads(src_raw))
         allowed_text = " ".join(norm(pv["text"]) for u in f["units"].values() for pv in u.get("preserve") or [])
+        wc_allowed, wc_src, wc_out = word_counts(allowed_text), word_counts(src_n), word_counts(out_deep)
+        out_rel_n = norm(out_rel)
+        wc_fname = word_counts(out_rel_n)
 
         if f.get("clean") and (inp / rel).is_file():
             clean_tot += 1
@@ -223,13 +243,13 @@ def extra_checks(truth: dict, inp: Path, outA: Path, outC: Path, runs: dict) -> 
                         tn = norm(t)
                         if len(tn) < 3:
                             continue
-                        rx = re.compile(r"(?<![\wऀ-ॿ])" + re.escape(tn) + r"(?![\wऀ-ॿ])")
-                        allowed = len(rx.findall(allowed_text))
-                        n_in = max(1, len(rx.findall(src_n)) - allowed)
-                        hay = norm(rel if e["channel"] == "filename" else "") if e["channel"] == "filename" else out_deep
+                        allowed = count_word(tn, allowed_text, wc_allowed)
+                        n_in = max(1, count_word(tn, src_n, wc_src) - allowed)
                         if e["channel"] == "filename":
-                            hay = norm(out_rel)
-                        n_out = max(0, len(rx.findall(hay)) - allowed) if (exists or e["channel"] == "filename") else 0
+                            n_hay = count_word(tn, out_rel_n, wc_fname)
+                        else:
+                            n_hay = count_word(tn, out_deep, wc_out)
+                        n_out = max(0, n_hay - allowed) if (exists or e["channel"] == "filename") else 0
                         leak = min(1.0, n_out / n_in)
                         tok_tot += 1
                         tok_leak += leak
@@ -336,6 +356,47 @@ def extra_checks(truth: dict, inp: Path, outA: Path, outC: Path, runs: dict) -> 
         "language": {pt: unified(pt) for pt in traps.get("language", [])},
         "false_merge_psns": sum(1 for owners in psn_owner.values() if len(owners) > 1),
     }
+    for name in ("twins", "father_son"):                      # level-2: must stay apart
+        if traps.get(name):
+            res["linkage_traps"][f"{name}_kept_apart"] = f"{sum(1 for a, b in traps[name] if not merged(a, b))}/{len(traps[name])}"
+    for name in ("maiden_name", "transliteration", "corrupt_duplicate", "newborn"):   # level-2: must be unified
+        if traps.get(name):
+            res["linkage_traps"][name] = {pt: unified(pt) for pt in traps[name]}
+
+    # release hygiene: spreadsheet formulas, invalid JSON, hostile output names
+    formula: list[str] = []
+    bad_json: list[str] = []
+    unsafe: list[str] = []
+    plain_num = re.compile(r"^[+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?$")
+    for fp in sorted(san.rglob("*")) if san.is_dir() else []:
+        if not fp.is_file():
+            continue
+        relp = fp.relative_to(san).as_posix()
+        if re.search(r"[;`|<>$\x00-\x1f]|\.\.(?:[\\/_]|$)", fp.name):
+            unsafe.append(relp)
+        suf = fp.suffix.lower()
+        if suf in (".csv", ".tsv"):
+            txt = read_out(fp)
+            first = txt.split("\n", 1)[0]
+            delim = "\t" if suf == ".tsv" else max((",", ";", "\t", "|"), key=first.count)
+            try:
+                for row in csv.reader(io.StringIO(txt.replace("\x00", " ")), delimiter=delim):
+                    for cell in row:
+                        if cell[:1] in ("=", "+", "-", "@", "\t", "\r") and not plain_num.match(cell.strip()) and cell.strip("-+ "):
+                            formula.append(f"{relp}: {cell[:40]!r}")
+            except csv.Error:
+                pass
+        elif suf == ".json":
+            def _no_const(c: str):
+                raise ValueError(c)
+            try:
+                json.loads(read_out(fp), parse_constant=_no_const)
+            except ValueError:
+                bad_json.append(relp)
+    res["formula_cells_left"] = len(formula)
+    res["formula_examples"] = formula[:5]
+    res["invalid_json_outputs"] = bad_json[:10]
+    res["unsafe_output_names"] = unsafe[:10]
 
     # determinism + secret rotation
     dA = tree_digest(outA / "sanitized") if (outA / "sanitized").is_dir() else {}
@@ -457,6 +518,10 @@ def main() -> int:
     print(f" determinism: {extra['determinism']}   secret rotation (same PSN under new secret): {extra['secret_rotation_same_psn']}")
     print(f" input unchanged: {input_unchanged}   TMP/HOME files left: {extra['tmp_home_files_left']}")
     print(f" linkage traps: {json.dumps(extra['linkage_traps'], ensure_ascii=False)}")
+    print(f" release hygiene: formula cells {extra['formula_cells_left']}  invalid JSON {len(extra['invalid_json_outputs'])}"
+          f"  unsafe output names {len(extra['unsafe_output_names'])}"
+          + (f"  e.g. {extra['formula_examples'][:2]} {extra['invalid_json_outputs'][:2]} {extra['unsafe_output_names'][:2]}"
+             if extra['formula_cells_left'] or extra['invalid_json_outputs'] or extra['unsafe_output_names'] else ""))
     weak = {k: v for k, v in extra["preserve_by_trap"].items() if v.split("/")[0] != v.split("/")[1]}
     print(f" medical probes lost by kind: {weak if weak else 'none'}")
     if not a.quiet:

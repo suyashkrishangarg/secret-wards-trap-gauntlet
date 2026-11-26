@@ -1,0 +1,33 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Vimala_Sandhu_BCT92173426.xlsx",
+    "rows": 1
+  },
+  "facility": {
+    "name": "Brahmaputra Care Trust Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Vimala S.",
+        "ref": "BCT92173426",
+        "age_sex": "55/F"
+      },
+      "date": "2025-04-14",
+      "complaint": "C/O pain abdomen x 2 days",
+      "vitals": {
+        "bp": "129/84",
+        "pulse": 83
+      },
+      "dx": {
+        "code": "D50.9",
+        "display": "Iron deficiency anaemia, unspecified"
+      },
+      "advice": "Tab. Azithromycin 500 mg 1-0-0 x 5 days",
+      "doctor": "Dr. Pandurang Joshi",
+      "callback_no": "091493-03994"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "536f00dd-04e2-4ac2-a1a1-1184f7609fb4",
+  "type": "document",
+  "meta": {
+    "source": "#BCT55263539"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:5416069b-8b2f-4e27-af20-509c3832d5c4",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "5416069b-8b2f-4e27-af20-509c3832d5c4",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bajrangi Sema, S/o Tanveer Sema</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:bct",
+            "value": "BCT55263539"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-5263-3293-4511"
+          }
+        ],
+        "name": [
+          {
+            "text": "Bajrangi Sema",
+            "family": "Sema",
+            "given": [
+              "Bajrangi"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 70875 04284"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1991-02-21",
+        "address": [
+          {
+            "line": [
+              "H.No. 36/A",
+              "Gandhi Chowk"
+            ],
+            "city": "Nimbahalli Khurd",
+            "district": "Satara",
+            "postalCode": "415304",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a97f4e55-0819-42fd-a64a-c0f50134dc24",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "a97f4e55-0819-42fd-a64a-c0f50134dc24",
+        "name": [
+          {
+            "text": "Dr. Kaveri Rao"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:09e7eaef-8ea3-4463-acf1-7a85c20d1f2a",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "09e7eaef-8ea3-4463-acf1-7a85c20d1f2a",
+        "name": "Brahmaputra Care Trust Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1f29b974-4781-4631-ae2c-6711eb860c6a",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "1f29b974-4781-4631-ae2c-6711eb860c6a",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:5416069b-8b2f-4e27-af20-509c3832d5c4"
+        },
+        "period": {
+          "start": "2025-10-19",
+          "end": "2025-10-21"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:09e7eaef-8ea3-4463-acf1-7a85c20d1f2a"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1aecaab9-1f5e-4798-acd8-2ba3494a39e5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1aecaab9-1f5e-4798-acd8-2ba3494a39e5",
+        "subject": {
+          "reference": "urn:uuid:5416069b-8b2f-4e27-af20-509c3832d5c4"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "B54",
+              "display": "Unspecified malaria"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e7ce7b26-b228-4220-a84a-d855cdcbb775",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e7ce7b26-b228-4220-a84a-d855cdcbb775",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:5416069b-8b2f-4e27-af20-509c3832d5c4"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 7.9,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c8dffb56-a405-4676-a235-cc6b70a777cb",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "c8dffb56-a405-4676-a235-cc6b70a777cb",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:5416069b-8b2f-4e27-af20-509c3832d5c4"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogQmFqcmFuZ2kgU2VtYQpQaG9uZTogKzkxIDcwODc1IDA0Mjg0CkR4OiBVbnNwZWNpZmllZCBtYWxhcmlhCg=="
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

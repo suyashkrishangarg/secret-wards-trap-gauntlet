@@ -1,0 +1,53 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Chandrakala_Parmar_BCT63962092.xlsx",
+    "rows": 2
+  },
+  "facility": {
+    "name": "Brahmaputra Care Trust Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Hemlata G.",
+        "hosp_no": "BCT73643682",
+        "age_sex": "30/F"
+      },
+      "date": "2025-05-18",
+      "complaint": "C/O breathlessness on exertion",
+      "vitals": {
+        "bp": "117/81",
+        "pulse": 67
+      },
+      "dx": {
+        "code": "A15.0",
+        "display": "Tuberculosis of lung"
+      },
+      "advice": "Tab. Glimepiride 1 mg OD x 5 days",
+      "doctor": "Dr. Imtiaz Hussain",
+      "contact": "062535-07780"
+    },
+    {
+      "slip": 2,
+      "patient_info": {
+        "full_name": "Chandrakala Parmar",
+        "hosp_no": "BCT63962092",
+        "age_sex": "39/F"
+      },
+      "date": "2025-05-24",
+      "complaint": "C/O vomiting x 1 day",
+      "vitals": {
+        "bp": "119/78",
+        "pulse": 70
+      },
+      "dx": {
+        "code": "E11.9",
+        "display": "Type 2 diabetes mellitus without complications"
+      },
+      "advice": "Tab. Ramipril 5 mg 1-1-1 x 5 days",
+      "doctor": "Dr. Pandurang Joshi"
+    }
+  ]
+}

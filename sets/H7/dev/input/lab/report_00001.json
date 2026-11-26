@@ -1,0 +1,30 @@
+{
+  "lab": "Lifecare Diagnostics",
+  "patient": {
+    "name": "Yamuna Menon",
+    "hosp_id": "VZC.25.768340",
+    "mobile": "060977-08511",
+    "age": "23 Yrs"
+  },
+  "referred_by": "Dr. Imtiaz Hussain",
+  "collected": "2025-08-25",
+  "panels": [
+    {
+      "name": "Routine",
+      "results": [
+        {
+          "test": "Haemoglobin",
+          "value": "8.9",
+          "unit": "g/dL",
+          "range": "12-16"
+        },
+        {
+          "test": "Platelet count",
+          "value": "271804",
+          "unit": "/cumm",
+          "range": "150000-450000"
+        }
+      ]
+    }
+  ]
+}

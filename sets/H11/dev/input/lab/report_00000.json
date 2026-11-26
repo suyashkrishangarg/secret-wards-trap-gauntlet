@@ -1,0 +1,30 @@
+{
+  "lab": "Lifecare Diagnostics",
+  "subject": {
+    "name": "Bajrangi Sema",
+    "hosp_id": "KR-7261757",
+    "mobile": "+91 85898 92572",
+    "age": "25 Yrs"
+  },
+  "referred_by": "Dr. Grace Varghese",
+  "collected": "2025-10-31",
+  "panels": [
+    {
+      "name": "Routine",
+      "results": [
+        {
+          "test": "Haemoglobin",
+          "value": "12.1",
+          "unit": "g/dL",
+          "range": "12-16"
+        },
+        {
+          "test": "Platelet count",
+          "value": "300253",
+          "unit": "/cumm",
+          "range": "150000-450000"
+        }
+      ]
+    }
+  ]
+}

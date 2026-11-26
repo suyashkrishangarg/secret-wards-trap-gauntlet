@@ -1,0 +1,53 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Ashwini_Rathore_BCT18444731.xlsx",
+    "rows": 2
+  },
+  "facility": {
+    "name": "Brahmaputra Care Trust Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Ilavarasi M.",
+        "ref": "BCT70192695",
+        "age_sex": "54/F"
+      },
+      "date": "2025-10-09",
+      "complaint": "C/O cough with expectoration x 2 weeks",
+      "vitals": {
+        "bp": "129/100",
+        "pulse": 84
+      },
+      "dx": {
+        "code": "E03.9",
+        "display": "Hypothyroidism, unspecified"
+      },
+      "advice": "Tab. Atorvastatin 10 mg TDS x 5 days",
+      "doctor": "Dr. Kaveri Rao",
+      "callback_no": "077298-28414"
+    },
+    {
+      "slip": 2,
+      "pt": {
+        "nm": "Ashwini Rathore",
+        "ref": "BCT18444731",
+        "age_sex": "53/F"
+      },
+      "date": "2025-10-10",
+      "complaint": "C/O vomiting x 1 day",
+      "vitals": {
+        "bp": "130/73",
+        "pulse": 86
+      },
+      "dx": {
+        "code": "E11.9",
+        "display": "Type 2 diabetes mellitus without complications"
+      },
+      "advice": "Tab. Rifampicin 450 mg 1-0-0 x 5 days",
+      "doctor": "Dr. Kaveri Rao"
+    }
+  ]
+}

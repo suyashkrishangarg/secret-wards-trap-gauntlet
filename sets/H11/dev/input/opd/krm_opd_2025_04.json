@@ -1,0 +1,176 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Rukhsana_Parmar_KR-3803252.xlsx",
+    "rows": 8
+  },
+  "facility": {
+    "name": "Konkan Rural Mission Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Grace K.",
+        "hosp_no": "KR-7146180",
+        "age_sex": "51/F"
+      },
+      "date": "2025-04-06",
+      "complaint": "C/O vomiting x 1 day",
+      "vitals": {
+        "bp": "159/75",
+        "pulse": 100
+      },
+      "dx": {
+        "code": "I10",
+        "display": "Essential (primary) hypertension"
+      },
+      "advice": "Tab. Ecosprin 75 mg BD x 30 days",
+      "doctor": "Dr. Anirban Saha",
+      "contact": "087540-00523"
+    },
+    {
+      "slip": 2,
+      "patient_info": {
+        "full_name": "Rukhsana Devi Parmar",
+        "hosp_no": "KR-3803252",
+        "age_sex": "57/F"
+      },
+      "date": "2025-04-07",
+      "complaint": "C/O vomiting x 1 day",
+      "vitals": {
+        "bp": "123/99",
+        "pulse": 69
+      },
+      "dx": {
+        "code": "K35.80",
+        "display": "Acute appendicitis"
+      },
+      "advice": "Tab. Rifampicin 450 mg BD x 7 days",
+      "doctor": "Dr. Meenakshi Sundaram"
+    },
+    {
+      "slip": 3,
+      "patient_info": {
+        "full_name": "Joseph Kumar Kulkarni",
+        "hosp_no": "KR-7015852",
+        "age_sex": "82/M"
+      },
+      "date": "2025-04-14",
+      "complaint": "C/O giddiness x 1 week",
+      "vitals": {
+        "bp": "156/81",
+        "pulse": 65
+      },
+      "dx": {
+        "code": "A90",
+        "display": "Dengue fever"
+      },
+      "advice": "Tab. Rifampicin 450 mg OD x 7 days",
+      "doctor": "Dr. Sukhdev Bhalla",
+      "contact": "651 405 0181"
+    },
+    {
+      "slip": 4,
+      "patient_info": {
+        "full_name": "Joseph K.",
+        "hosp_no": "KR-7015852",
+        "age_sex": "82/M"
+      },
+      "date": "2025-04-15",
+      "complaint": "C/O cough with expectoration x 2 weeks",
+      "vitals": {
+        "bp": "170/91",
+        "pulse": 66
+      },
+      "dx": {
+        "code": "J18.9",
+        "display": "Pneumonia, unspecified organism"
+      },
+      "advice": "Tab. Penicillamine 250 mg TDS x 7 days",
+      "doctor": "Dr. Imtiaz Hussain"
+    },
+    {
+      "slip": 5,
+      "patient_info": {
+        "full_name": "Bhargavi Mahato",
+        "hosp_no": "KR-1248617",
+        "age_sex": "25/F"
+      },
+      "date": "2025-04-20",
+      "complaint": "C/O joint pains x 1 month",
+      "vitals": {
+        "bp": "111/71",
+        "pulse": 103
+      },
+      "dx": {
+        "code": "B54",
+        "display": "Unspecified malaria"
+      },
+      "advice": "Tab. Furosemide 40 mg OD x 5 days",
+      "doctor": "Dr. Grace Varghese",
+      "contact": "0091 6086063246"
+    },
+    {
+      "slip": 6,
+      "patient_info": {
+        "full_name": "Bhargavi Mahato",
+        "hosp_no": "KR-1248617",
+        "age_sex": "25/F"
+      },
+      "date": "2025-04-22",
+      "complaint": "C/O breathlessness on exertion",
+      "vitals": {
+        "bp": "142/90",
+        "pulse": 95
+      },
+      "dx": {
+        "code": "K35.80",
+        "display": "Acute appendicitis"
+      },
+      "advice": "Tab. Furosemide 40 mg HS x 30 days",
+      "doctor": "Dr. Meenakshi Sundaram"
+    },
+    {
+      "slip": 7,
+      "patient_info": {
+        "full_name": "Grace S.",
+        "hosp_no": "KR-3698205",
+        "age_sex": "40/F"
+      },
+      "date": "2025-04-23",
+      "complaint": "C/O fever x 3 days",
+      "vitals": {
+        "bp": "155/72",
+        "pulse": 75
+      },
+      "dx": {
+        "code": "A90",
+        "display": "Dengue fever"
+      },
+      "advice": "Tab. Ondansetron 4 mg 0-0-1 x 7 days",
+      "doctor": "Dr. Ramesh Iyer",
+      "contact": "(968) 875-2956"
+    },
+    {
+      "slip": 8,
+      "patient_info": {
+        "full_name": "Hetal Kulkarni",
+        "hosp_no": "KR-7785874",
+        "age_sex": "71/F"
+      },
+      "date": "2025-04-27",
+      "complaint": "C/O cough with expectoration x 2 weeks",
+      "vitals": {
+        "bp": "111/73",
+        "pulse": 92
+      },
+      "dx": {
+        "code": "J45.909",
+        "display": "Asthma, uncomplicated"
+      },
+      "advice": "Tab. Atorvastatin 10 mg BD x 30 days",
+      "doctor": "Dr. Imtiaz Hussain"
+    }
+  ]
+}

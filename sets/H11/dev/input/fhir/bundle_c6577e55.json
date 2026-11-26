@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "c392812f-813e-4e39-a8d2-d63ab0e2245c",
+  "type": "document",
+  "meta": {
+    "source": "#SSH-R-25-052516"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:d07234a1-eae3-4cb0-a95f-7601eb05e0f1",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "d07234a1-eae3-4cb0-a95f-7601eb05e0f1",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bhupendra Gill, S/o Ritwik Gill</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:ssh",
+            "value": "SSH-R-25-052516"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-0489-1793-8820"
+          }
+        ],
+        "name": [
+          {
+            "text": "Bhupendra Gill",
+            "family": "Gill",
+            "given": [
+              "Bhupendra"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 77523 04908"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1945-12-19",
+        "address": [
+          {
+            "line": [
+              "H.No. 392",
+              "Nehru Colony"
+            ],
+            "city": "Kadampalli Khurd",
+            "district": "Kamrup",
+            "postalCode": "781735",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4adbe3af-4c3c-4378-a217-36dffe0431d6",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "4adbe3af-4c3c-4378-a217-36dffe0431d6",
+        "name": [
+          {
+            "text": "Dr. Meenakshi Sundaram"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ce011e22-2a8f-47b7-a81e-6075aad638dc",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "ce011e22-2a8f-47b7-a81e-6075aad638dc",
+        "name": "Sahyadri Sevashram Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cfe0a469-8e6c-409d-aa13-74ddb370caf8",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "cfe0a469-8e6c-409d-aa13-74ddb370caf8",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:d07234a1-eae3-4cb0-a95f-7601eb05e0f1"
+        },
+        "period": {
+          "start": "2025-06-20",
+          "end": "2025-06-28"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:ce011e22-2a8f-47b7-a81e-6075aad638dc"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:10425230-81ff-46ec-acee-a36e72d7fcd6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "10425230-81ff-46ec-acee-a36e72d7fcd6",
+        "subject": {
+          "reference": "urn:uuid:d07234a1-eae3-4cb0-a95f-7601eb05e0f1"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "E03.9",
+              "display": "Hypothyroidism, unspecified"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dfde0469-be86-40da-a04c-cc8968d23695",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "dfde0469-be86-40da-a04c-cc8968d23695",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:d07234a1-eae3-4cb0-a95f-7601eb05e0f1"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 11.9,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4020d66f-50b4-4ed5-ab5a-d5ef96af250f",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "4020d66f-50b4-4ed5-ab5a-d5ef96af250f",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:d07234a1-eae3-4cb0-a95f-7601eb05e0f1"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogQmh1cGVuZHJhIEdpbGwKUGhvbmU6ICs5MSA3NzUyMyAwNDkwOApEeDogSHlwb3RoeXJvaWRpc20sIHVuc3BlY2lmaWVkCg=="
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

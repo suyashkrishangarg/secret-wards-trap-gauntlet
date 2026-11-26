@@ -1,0 +1,79 @@
+{
+  "resourceType": "Bundle",
+  "id": "kvh-8",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:kvh:pat-8",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "pat-8",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Lalitha Bhattacharya (W/o Hemant Bhattacharya), Kesardih 785390</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:kvh",
+            "value": "kvh/op/25-007299"
+          },
+          {
+            "system": "https://uidai.gov.in",
+            "value": "8099-8956-2776"
+          }
+        ],
+        "name": [
+          {
+            "text": "Lalitha Bhattacharya"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "95 2421 8571"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1999-08-17",
+        "address": [
+          {
+            "city": "Kesardih",
+            "district": "Jorhat",
+            "postalCode": "785390"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:prac-8",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "prac-8",
+        "name": [
+          {
+            "text": "Dr. Grace Varghese"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:cond-8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-8",
+        "subject": {
+          "reference": "Patient/pat-8"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "D50.9",
+              "display": "Iron deficiency anaemia, unspecified"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

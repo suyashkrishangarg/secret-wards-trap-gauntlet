@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "b6a9bd38-9fd6-41f0-a5c4-951bbc781090",
+  "type": "document",
+  "meta": {
+    "source": "#BCT25202531"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:39216ae0-513f-4aa5-a672-66feea556f5b",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "39216ae0-513f-4aa5-a672-66feea556f5b",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Philomena Mathew, D/o Hemant Mathew</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:bct",
+            "value": "BCT25202531"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-5690-5038-1253"
+          }
+        ],
+        "name": [
+          {
+            "text": "Philomena Mathew",
+            "family": "Mathew",
+            "given": [
+              "Philomena"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 96646 86354"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1954-07-15",
+        "address": [
+          {
+            "line": [
+              "H.No. 245/A",
+              "Gandhi Chowk"
+            ],
+            "city": "Dhankhera",
+            "district": "Rewa",
+            "postalCode": "486795",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:70474f3d-6673-4647-a64a-33d71c68983f",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "70474f3d-6673-4647-a64a-33d71c68983f",
+        "name": [
+          {
+            "text": "Dr. Grace Varghese"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bb0e4528-32f3-4a8c-ad0d-b4294457ea35",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "bb0e4528-32f3-4a8c-ad0d-b4294457ea35",
+        "name": "Brahmaputra Care Trust Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0e31453d-58a7-4d96-a005-3940c8790f92",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "0e31453d-58a7-4d96-a005-3940c8790f92",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:39216ae0-513f-4aa5-a672-66feea556f5b"
+        },
+        "period": {
+          "start": "2025-06-04",
+          "end": "2025-06-10"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:bb0e4528-32f3-4a8c-ad0d-b4294457ea35"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0df899f5-c69b-468f-ada0-33b0dfe3122c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "0df899f5-c69b-468f-ada0-33b0dfe3122c",
+        "subject": {
+          "reference": "urn:uuid:39216ae0-513f-4aa5-a672-66feea556f5b"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "J18.9",
+              "display": "Pneumonia, unspecified organism"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0637f0eb-f97e-4e56-a3b1-fa4110251cf5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0637f0eb-f97e-4e56-a3b1-fa4110251cf5",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:39216ae0-513f-4aa5-a672-66feea556f5b"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 9.7,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b5e9f8de-bb6f-4154-a7ea-56b76d7555e8",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "b5e9f8de-bb6f-4154-a7ea-56b76d7555e8",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:39216ae0-513f-4aa5-a672-66feea556f5b"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogUGhpbG9tZW5hIE1hdGhldwpQaG9uZTogKzkxIDk2NjQ2IDg2MzU0CkR4OiBQbmV1bW9uaWEsIHVuc3BlY2lmaWVkIG9yZ2FuaXNtCg=="
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

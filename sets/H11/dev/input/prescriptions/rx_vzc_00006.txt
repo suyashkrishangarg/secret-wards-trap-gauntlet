@@ -1,0 +1,11 @@
+Vindhya Zila Chikitsalaya - OPD Prescription
+Name: Hitesh Grewal   Age: 61 yrs   Sex: M
+UHID: VZC.25.930269   Mob: 0091 7666316320
+Aadhaar: XXXX XXXX 6833
+Date: 13/10/2025
+C/O pain abdomen x 2 days
+Dx: Acute appendicitis (K35.80)
+Rx:
+ 1. Tab Rifampicin 450 mg  1-0-1 x 30 days
+ 2. Dolo 650 BD x 5 days
+Dr. Sukhdev Bhalla (MBBS, MD)

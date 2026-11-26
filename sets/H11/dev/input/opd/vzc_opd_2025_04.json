@@ -1,0 +1,74 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Madhavi_Kulkarni_VZC.25.128246.xlsx",
+    "rows": 3
+  },
+  "facility": {
+    "name": "Vindhya Zila Chikitsalaya"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Rukmini F.",
+        "hosp_no": "VZC.25.168567",
+        "age_sex": "70/F"
+      },
+      "date": "2025-04-02",
+      "complaint": "C/O fever x 3 days",
+      "vitals": {
+        "bp": "170/84",
+        "pulse": 104
+      },
+      "dx": {
+        "code": "N39.0",
+        "display": "Urinary tract infection, site not specified"
+      },
+      "advice": "Tab. Azithromycin 500 mg 0-0-1 x 5 days",
+      "doctor": "Dr. Imtiaz Hussain",
+      "contact": "089794-79891"
+    },
+    {
+      "slip": 2,
+      "patient_info": {
+        "full_name": "Madhavi Kulkarni",
+        "hosp_no": "VZC.25.128246",
+        "age_sex": "26/F"
+      },
+      "date": "2025-04-05",
+      "complaint": "C/O pain abdomen x 2 days",
+      "vitals": {
+        "bp": "151/96",
+        "pulse": 64
+      },
+      "dx": {
+        "code": "A15.0",
+        "display": "Tuberculosis of lung"
+      },
+      "advice": "Tab. Penicillamine 250 mg 1-0-1 x 7 days",
+      "doctor": "Dr. Grace Varghese"
+    },
+    {
+      "slip": 3,
+      "patient_info": {
+        "full_name": "Gopinath Siddiqui",
+        "hosp_no": "VZC.25.972603",
+        "age_sex": "68/M"
+      },
+      "date": "2025-04-24",
+      "complaint": "C/O fever x 3 days",
+      "vitals": {
+        "bp": "126/75",
+        "pulse": 66
+      },
+      "dx": {
+        "code": "B54",
+        "display": "Unspecified malaria"
+      },
+      "advice": "Tab. Furosemide 40 mg 1-0-0 x 30 days",
+      "doctor": "Dr. Ramesh Iyer",
+      "contact": "912 066 3482"
+    }
+  ]
+}

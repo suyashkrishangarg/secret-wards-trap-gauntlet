@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "15db58ce-fd66-4582-a7a0-feadfa9abfe9",
+  "type": "document",
+  "meta": {
+    "source": "#VZC.25.128246"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:73d2960a-9fa7-4d20-a41e-94c7fea36b53",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "73d2960a-9fa7-4d20-a41e-94c7fea36b53",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Madhavi Kulkarni, D/o Bhupendra Kulkarni</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:vzc",
+            "value": "VZC.25.128246"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-5520-4131-1136"
+          }
+        ],
+        "name": [
+          {
+            "text": "Madhavi Kulkarni",
+            "family": "Kulkarni",
+            "given": [
+              "Madhavi"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 77054 08091"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1999-02-13",
+        "address": [
+          {
+            "line": [
+              "H.No. 453",
+              "Ward 14"
+            ],
+            "city": "Jamundih Khurd",
+            "district": "Jorhat",
+            "postalCode": "785266",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f6f9f426-8056-4410-a5cf-b47f72d72efd",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "f6f9f426-8056-4410-a5cf-b47f72d72efd",
+        "name": [
+          {
+            "text": "Dr. Imtiaz Hussain"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5e086bf6-75b9-4d61-ae63-c30b9654386c",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "5e086bf6-75b9-4d61-ae63-c30b9654386c",
+        "name": "Vindhya Zila Chikitsalaya"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8155926c-4bf9-4d0f-aa62-05264926083b",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "8155926c-4bf9-4d0f-aa62-05264926083b",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:73d2960a-9fa7-4d20-a41e-94c7fea36b53"
+        },
+        "period": {
+          "start": "2025-07-17",
+          "end": "2025-07-28"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:5e086bf6-75b9-4d61-ae63-c30b9654386c"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c198d8e9-2719-49ef-afe4-815ba2cee51e",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "c198d8e9-2719-49ef-afe4-815ba2cee51e",
+        "subject": {
+          "reference": "urn:uuid:73d2960a-9fa7-4d20-a41e-94c7fea36b53"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "J45.909",
+              "display": "Asthma, uncomplicated"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:212291a3-16ff-4596-af58-0ff00afc228b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "212291a3-16ff-4596-af58-0ff00afc228b",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:73d2960a-9fa7-4d20-a41e-94c7fea36b53"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 8.8,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:689cf8a6-c484-4720-ade1-aefe646f8a2e",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "689cf8a6-c484-4720-ade1-aefe646f8a2e",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:73d2960a-9fa7-4d20-a41e-94c7fea36b53"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogTWFkaGF2aSBLdWxrYXJuaQpQaG9uZTogKzkxIDc3MDU0IDA4MDkxCkR4OiBBc3RobWEsIHVuY29tcGxpY2F0ZWQK"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

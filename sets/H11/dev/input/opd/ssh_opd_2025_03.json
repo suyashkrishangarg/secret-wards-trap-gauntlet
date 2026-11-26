@@ -1,0 +1,33 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Bhupendra_Gill_SSH-R-25-052516.xlsx",
+    "rows": 1
+  },
+  "facility": {
+    "name": "Sahyadri Sevashram Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Bhupendra G.",
+        "hosp_no": "SSH-R-25-052516",
+        "age_sex": "79/M"
+      },
+      "date": "2025-03-14",
+      "complaint": "C/O giddiness x 1 week",
+      "vitals": {
+        "bp": "165/86",
+        "pulse": 80
+      },
+      "dx": {
+        "code": "A01.0",
+        "display": "Typhoid fever"
+      },
+      "advice": "Tab. Pantoprazole 40 mg 1-0-0 x 5 days",
+      "doctor": "Dr. Grace Varghese",
+      "contact": "077523-04908"
+    }
+  ]
+}

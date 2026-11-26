@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "4b9a574e-9f6d-4111-a7e8-426c69dc737e",
+  "type": "document",
+  "meta": {
+    "source": "#KR-2296572"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:2497d8e0-bc59-41de-a661-ba5dc476a4ee",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "2497d8e0-bc59-41de-a661-ba5dc476a4ee",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Ishani Kharbanda, W/o Ignatius Kharbanda</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:krm",
+            "value": "KR-2296572"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-1749-1992-0357"
+          }
+        ],
+        "name": [
+          {
+            "text": "Ishani Kharbanda",
+            "family": "Kharbanda",
+            "given": [
+              "Ishani"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 91012 68302"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1947-01-27",
+        "address": [
+          {
+            "line": [
+              "H.No. 289/A",
+              "Mohalla Kazi Tola"
+            ],
+            "city": "Kesarpur",
+            "district": "Satara",
+            "postalCode": "415945",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:427631ed-b6a8-46b6-a5ee-d8dde65af489",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "427631ed-b6a8-46b6-a5ee-d8dde65af489",
+        "name": [
+          {
+            "text": "Dr. Sukhdev Bhalla"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a3c6ed47-c76f-4b84-a142-1631f5421f57",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "a3c6ed47-c76f-4b84-a142-1631f5421f57",
+        "name": "Konkan Rural Mission Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e00e0641-5e6f-491a-a989-0daa4cb1ce46",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "e00e0641-5e6f-491a-a989-0daa4cb1ce46",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:2497d8e0-bc59-41de-a661-ba5dc476a4ee"
+        },
+        "period": {
+          "start": "2025-07-01",
+          "end": "2025-07-07"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:a3c6ed47-c76f-4b84-a142-1631f5421f57"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1a683709-bc9e-4f0c-a4a6-732d44328cee",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1a683709-bc9e-4f0c-a4a6-732d44328cee",
+        "subject": {
+          "reference": "urn:uuid:2497d8e0-bc59-41de-a661-ba5dc476a4ee"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "J18.9",
+              "display": "Pneumonia, unspecified organism"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:64bff237-65ad-46b5-a35c-933d56f5e2c0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "64bff237-65ad-46b5-a35c-933d56f5e2c0",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2497d8e0-bc59-41de-a661-ba5dc476a4ee"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 7.9,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5117457e-5b76-4075-ac8e-595aeae7121c",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "5117457e-5b76-4075-ac8e-595aeae7121c",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:2497d8e0-bc59-41de-a661-ba5dc476a4ee"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogSXNoYW5pIEtoYXJiYW5kYQpQaG9uZTogKzkxIDkxMDEyIDY4MzAyCkR4OiBQbmV1bW9uaWEsIHVuc3BlY2lmaWVkIG9yZ2FuaXNtCg=="
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

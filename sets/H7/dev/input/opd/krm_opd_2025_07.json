@@ -1,0 +1,33 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Pandurang_Gurung_KR-3976332.xlsx",
+    "rows": 1
+  },
+  "facility": {
+    "name": "Konkan Rural Mission Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Pandurang G.",
+        "ref": "KR-3976332",
+        "age_sex": "97/M"
+      },
+      "date": "2025-07-03",
+      "complaint": "C/O burning micturition x 4 days",
+      "vitals": {
+        "bp": "153/73",
+        "pulse": 80
+      },
+      "dx": {
+        "code": "E11.9",
+        "display": "Type 2 diabetes mellitus without complications"
+      },
+      "advice": "Tab. Pantoprazole 40 mg BD x 7 days",
+      "doctor": "Dr. Anirban Saha",
+      "callback_no": "083104-41609"
+    }
+  ]
+}

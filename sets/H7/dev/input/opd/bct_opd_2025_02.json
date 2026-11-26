@@ -1,0 +1,74 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Lakhan_Murmu_BCT79936545.xlsx",
+    "rows": 3
+  },
+  "facility": {
+    "name": "Brahmaputra Care Trust Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Thiruvenkadam S.",
+        "ref": "BCT91917647",
+        "age_sex": "53/M"
+      },
+      "date": "2025-02-08",
+      "complaint": "C/O burning micturition x 4 days",
+      "vitals": {
+        "bp": "159/74",
+        "pulse": 69
+      },
+      "dx": {
+        "code": "A01.0",
+        "display": "Typhoid fever"
+      },
+      "advice": "Tab. Furosemide 40 mg 0-0-1 x 7 days",
+      "doctor": "Dr. Pandurang Joshi",
+      "callback_no": "074931-65268"
+    },
+    {
+      "slip": 2,
+      "pt": {
+        "nm": "Vimala Sandhu",
+        "ref": "BCT92173426",
+        "age_sex": "55/F"
+      },
+      "date": "2025-02-15",
+      "complaint": "C/O giddiness x 1 week",
+      "vitals": {
+        "bp": "115/72",
+        "pulse": 104
+      },
+      "dx": {
+        "code": "J18.9",
+        "display": "Pneumonia, unspecified organism"
+      },
+      "advice": "Tab. Telmisartan 40 mg 0-0-1 x 5 days",
+      "doctor": "Dr. Meenakshi Sundaram"
+    },
+    {
+      "slip": 3,
+      "pt": {
+        "nm": "Lakhan Murmu",
+        "ref": "BCT79936545",
+        "age_sex": "64/M"
+      },
+      "date": "2025-02-22",
+      "complaint": "C/O vomiting x 1 day",
+      "vitals": {
+        "bp": "123/84",
+        "pulse": 104
+      },
+      "dx": {
+        "code": "I10",
+        "display": "Essential (primary) hypertension"
+      },
+      "advice": "Tab. Metformin 500 mg OD x 30 days",
+      "doctor": "Dr. Meenakshi Sundaram",
+      "callback_no": "818 839 1777"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "resourceType": "Bundle",
+  "id": "kvh-4",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:kvh:pat-4",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "pat-4",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Gurbaksh Oraon (S/o Jitendra Oraon), Ratanhalli Khurd 688447</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:kvh",
+            "value": "kvh/op/25-177042"
+          }
+        ],
+        "name": [
+          {
+            "text": "Gurbaksh Oraon"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "0091 9291709261"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1970-04-05",
+        "address": [
+          {
+            "city": "Ratanhalli Khurd",
+            "district": "Alappuzha",
+            "postalCode": "688447"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:prac-4",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "prac-4",
+        "name": [
+          {
+            "text": "Dr. Sukhdev Bhalla"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:cond-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-4",
+        "subject": {
+          "reference": "Patient/pat-4"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "D50.9",
+              "display": "Iron deficiency anaemia, unspecified"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

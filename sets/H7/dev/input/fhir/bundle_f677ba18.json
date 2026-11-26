@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "6a7ad817-1b4f-4f7f-a20a-0714f6b60f33",
+  "type": "document",
+  "meta": {
+    "source": "#VZC.25.390552"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:c6edc5ff-c9dd-4fa9-a611-2d4b527f7b07",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "c6edc5ff-c9dd-4fa9-a611-2d4b527f7b07",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Pandurang Murmu, S/o Sukhdev Murmu</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:vzc",
+            "value": "VZC.25.390552"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-6005-5325-0701"
+          }
+        ],
+        "name": [
+          {
+            "text": "Pandurang Murmu",
+            "family": "Murmu",
+            "given": [
+              "Pandurang"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 69745 63425"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1988-08-25",
+        "address": [
+          {
+            "line": [
+              "H.No. 305/A",
+              "Ward 14"
+            ],
+            "city": "Hirapalli",
+            "district": "Jorhat",
+            "postalCode": "785858",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f7a90eff-007c-4bec-ad32-f8376bb0b7b0",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "f7a90eff-007c-4bec-ad32-f8376bb0b7b0",
+        "name": [
+          {
+            "text": "Dr. Sukhdev Bhalla"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bca9551f-c41a-4292-aa36-f7f7ab76b4b8",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "bca9551f-c41a-4292-aa36-f7f7ab76b4b8",
+        "name": "Vindhya Zila Chikitsalaya"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a5d858a9-88f7-49ea-ab02-fa53cb046b84",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "a5d858a9-88f7-49ea-ab02-fa53cb046b84",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:c6edc5ff-c9dd-4fa9-a611-2d4b527f7b07"
+        },
+        "period": {
+          "start": "2025-05-29",
+          "end": "2025-06-07"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:bca9551f-c41a-4292-aa36-f7f7ab76b4b8"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2e11764e-1190-4c2c-a552-4b22e58c52ae",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "2e11764e-1190-4c2c-a552-4b22e58c52ae",
+        "subject": {
+          "reference": "urn:uuid:c6edc5ff-c9dd-4fa9-a611-2d4b527f7b07"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "A01.0",
+              "display": "Typhoid fever"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3bd476c7-f012-4439-ae01-0c5cdd6d3160",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3bd476c7-f012-4439-ae01-0c5cdd6d3160",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:c6edc5ff-c9dd-4fa9-a611-2d4b527f7b07"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 8.4,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:99f679cf-112f-45c7-ae38-1549872d7e8b",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "99f679cf-112f-45c7-ae38-1549872d7e8b",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:c6edc5ff-c9dd-4fa9-a611-2d4b527f7b07"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogUGFuZHVyYW5nIE11cm11ClBob25lOiArOTEgNjk3NDUgNjM0MjUKRHg6IFR5cGhvaWQgZmV2ZXIK"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

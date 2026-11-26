@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "1e133ea5-d295-423c-a5ed-95728931cdeb",
+  "type": "document",
+  "meta": {
+    "source": "#BCT84227930"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:10005618-27f7-4c77-ae29-6a12146636cd",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "10005618-27f7-4c77-ae29-6a12146636cd",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Jitendra Kharbanda, S/o Selvaraj Kharbanda</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:bct",
+            "value": "BCT84227930"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-1387-6068-0223"
+          }
+        ],
+        "name": [
+          {
+            "text": "Jitendra Kharbanda",
+            "family": "Kharbanda",
+            "given": [
+              "Jitendra"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 70929 95922"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1960-11-14",
+        "address": [
+          {
+            "line": [
+              "H.No. 346",
+              "Burma Camp Lane 3"
+            ],
+            "city": "Ratanwadi",
+            "district": "Kamrup",
+            "postalCode": "781671",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e8e0794d-3c09-4994-a182-99a5d4143043",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "e8e0794d-3c09-4994-a182-99a5d4143043",
+        "name": [
+          {
+            "text": "Dr. Meenakshi Sundaram"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0f1e6ff2-1b18-4aba-aa1d-f0b7d5c3bab0",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "0f1e6ff2-1b18-4aba-aa1d-f0b7d5c3bab0",
+        "name": "Brahmaputra Care Trust Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fe156a36-e78a-497b-a905-b0faec48c7b7",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "fe156a36-e78a-497b-a905-b0faec48c7b7",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:10005618-27f7-4c77-ae29-6a12146636cd"
+        },
+        "period": {
+          "start": "2025-07-31",
+          "end": "2025-08-05"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:0f1e6ff2-1b18-4aba-aa1d-f0b7d5c3bab0"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f8260937-68a1-4704-abc1-6b98a13e9928",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "f8260937-68a1-4704-abc1-6b98a13e9928",
+        "subject": {
+          "reference": "urn:uuid:10005618-27f7-4c77-ae29-6a12146636cd"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "A90",
+              "display": "Dengue fever"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:939145bf-f8a0-4fe6-abe9-85b32c4eaf05",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "939145bf-f8a0-4fe6-abe9-85b32c4eaf05",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:10005618-27f7-4c77-ae29-6a12146636cd"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 10.6,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d7091211-d304-4c9d-aadd-0566b9b20c16",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "d7091211-d304-4c9d-aadd-0566b9b20c16",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:10005618-27f7-4c77-ae29-6a12146636cd"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogSml0ZW5kcmEgS2hhcmJhbmRhClBob25lOiArOTEgNzA5MjkgOTU5MjIKRHg6IERlbmd1ZSBmZXZlcgo="
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

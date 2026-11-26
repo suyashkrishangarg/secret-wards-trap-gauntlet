@@ -1,0 +1,75 @@
+{
+  "resourceType": "Bundle",
+  "id": "kvh-0",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:kvh:pat-0",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "pat-0",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">हेमंत चौधरी (S/o इग्नेशियस चौधरी), निम्बाहल्ली 785919</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:kvh",
+            "value": "kvh/op/25-478483"
+          }
+        ],
+        "name": [
+          {
+            "text": "हेमंत चौधरी"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "098291-03404"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1961-03-25",
+        "address": [
+          {
+            "city": "निम्बाहल्ली",
+            "district": "Jorhat",
+            "postalCode": "785919"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:prac-0",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "prac-0",
+        "name": [
+          {
+            "text": "Dr. Ramesh Iyer"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:cond-0",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-0",
+        "subject": {
+          "reference": "Patient/pat-0"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "A15.0",
+              "display": "Tuberculosis of lung"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

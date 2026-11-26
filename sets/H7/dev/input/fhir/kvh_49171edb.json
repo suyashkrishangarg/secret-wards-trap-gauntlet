@@ -1,0 +1,75 @@
+{
+  "resourceType": "Bundle",
+  "id": "kvh-6",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:kvh:pat-6",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "pat-6",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Zubeda D'Mello (D/o Lakhan D'Mello), Kesarkhera 785649</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:kvh",
+            "value": "kvh/op/25-682590"
+          }
+        ],
+        "name": [
+          {
+            "text": "Zubeda D'Mello"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(845) 538-1776"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1996-02-29",
+        "address": [
+          {
+            "city": "Kesarkhera",
+            "district": "Jorhat",
+            "postalCode": "785649"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:prac-6",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "prac-6",
+        "name": [
+          {
+            "text": "Dr. Imtiaz Hussain"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:cond-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-6",
+        "subject": {
+          "reference": "Patient/pat-6"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "E03.9",
+              "display": "Hypothyroidism, unspecified"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

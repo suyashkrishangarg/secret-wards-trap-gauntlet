@@ -1,0 +1,29 @@
+{
+  "generated": "nightly",
+  "map": {
+    "KR-6361141 Anirban Murmu": {
+      "bed": 22,
+      "diet": "normal"
+    },
+    "VZC.25.768340 Yamuna Menon": {
+      "bed": 33,
+      "diet": "diabetic"
+    },
+    "SSH-R-25-035580 Anirban Murmu": {
+      "bed": 6,
+      "diet": "normal"
+    },
+    "BCT21806064 Bhagwati Bhutia": {
+      "bed": 20,
+      "diet": "soft"
+    },
+    "BCT84227930 Jitendra Kharbanda": {
+      "bed": 13,
+      "diet": "soft"
+    },
+    "BCT65770931 Pema Rathore": {
+      "bed": 7,
+      "diet": "soft"
+    }
+  }
+}

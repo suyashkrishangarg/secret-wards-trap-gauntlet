@@ -1,0 +1,455 @@
+{
+  "facility": {
+    "name": "Vindhya Zila Chikitsalaya",
+    "state_code": "MP"
+  },
+  "export_meta": {
+    "tool": "HMIS 4.1",
+    "source_file": "E:/hmis/export/Grace_Kulkarni_VZC.25.873511.xlsx",
+    "record_count": 17
+  },
+  "members": [
+    {
+      "card_no": "VZC.25.873511",
+      "person": {
+        "first": "Grace",
+        "last": "Kulkarni"
+      },
+      "guardian": {
+        "relation": "W/o",
+        "name": "Sukhdev Kulkarni"
+      },
+      "gender": "F",
+      "age_years": 51,
+      "date_of_birth": "1974-05-31",
+      "address": {
+        "house": "H.No. 364",
+        "locality": "Gandhi Chowk",
+        "village": "Kanhaipur",
+        "tehsil": "Chiplun",
+        "district": "Ratnagiri",
+        "pin": "415525"
+      },
+      "mobile_no": "8754000523",
+      "email": "grace.kulk94@gmail.com",
+      "uid_number": 603590295350,
+      "enrolled_on": "2023-08-25"
+    },
+    {
+      "card_no": "VZC.25.567146",
+      "person": {
+        "first": "Bhupendra",
+        "last": "Gill"
+      },
+      "guardian": {
+        "relation": "S/o",
+        "name": "Ilango Gill"
+      },
+      "gender": "M",
+      "age_years": 79,
+      "date_of_birth": "1946-09-18",
+      "address": {
+        "house": "H.No. 203",
+        "locality": "Shivaji Peth",
+        "village": "Mahuagaon",
+        "tehsil": "Cherthala",
+        "district": "Alappuzha",
+        "pin": "688903"
+      },
+      "mobile_no": "8473209666",
+      "email": null,
+      "uid_number": 340782029544,
+      "enrolled_on": "2023-11-27"
+    },
+    {
+      "card_no": "VZC.25.693121",
+      "person": {
+        "first": "Anupama",
+        "last": "Chakraborty"
+      },
+      "guardian": {
+        "relation": "W/o",
+        "name": "Biswajit Chakraborty"
+      },
+      "gender": "F",
+      "age_years": 42,
+      "date_of_birth": "1983-09-11",
+      "address": {
+        "house": "H.No. 229/A",
+        "locality": "Gandhi Chowk",
+        "village": "Bakhrikhera",
+        "tehsil": "Balotra",
+        "district": "Barmer",
+        "pin": "344453"
+      },
+      "mobile_no": "7697006897",
+      "email": null,
+      "uid_number": 710324087749,
+      "enrolled_on": "2023-08-02"
+    },
+    {
+      "card_no": "VZC.25.450451",
+      "person": {
+        "first": "Prabhakar",
+        "last": "Mahato"
+      },
+      "guardian": {
+        "relation": "S/o",
+        "name": "Omkar Mahato"
+      },
+      "gender": "M",
+      "age_years": 80,
+      "date_of_birth": "1945-08-15",
+      "address": {
+        "house": "H.No. 94",
+        "locality": "Gandhi Chowk",
+        "village": "Ratantola",
+        "tehsil": "Mariani",
+        "district": "Jorhat",
+        "pin": "785152"
+      },
+      "mobile_no": "7932895797",
+      "email": "prabhakar.maha62@mailbox.in",
+      "uid_number": 992099357198,
+      "enrolled_on": "2024-02-05"
+    },
+    {
+      "card_no": "VZC.25.191648",
+      "person": {
+        "first": "Muthuswamy",
+        "last": "Soren"
+      },
+      "guardian": {
+        "relation": "S/o",
+        "name": "Pemba Soren"
+      },
+      "gender": "M",
+      "age_years": 19,
+      "date_of_birth": "2006-09-24",
+      "address": {
+        "house": "H.No. 156",
+        "locality": "Ward 14",
+        "village": "Jamungaon",
+        "tehsil": "Sirmour",
+        "district": "Rewa",
+        "pin": "486529"
+      },
+      "mobile_no": "9433768575",
+      "email": null,
+      "uid_number": 223915261068,
+      "enrolled_on": "2024-08-13"
+    },
+    {
+      "card_no": "VZC.25.813112",
+      "person": {
+        "first": "Bhupendra",
+        "last": "Gill"
+      },
+      "guardian": {
+        "relation": "S/o",
+        "name": "Subhendu Gill"
+      },
+      "gender": "M",
+      "age_years": 20,
+      "date_of_birth": "2005-06-17",
+      "address": {
+        "house": "H.No. 111",
+        "locality": "Ward 14",
+        "village": "Beldih",
+        "tehsil": "Kuttanad",
+        "district": "Alappuzha",
+        "pin": "688803"
+      },
+      "mobile_no": "7169768210",
+      "email": null,
+      "uid_number": 246349845098,
+      "enrolled_on": "2023-12-09"
+    },
+    {
+      "card_no": "VZC.25.139418",
+      "person": {
+        "first": "Hemlata",
+        "last": "Gill"
+      },
+      "guardian": {
+        "relation": "D/o",
+        "name": "Gopinath Gill"
+      },
+      "gender": "F",
+      "age_years": 30,
+      "date_of_birth": "1995-02-17",
+      "address": {
+        "house": "H.No. 475-B",
+        "locality": "Burma Camp Lane 3",
+        "village": "Nimbahalli Khurd",
+        "tehsil": "Boko",
+        "district": "Kamrup",
+        "pin": "781134"
+      },
+      "mobile_no": "6253507780",
+      "email": "hemlata.gill64@rediffmail.com",
+      "uid_number": 409650249081,
+      "enrolled_on": "2023-10-08"
+    },
+    {
+      "card_no": "VZC.25.968178",
+      "person": {
+        "first": "Meenakshi",
+        "last": "Nambiar"
+      },
+      "guardian": {
+        "relation": "W/o",
+        "name": "Bhupendra Nambiar"
+      },
+      "gender": "F",
+      "age_years": 75,
+      "date_of_birth": "1949-12-18",
+      "address": {
+        "house": "H.No. 190/A",
+        "locality": "Ward 14",
+        "village": "Belwadi",
+        "tehsil": "Nawalgarh",
+        "district": "Jhunjhunu",
+        "pin": "333266"
+      },
+      "mobile_no": "9540427906",
+      "email": null,
+      "uid_number": 404041687759,
+      "enrolled_on": "2025-04-09"
+    },
+    {
+      "card_no": "VZC.25.489530",
+      "person": {
+        "first": "Harpreet",
+        "last": "Shekhawat"
+      },
+      "guardian": {
+        "relation": "S/o",
+        "name": "Tanveer Shekhawat"
+      },
+      "gender": "M",
+      "age_years": 97,
+      "date_of_birth": "1928-11-29",
+      "address": {
+        "house": "H.No. 432",
+        "locality": "Mohalla Kazi Tola",
+        "village": "Hirakhera Chhota",
+        "tehsil": "Nawalgarh",
+        "district": "Jhunjhunu",
+        "pin": "333928"
+      },
+      "mobile_no": "8830560856",
+      "email": null,
+      "uid_number": 317284407325,
+      "enrolled_on": "2023-08-12"
+    },
+    {
+      "card_no": "VZC.25.128246",
+      "person": {
+        "first": "Madhavi",
+        "last": "Kulkarni"
+      },
+      "guardian": {
+        "relation": "D/o",
+        "name": "Bhupendra Kulkarni"
+      },
+      "gender": "F",
+      "age_years": 26,
+      "date_of_birth": "1999-02-13",
+      "address": {
+        "house": "H.No. 453",
+        "locality": "Ward 14",
+        "village": "Jamundih Khurd",
+        "tehsil": "Titabor",
+        "district": "Jorhat",
+        "pin": "785266"
+      },
+      "mobile_no": "7705408091",
+      "email": "madhavi.kulk38@gmail.com",
+      "uid_number": 300727433868,
+      "enrolled_on": "2024-10-27"
+    },
+    {
+      "card_no": "VZC.25.058490",
+      "person": {
+        "first": "Grace",
+        "last": "Sema"
+      },
+      "guardian": {
+        "relation": "W/o",
+        "name": "Tanveer Sema"
+      },
+      "gender": "F",
+      "age_years": 40,
+      "date_of_birth": "1985-11-26",
+      "address": {
+        "house": "H.No. 179",
+        "locality": "Gandhi Chowk",
+        "village": "Hirapur Khurd",
+        "tehsil": "Rangiya",
+        "district": "Kamrup",
+        "pin": "781702"
+      },
+      "mobile_no": "9688752956",
+      "email": null,
+      "uid_number": 683326802600,
+      "enrolled_on": "2024-04-12"
+    },
+    {
+      "card_no": "VZC.25.168567",
+      "person": {
+        "first": "Rukmini",
+        "last": "Fernandes"
+      },
+      "guardian": {
+        "relation": "D/o",
+        "name": "Tanveer Fernandes"
+      },
+      "gender": "F",
+      "age_years": 70,
+      "date_of_birth": "1955-09-16",
+      "address": {
+        "house": "H.No. 59-B",
+        "locality": "Ward 14",
+        "village": "Kanhaiwadi",
+        "tehsil": "Karad",
+        "district": "Satara",
+        "pin": "415401"
+      },
+      "mobile_no": "8979479891",
+      "email": null,
+      "uid_number": 778737925984,
+      "enrolled_on": "2024-03-20"
+    },
+    {
+      "card_no": "VZC.25.972603",
+      "person": {
+        "first": "Gopinath",
+        "last": "Siddiqui"
+      },
+      "guardian": {
+        "relation": "S/o",
+        "name": "Kulwant Siddiqui"
+      },
+      "gender": "M",
+      "age_years": 68,
+      "date_of_birth": "1957-04-14",
+      "address": {
+        "house": "H.No. 299/A",
+        "locality": "Mohalla Kazi Tola",
+        "village": "Bakhritola Khurd",
+        "tehsil": "Karad",
+        "district": "Satara",
+        "pin": "415823"
+      },
+      "mobile_no": "9120663482",
+      "email": "gopinath.sidd73@gmail.com",
+      "uid_number": 686878861035,
+      "enrolled_on": "2025-04-25"
+    },
+    {
+      "card_no": "VZC.25.510528",
+      "person": {
+        "first": "Faizan",
+        "last": "Shekhawat"
+      },
+      "guardian": {
+        "relation": "S/o",
+        "name": "Ritwik Shekhawat"
+      },
+      "gender": "M",
+      "age_years": 56,
+      "date_of_birth": "1969-07-27",
+      "address": {
+        "house": "H.No. 119",
+        "locality": "Burma Camp Lane 3",
+        "village": "Bakhripur",
+        "tehsil": "Titabor",
+        "district": "Jorhat",
+        "pin": "785535"
+      },
+      "mobile_no": "9479516920",
+      "email": null,
+      "uid_number": 572636353080,
+      "enrolled_on": "2023-11-17"
+    },
+    {
+      "card_no": "VZC.25.930269",
+      "person": {
+        "first": "Hitesh",
+        "last": "Grewal"
+      },
+      "guardian": {
+        "relation": "S/o",
+        "name": "Ilango Grewal"
+      },
+      "gender": "M",
+      "age_years": 61,
+      "date_of_birth": "1964-05-31",
+      "address": {
+        "house": "H.No. 97-B",
+        "locality": "Mohalla Kazi Tola",
+        "village": "Kesarpalli",
+        "tehsil": "Sheo",
+        "district": "Barmer",
+        "pin": "344455"
+      },
+      "mobile_no": "7666316320",
+      "email": null,
+      "uid_number": 528396066833,
+      "enrolled_on": "2024-03-25"
+    },
+    {
+      "card_no": "VZC.25.813711",
+      "person": {
+        "first": "Arivazhagan",
+        "last": "Kushwaha"
+      },
+      "guardian": {
+        "relation": "S/o",
+        "name": "Prabhakar Kushwaha"
+      },
+      "gender": "M",
+      "age_years": 66,
+      "date_of_birth": "1959-09-19",
+      "address": {
+        "house": "H.No. 267",
+        "locality": "Mohalla Kazi Tola",
+        "village": "Kesarpur",
+        "tehsil": "Wai",
+        "district": "Satara",
+        "pin": "415225"
+      },
+      "mobile_no": "8238724065",
+      "email": "arivazhagan.kush32@rediffmail.com",
+      "uid_number": 548566813916,
+      "enrolled_on": "2024-09-04"
+    },
+    {
+      "card_no": "VZC.25.125457",
+      "person": {
+        "first": "Bajrangi",
+        "last": "Chakraborty"
+      },
+      "guardian": {
+        "relation": "S/o",
+        "name": "Sukhdev Chakraborty"
+      },
+      "gender": "M",
+      "age_years": 67,
+      "date_of_birth": "1958-09-27",
+      "address": {
+        "house": "H.No. 134/A",
+        "locality": "Shivaji Peth",
+        "village": "Motidih Khurd",
+        "tehsil": "Chirawa",
+        "district": "Jhunjhunu",
+        "pin": "333364"
+      },
+      "mobile_no": "9000990933",
+      "email": null,
+      "uid_number": 320215907670,
+      "enrolled_on": "2023-08-13"
+    }
+  ]
+}

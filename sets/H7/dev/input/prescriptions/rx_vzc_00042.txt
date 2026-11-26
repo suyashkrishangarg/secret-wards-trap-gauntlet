@@ -1,0 +1,11 @@
+Vindhya Zila Chikitsalaya - OPD Prescription
+Name: Venkatesh Subramaniam   Age: 76 yrs   Sex: M
+UHID: VZC.25.926387   Mob: 0091 8592463852
+Aadhaar: XXXX XXXX 6410
+Date: 15/09/2025
+C/O breathlessness on exertion
+Dx: Typhoid fever (A01.0)
+Rx:
+ 1. Tab Furosemide 40 mg  1-0-1 x 30 days
+ 2. Dolo 650 BD x 5 days
+Dr. Imtiaz Hussain (MBBS, MD)

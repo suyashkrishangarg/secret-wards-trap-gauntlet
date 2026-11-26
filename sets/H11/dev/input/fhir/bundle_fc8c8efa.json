@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "9fb698e0-a626-493d-a580-725734281b7b",
+  "type": "document",
+  "meta": {
+    "source": "#VZC.25.168567"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:1f9e2cc6-0ed6-4caf-aa23-77a0864653c3",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "1f9e2cc6-0ed6-4caf-aa23-77a0864653c3",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Rukmini Fernandes, D/o Tanveer Fernandes</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:vzc",
+            "value": "VZC.25.168567"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-3779-8422-5067"
+          }
+        ],
+        "name": [
+          {
+            "text": "Rukmini Fernandes",
+            "family": "Fernandes",
+            "given": [
+              "Rukmini"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 89794 79891"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1955-09-16",
+        "address": [
+          {
+            "line": [
+              "H.No. 59-B",
+              "Ward 14"
+            ],
+            "city": "Kanhaiwadi",
+            "district": "Satara",
+            "postalCode": "415401",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:97d469a2-a62e-4529-a0f3-ec99c275c3a8",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "97d469a2-a62e-4529-a0f3-ec99c275c3a8",
+        "name": [
+          {
+            "text": "Dr. Ramesh Iyer"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e0a0e40d-fa71-4107-ae00-69bc4c100b94",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "e0a0e40d-fa71-4107-ae00-69bc4c100b94",
+        "name": "Vindhya Zila Chikitsalaya"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7569b39f-a258-404b-ab54-b221bf54bb89",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "7569b39f-a258-404b-ab54-b221bf54bb89",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:1f9e2cc6-0ed6-4caf-aa23-77a0864653c3"
+        },
+        "period": {
+          "start": "2025-04-24",
+          "end": "2025-04-27"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:e0a0e40d-fa71-4107-ae00-69bc4c100b94"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6215cf5b-0dcb-44ed-a31b-7d7c4f0c6b79",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "6215cf5b-0dcb-44ed-a31b-7d7c4f0c6b79",
+        "subject": {
+          "reference": "urn:uuid:1f9e2cc6-0ed6-4caf-aa23-77a0864653c3"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "D50.9",
+              "display": "Iron deficiency anaemia, unspecified"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e16bd275-6e30-48a6-a35e-f115c27bd58a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e16bd275-6e30-48a6-a35e-f115c27bd58a",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1f9e2cc6-0ed6-4caf-aa23-77a0864653c3"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 9.3,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e477e911-15cc-4433-ab0d-0ea383d38cf3",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "e477e911-15cc-4433-ab0d-0ea383d38cf3",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:1f9e2cc6-0ed6-4caf-aa23-77a0864653c3"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogUnVrbWluaSBGZXJuYW5kZXMKUGhvbmU6ICs5MSA4OTc5NCA3OTg5MQpEeDogSXJvbiBkZWZpY2llbmN5IGFuYWVtaWEsIHVuc3BlY2lmaWVkCg=="
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

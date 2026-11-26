@@ -1,0 +1,75 @@
+{
+  "resourceType": "Bundle",
+  "id": "kvh-4",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:kvh:pat-4",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "pat-4",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Pemba Mahato (S/o Gopinath Mahato), Bakhrikhera 785948</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:kvh",
+            "value": "kvh/op/25-770158"
+          }
+        ],
+        "name": [
+          {
+            "text": "Pemba Mahato"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "0091 7287855746"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1967-10-10",
+        "address": [
+          {
+            "city": "Bakhrikhera",
+            "district": "Jorhat",
+            "postalCode": "785948"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:prac-4",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "prac-4",
+        "name": [
+          {
+            "text": "Dr. Meenakshi Sundaram"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:cond-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-4",
+        "subject": {
+          "reference": "Patient/pat-4"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "N39.0",
+              "display": "Urinary tract infection, site not specified"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

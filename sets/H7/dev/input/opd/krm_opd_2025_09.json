@@ -1,0 +1,94 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Ujwala_Bhutia_KR-3349587.xlsx",
+    "rows": 4
+  },
+  "facility": {
+    "name": "Konkan Rural Mission Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Ujwala B.",
+        "ref": "KR-3349587",
+        "age_sex": "51/F"
+      },
+      "date": "2025-09-06",
+      "complaint": "C/O giddiness x 1 week",
+      "vitals": {
+        "bp": "130/95",
+        "pulse": 90
+      },
+      "dx": {
+        "code": "E11.9",
+        "display": "Type 2 diabetes mellitus without complications"
+      },
+      "advice": "Tab. Furosemide 40 mg 1-0-0 x 30 days",
+      "doctor": "Dr. Meenakshi Sundaram",
+      "callback_no": "086365-32657"
+    },
+    {
+      "slip": 2,
+      "pt": {
+        "nm": "Ujwala Bhutia",
+        "ref": "KR-3349587",
+        "age_sex": "51/F"
+      },
+      "date": "2025-09-19",
+      "complaint": "C/O joint pains x 1 month",
+      "vitals": {
+        "bp": "131/71",
+        "pulse": 88
+      },
+      "dx": {
+        "code": "D50.9",
+        "display": "Iron deficiency anaemia, unspecified"
+      },
+      "advice": "Tab. Azithromycin 500 mg 1-0-1 x 30 days",
+      "doctor": "Dr. Anirban Saha"
+    },
+    {
+      "slip": 3,
+      "pt": {
+        "nm": "Vimala Shaikh",
+        "ref": "KR-1292086",
+        "age_sex": "46/F"
+      },
+      "date": "2025-09-19",
+      "complaint": "C/O cough with expectoration x 2 weeks",
+      "vitals": {
+        "bp": "132/90",
+        "pulse": 88
+      },
+      "dx": {
+        "code": "I10",
+        "display": "Essential (primary) hypertension"
+      },
+      "advice": "Tab. Cefixime 200 mg 1-0-1 x 30 days",
+      "doctor": "Dr. Sukhdev Bhalla",
+      "callback_no": "932 063 8050"
+    },
+    {
+      "slip": 4,
+      "pt": {
+        "nm": "Pandurang O.",
+        "ref": "KR-9273747",
+        "age_sex": "25/M"
+      },
+      "date": "2025-09-27",
+      "complaint": "C/O cough with expectoration x 2 weeks",
+      "vitals": {
+        "bp": "113/96",
+        "pulse": 102
+      },
+      "dx": {
+        "code": "B54",
+        "display": "Unspecified malaria"
+      },
+      "advice": "Tab. Furosemide 40 mg BD x 5 days",
+      "doctor": "Dr. Meenakshi Sundaram"
+    }
+  ]
+}

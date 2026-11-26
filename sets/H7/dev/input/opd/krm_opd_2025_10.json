@@ -1,0 +1,33 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Pandurang_Oraon_KR-9273747.xlsx",
+    "rows": 1
+  },
+  "facility": {
+    "name": "Konkan Rural Mission Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Pandurang O.",
+        "ref": "KR-9273747",
+        "age_sex": "25/M"
+      },
+      "date": "2025-10-28",
+      "complaint": "C/O breathlessness on exertion",
+      "vitals": {
+        "bp": "150/95",
+        "pulse": 70
+      },
+      "dx": {
+        "code": "J45.909",
+        "display": "Asthma, uncomplicated"
+      },
+      "advice": "Tab. Metformin 500 mg OD x 5 days",
+      "doctor": "Dr. Grace Varghese",
+      "callback_no": "085005-58274"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Anirban_Murmu_SSH-R-25-035580.xlsx",
+    "rows": 1
+  },
+  "facility": {
+    "name": "Sahyadri Sevashram Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Anirban M.",
+        "ref": "SSH-R-25-035580",
+        "age_sex": "57/M"
+      },
+      "date": "2025-10-27",
+      "complaint": "C/O fever x 3 days",
+      "vitals": {
+        "bp": "135/75",
+        "pulse": 81
+      },
+      "dx": {
+        "code": "B54",
+        "display": "Unspecified malaria"
+      },
+      "advice": "Tab. Azithromycin 500 mg TDS x 7 days",
+      "doctor": "Dr. Kaveri Rao",
+      "callback_no": "078601-14017"
+    }
+  ]
+}

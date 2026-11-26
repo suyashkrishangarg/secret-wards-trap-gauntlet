@@ -1,0 +1,74 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Philomena_Deshpande_BCT57414503.xlsx",
+    "rows": 3
+  },
+  "facility": {
+    "name": "Brahmaputra Care Trust Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Ramdular D.",
+        "ref": "BCT20254149",
+        "age_sex": "79/M"
+      },
+      "date": "2025-07-02",
+      "complaint": "C/O vomiting x 1 day",
+      "vitals": {
+        "bp": "111/92",
+        "pulse": 80
+      },
+      "dx": {
+        "code": "E11.9",
+        "display": "Type 2 diabetes mellitus without complications"
+      },
+      "advice": "Tab. Ondansetron 4 mg TDS x 30 days",
+      "doctor": "Dr. Imtiaz Hussain",
+      "callback_no": "064147-65430"
+    },
+    {
+      "slip": 2,
+      "pt": {
+        "nm": "Vimala Shaikh",
+        "ref": "BCT29241529",
+        "age_sex": "46/F"
+      },
+      "date": "2025-07-15",
+      "complaint": "C/O cough with expectoration x 2 weeks",
+      "vitals": {
+        "bp": "116/84",
+        "pulse": 84
+      },
+      "dx": {
+        "code": "E11.9",
+        "display": "Type 2 diabetes mellitus without complications"
+      },
+      "advice": "Tab. Glimepiride 1 mg HS x 7 days",
+      "doctor": "Dr. Anirban Saha"
+    },
+    {
+      "slip": 3,
+      "pt": {
+        "nm": "Philomena Deshpande",
+        "ref": "BCT57414503",
+        "age_sex": "20/F"
+      },
+      "date": "2025-07-29",
+      "complaint": "C/O breathlessness on exertion",
+      "vitals": {
+        "bp": "122/78",
+        "pulse": 66
+      },
+      "dx": {
+        "code": "B54",
+        "display": "Unspecified malaria"
+      },
+      "advice": "Tab. Telmisartan 40 mg HS x 7 days",
+      "doctor": "Dr. Sukhdev Bhalla",
+      "callback_no": "907 073 4805"
+    }
+  ]
+}

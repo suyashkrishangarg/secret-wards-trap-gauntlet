@@ -1,0 +1,74 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Jitendra_Bhattacharya_VZC.25.824740.xlsx",
+    "rows": 3
+  },
+  "facility": {
+    "name": "Vindhya Zila Chikitsalaya"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Shabnam P.",
+        "ref": "VZC.25.114050",
+        "age_sex": "73/F"
+      },
+      "date": "2025-10-10",
+      "complaint": "C/O giddiness x 1 week",
+      "vitals": {
+        "bp": "161/83",
+        "pulse": 106
+      },
+      "dx": {
+        "code": "A15.0",
+        "display": "Tuberculosis of lung"
+      },
+      "advice": "Tab. Ramipril 5 mg HS x 30 days",
+      "doctor": "Dr. Sukhdev Bhalla",
+      "callback_no": "091631-76156"
+    },
+    {
+      "slip": 2,
+      "pt": {
+        "nm": "Dorjee Subramaniam",
+        "ref": "VZC.25.514818",
+        "age_sex": "53/M"
+      },
+      "date": "2025-10-11",
+      "complaint": "C/O breathlessness on exertion",
+      "vitals": {
+        "bp": "115/96",
+        "pulse": 82
+      },
+      "dx": {
+        "code": "D50.9",
+        "display": "Iron deficiency anaemia, unspecified"
+      },
+      "advice": "Tab. Furosemide 40 mg 1-0-1 x 7 days",
+      "doctor": "Dr. Kaveri Rao"
+    },
+    {
+      "slip": 3,
+      "pt": {
+        "nm": "Jitendra Bhattacharya",
+        "ref": "VZC.25.824740",
+        "age_sex": "50/M"
+      },
+      "date": "2025-10-29",
+      "complaint": "C/O fever x 3 days",
+      "vitals": {
+        "bp": "158/72",
+        "pulse": 108
+      },
+      "dx": {
+        "code": "D50.9",
+        "display": "Iron deficiency anaemia, unspecified"
+      },
+      "advice": "Tab. Cefixime 200 mg OD x 30 days",
+      "doctor": "Dr. Kaveri Rao",
+      "callback_no": "883 756 9207"
+    }
+  ]
+}

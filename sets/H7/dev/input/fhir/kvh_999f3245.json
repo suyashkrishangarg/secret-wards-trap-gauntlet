@@ -1,0 +1,75 @@
+{
+  "resourceType": "Bundle",
+  "id": "kvh-1",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:kvh:pat-1",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "pat-1",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">ज़ुबैदा पिल्लई (W/o तेजिंदर पिल्लई), मोतीपुर 688642</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:kvh",
+            "value": "kvh/op/25-168434"
+          }
+        ],
+        "name": [
+          {
+            "text": "ज़ुबैदा पिल्लई"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "7042-888195"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1970-11-02",
+        "address": [
+          {
+            "city": "मोतीपुर",
+            "district": "Alappuzha",
+            "postalCode": "688642"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:prac-1",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "prac-1",
+        "name": [
+          {
+            "text": "Dr. Imtiaz Hussain"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:cond-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-1",
+        "subject": {
+          "reference": "Patient/pat-1"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "E03.9",
+              "display": "Hypothyroidism, unspecified"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

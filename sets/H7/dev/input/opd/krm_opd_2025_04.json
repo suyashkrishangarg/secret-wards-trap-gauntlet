@@ -1,0 +1,74 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Yamuna_Pillai_KR-5210112.xlsx",
+    "rows": 3
+  },
+  "facility": {
+    "name": "Konkan Rural Mission Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Yamuna P.",
+        "ref": "KR-5210112",
+        "age_sex": "34/F"
+      },
+      "date": "2025-04-05",
+      "complaint": "C/O cough with expectoration x 2 weeks",
+      "vitals": {
+        "bp": "143/99",
+        "pulse": 70
+      },
+      "dx": {
+        "code": "B54",
+        "display": "Unspecified malaria"
+      },
+      "advice": "Tab. Pantoprazole 40 mg 0-0-1 x 5 days",
+      "doctor": "Dr. Kaveri Rao",
+      "callback_no": "095329-94930"
+    },
+    {
+      "slip": 2,
+      "pt": {
+        "nm": "Ilavarasi Devi Qureshi",
+        "ref": "KR-8186736",
+        "age_sex": "57/F"
+      },
+      "date": "2025-04-18",
+      "complaint": "C/O vomiting x 1 day",
+      "vitals": {
+        "bp": "155/79",
+        "pulse": 99
+      },
+      "dx": {
+        "code": "A90",
+        "display": "Dengue fever"
+      },
+      "advice": "Tab. Cefixime 200 mg 0-0-1 x 7 days",
+      "doctor": "Dr. Imtiaz Hussain"
+    },
+    {
+      "slip": 3,
+      "pt": {
+        "nm": "Ishani Kharbanda",
+        "ref": "KR-2296572",
+        "age_sex": "78/F"
+      },
+      "date": "2025-04-24",
+      "complaint": "C/O fever x 3 days",
+      "vitals": {
+        "bp": "149/93",
+        "pulse": 98
+      },
+      "dx": {
+        "code": "I10",
+        "display": "Essential (primary) hypertension"
+      },
+      "advice": "Tab. Levothyroxine 50 mcg 1-0-0 x 7 days",
+      "doctor": "Dr. Kaveri Rao",
+      "callback_no": "910 126 8302"
+    }
+  ]
+}

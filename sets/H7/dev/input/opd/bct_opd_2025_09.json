@@ -1,0 +1,135 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Pema_Rathore_BCT65770931.xlsx",
+    "rows": 6
+  },
+  "facility": {
+    "name": "Brahmaputra Care Trust Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Pema R.",
+        "ref": "BCT65770931",
+        "age_sex": "50/F"
+      },
+      "date": "2025-09-07",
+      "complaint": "C/O joint pains x 1 month",
+      "vitals": {
+        "bp": "141/71",
+        "pulse": 95
+      },
+      "dx": {
+        "code": "D50.9",
+        "display": "Iron deficiency anaemia, unspecified"
+      },
+      "advice": "Tab. Prednisolone 10 mg OD x 5 days",
+      "doctor": "Dr. Meenakshi Sundaram",
+      "callback_no": "087140-46028"
+    },
+    {
+      "slip": 2,
+      "pt": {
+        "nm": "Lakhan Murmu",
+        "ref": "BCT79936545",
+        "age_sex": "64/M"
+      },
+      "date": "2025-09-08",
+      "complaint": "C/O burning micturition x 4 days",
+      "vitals": {
+        "bp": "166/100",
+        "pulse": 105
+      },
+      "dx": {
+        "code": "K35.80",
+        "display": "Acute appendicitis"
+      },
+      "advice": "Tab. Levothyroxine 50 mcg BD x 7 days",
+      "doctor": "Dr. Pandurang Joshi"
+    },
+    {
+      "slip": 3,
+      "pt": {
+        "nm": "Philomena Deshpande",
+        "ref": "BCT57414503",
+        "age_sex": "20/F"
+      },
+      "date": "2025-09-11",
+      "complaint": "C/O breathlessness on exertion",
+      "vitals": {
+        "bp": "160/90",
+        "pulse": 87
+      },
+      "dx": {
+        "code": "J18.9",
+        "display": "Pneumonia, unspecified organism"
+      },
+      "advice": "Tab. Pantoprazole 40 mg TDS x 30 days",
+      "doctor": "Dr. Sukhdev Bhalla",
+      "callback_no": "907 073 4805"
+    },
+    {
+      "slip": 4,
+      "pt": {
+        "nm": "Ignatius Q.",
+        "ref": "BCT79792316",
+        "age_sex": "48/M"
+      },
+      "date": "2025-09-16",
+      "complaint": "C/O giddiness x 1 week",
+      "vitals": {
+        "bp": "154/76",
+        "pulse": 69
+      },
+      "dx": {
+        "code": "D50.9",
+        "display": "Iron deficiency anaemia, unspecified"
+      },
+      "advice": "Tab. Ondansetron 4 mg 1-0-1 x 7 days",
+      "doctor": "Dr. Kaveri Rao"
+    },
+    {
+      "slip": 5,
+      "pt": {
+        "nm": "Philomena Mathew",
+        "ref": "BCT25202531",
+        "age_sex": "71/F"
+      },
+      "date": "2025-09-20",
+      "complaint": "C/O breathlessness on exertion",
+      "vitals": {
+        "bp": "134/86",
+        "pulse": 96
+      },
+      "dx": {
+        "code": "A01.0",
+        "display": "Typhoid fever"
+      },
+      "advice": "Tab. Furosemide 40 mg 1-0-1 x 30 days",
+      "doctor": "Dr. Meenakshi Sundaram",
+      "callback_no": "0091 9664686354"
+    },
+    {
+      "slip": 6,
+      "pt": {
+        "nm": "Vimala Shaikh",
+        "ref": "BCT29241529",
+        "age_sex": "46/F"
+      },
+      "date": "2025-09-20",
+      "complaint": "C/O giddiness x 1 week",
+      "vitals": {
+        "bp": "157/91",
+        "pulse": 75
+      },
+      "dx": {
+        "code": "A15.0",
+        "display": "Tuberculosis of lung"
+      },
+      "advice": "Tab. Ondansetron 4 mg BD x 5 days",
+      "doctor": "Dr. Kaveri Rao"
+    }
+  ]
+}

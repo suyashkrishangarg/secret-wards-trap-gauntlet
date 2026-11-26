@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "746f2acd-2577-4718-a3e4-c18c6a0935e5",
+  "type": "document",
+  "meta": {
+    "source": "#KR-7261757"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:ee0dc385-6dfb-4102-aafd-d453b6bd73bb",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "ee0dc385-6dfb-4102-aafd-d453b6bd73bb",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bajrangi Sema, S/o Omkar Sema</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:krm",
+            "value": "KR-7261757"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-6327-4088-2306"
+          }
+        ],
+        "name": [
+          {
+            "text": "Bajrangi Sema",
+            "family": "Sema",
+            "given": [
+              "Bajrangi"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 85898 92572"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "2000-09-03",
+        "address": [
+          {
+            "line": [
+              "H.No. 158",
+              "Mohalla Kazi Tola"
+            ],
+            "city": "Kesartola",
+            "district": "Alappuzha",
+            "postalCode": "688821",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dd1eed71-4233-4cc4-acb7-48de8fd48288",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "dd1eed71-4233-4cc4-acb7-48de8fd48288",
+        "name": [
+          {
+            "text": "Dr. Sukhdev Bhalla"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f95a8d7c-1e1b-4773-ae66-fa143ebed11c",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "f95a8d7c-1e1b-4773-ae66-fa143ebed11c",
+        "name": "Konkan Rural Mission Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:814fe964-2cc3-4227-a34c-f1b891851690",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "814fe964-2cc3-4227-a34c-f1b891851690",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:ee0dc385-6dfb-4102-aafd-d453b6bd73bb"
+        },
+        "period": {
+          "start": "2025-05-06",
+          "end": "2025-05-12"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:f95a8d7c-1e1b-4773-ae66-fa143ebed11c"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c888f054-b0ee-4b28-aa8a-b13ecac2bab1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "c888f054-b0ee-4b28-aa8a-b13ecac2bab1",
+        "subject": {
+          "reference": "urn:uuid:ee0dc385-6dfb-4102-aafd-d453b6bd73bb"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "E03.9",
+              "display": "Hypothyroidism, unspecified"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:43116753-df9e-4bef-a348-b06356a7286e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "43116753-df9e-4bef-a348-b06356a7286e",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:ee0dc385-6dfb-4102-aafd-d453b6bd73bb"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 13.4,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3ab32693-1353-4da3-a917-872eea66e984",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "3ab32693-1353-4da3-a917-872eea66e984",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:ee0dc385-6dfb-4102-aafd-d453b6bd73bb"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogQmFqcmFuZ2kgU2VtYQpQaG9uZTogKzkxIDg1ODk4IDkyNTcyCkR4OiBIeXBvdGh5cm9pZGlzbSwgdW5zcGVjaWZpZWQK"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

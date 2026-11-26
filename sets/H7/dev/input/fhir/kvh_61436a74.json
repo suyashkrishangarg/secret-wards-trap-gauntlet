@@ -1,0 +1,75 @@
+{
+  "resourceType": "Bundle",
+  "id": "kvh-3",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:kvh:pat-3",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "pat-3",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Selvaraj Bhattacharya (S/o Debashish Bhattacharya), Belhalli 785293</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:kvh",
+            "value": "kvh/op/25-251360"
+          }
+        ],
+        "name": [
+          {
+            "text": "Selvaraj Bhattacharya"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91-888-520-0184"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1978-12-05",
+        "address": [
+          {
+            "city": "Belhalli",
+            "district": "Jorhat",
+            "postalCode": "785293"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:prac-3",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "prac-3",
+        "name": [
+          {
+            "text": "Dr. Anirban Saha"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:cond-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-3",
+        "subject": {
+          "reference": "Patient/pat-3"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "I10",
+              "display": "Essential (primary) hypertension"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

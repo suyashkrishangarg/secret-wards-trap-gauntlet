@@ -1,0 +1,8 @@
+{
+  "version": "gauntlet",
+  "result": {
+    "record_linkage_risk": 0.166,
+    "patients_reidentified": 0.9831,
+    "targeted_success": 0.541
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "lab": "Lifecare Diagnostics",
+  "patient": {
+    "name": "Bhagwati Bhutia",
+    "hosp_id": "BCT21806064",
+    "mobile": "761 650 8212",
+    "age": "38 Yrs"
+  },
+  "referred_by": "Dr. Kaveri Rao",
+  "collected": "2025-09-06",
+  "panels": [
+    {
+      "name": "Routine",
+      "results": [
+        {
+          "test": "Haemoglobin",
+          "value": "13.4",
+          "unit": "g/dL",
+          "range": "12-16"
+        },
+        {
+          "test": "Platelet count",
+          "value": "176012",
+          "unit": "/cumm",
+          "range": "150000-450000"
+        }
+      ]
+    }
+  ]
+}

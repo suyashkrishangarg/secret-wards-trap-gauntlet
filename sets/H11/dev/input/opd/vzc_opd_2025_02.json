@@ -1,0 +1,94 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Bajrangi_Chakraborty_VZC.25.125457.xlsx",
+    "rows": 4
+  },
+  "facility": {
+    "name": "Vindhya Zila Chikitsalaya"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Anupama C.",
+        "hosp_no": "VZC.25.693121",
+        "age_sex": "42/F"
+      },
+      "date": "2025-02-09",
+      "complaint": "C/O pain abdomen x 2 days",
+      "vitals": {
+        "bp": "130/86",
+        "pulse": 110
+      },
+      "dx": {
+        "code": "A15.0",
+        "display": "Tuberculosis of lung"
+      },
+      "advice": "Tab. Levothyroxine 50 mcg 0-0-1 x 30 days",
+      "doctor": "Dr. Anirban Saha",
+      "contact": "076970-06897"
+    },
+    {
+      "slip": 2,
+      "patient_info": {
+        "full_name": "Muthuswamy Soren",
+        "hosp_no": "VZC.25.191648",
+        "age_sex": "19/M"
+      },
+      "date": "2025-02-13",
+      "complaint": "C/O pain abdomen x 2 days",
+      "vitals": {
+        "bp": "132/81",
+        "pulse": 92
+      },
+      "dx": {
+        "code": "J45.909",
+        "display": "Asthma, uncomplicated"
+      },
+      "advice": "Tab. Penicillamine 250 mg HS x 30 days",
+      "doctor": "Dr. Sukhdev Bhalla"
+    },
+    {
+      "slip": 3,
+      "patient_info": {
+        "full_name": "Prabhakar Mahato",
+        "hosp_no": "VZC.25.450451",
+        "age_sex": "80/M"
+      },
+      "date": "2025-02-16",
+      "complaint": "C/O cough with expectoration x 2 weeks",
+      "vitals": {
+        "bp": "165/77",
+        "pulse": 102
+      },
+      "dx": {
+        "code": "A01.0",
+        "display": "Typhoid fever"
+      },
+      "advice": "Tab. Telmisartan 40 mg 1-1-1 x 30 days",
+      "doctor": "Dr. Ramesh Iyer",
+      "contact": "793 289 5797"
+    },
+    {
+      "slip": 4,
+      "patient_info": {
+        "full_name": "Bajrangi C.",
+        "hosp_no": "VZC.25.125457",
+        "age_sex": "67/M"
+      },
+      "date": "2025-02-21",
+      "complaint": "C/O vomiting x 1 day",
+      "vitals": {
+        "bp": "146/77",
+        "pulse": 90
+      },
+      "dx": {
+        "code": "E03.9",
+        "display": "Hypothyroidism, unspecified"
+      },
+      "advice": "Tab. Glimepiride 1 mg TDS x 30 days",
+      "doctor": "Dr. Imtiaz Hussain"
+    }
+  ]
+}

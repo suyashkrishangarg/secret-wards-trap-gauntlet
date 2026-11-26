@@ -1,0 +1,17 @@
+DISCHARGE SUMMARY
+Vindhya Zila Chikitsalaya
+
+Patient: Pandurang Murmu    Age/Sex: 37Y/M
+DOB: 25 Aug 1988
+Kin: S/o Sukhdev Murmu    Ph: 6974563425
+IPD No: VZC-IP-10462   UHID: VZC.25.390552
+Address: H.No. 305/A, Ward 14, near Hanuman Mandir, Vill. Hirapalli, Tal. Mariani, Dist. Jorhat - 785858
+Admitted: 29-May-2025   Discharged: 07-Jun-2025
+Ward/Bed: Ward 3 (Medicine) / Bed 29
+Diagnosis: Typhoid fever (A01.0)
+Procedure: Lower segment caesarean section
+K/C/O DM, HTN. C/O fever x 3 days.
+Labs: Hb 10.2 g/dL, Platelet count 313527 /cumm.
+Inj. Insulin 10 units SC HS; Tab Azithromycin 500 mg 0-0-1.
+Seen by Dr. Sukhdev Bhalla. Attendant Sukhdev Murmu counselled re: Parkinson's disease risk in family.
+Vaccine Batch No. 8812045671 given.

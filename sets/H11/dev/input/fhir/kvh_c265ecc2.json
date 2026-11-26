@@ -1,0 +1,75 @@
+{
+  "resourceType": "Bundle",
+  "id": "kvh-6",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:kvh:pat-6",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "pat-6",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Madhavi D'Souza (W/o Joseph D'Souza), Bakhripalli 415997</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:kvh",
+            "value": "kvh/op/25-953372"
+          }
+        ],
+        "name": [
+          {
+            "text": "Madhavi D'Souza"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(656) 374-7072"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1996-02-29",
+        "address": [
+          {
+            "city": "Bakhripalli",
+            "district": "Ratnagiri",
+            "postalCode": "415997"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:prac-6",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "prac-6",
+        "name": [
+          {
+            "text": "Dr. Kaveri Rao"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:cond-6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-6",
+        "subject": {
+          "reference": "Patient/pat-6"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "E11.9",
+              "display": "Type 2 diabetes mellitus without complications"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

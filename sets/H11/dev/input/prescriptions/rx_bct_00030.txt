@@ -1,0 +1,11 @@
+Brahmaputra Care Trust Hospital - OPD Prescription
+Name: Shrikant Kumar Naidu   Age: 48 yrs   Sex: M
+UHID: BCT96265553   Mob: 0091 6180965323
+Aadhaar: XXXX XXXX 2146
+Date: 27/03/2025
+C/O cough with expectoration x 2 weeks
+Dx: Pneumonia, unspecified organism (J18.9)
+Rx:
+ 1. Tab Cefixime 200 mg  1-0-1 x 30 days
+ 2. Dolo 650 BD x 5 days
+Dr. Meenakshi Sundaram (MBBS, MD)

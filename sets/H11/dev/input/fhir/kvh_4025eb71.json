@@ -1,0 +1,75 @@
+{
+  "resourceType": "Bundle",
+  "id": "kvh-5",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:kvh:pat-5",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "pat-5",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Pemba Mahato (S/o Pemba Mahato), Bakhrikhera 785948</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:kvh",
+            "value": "kvh/op/25-546400"
+          }
+        ],
+        "name": [
+          {
+            "text": "Pemba Mahato"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "७२८७८ ५५७४६"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1996-08-14",
+        "address": [
+          {
+            "city": "Bakhrikhera",
+            "district": "Jorhat",
+            "postalCode": "785948"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:prac-5",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "prac-5",
+        "name": [
+          {
+            "text": "Dr. Kaveri Rao"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:cond-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-5",
+        "subject": {
+          "reference": "Patient/pat-5"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "I10",
+              "display": "Essential (primary) hypertension"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

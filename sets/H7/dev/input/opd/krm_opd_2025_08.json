@@ -1,0 +1,115 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Debashish_Oraon_KR-7189698.xlsx",
+    "rows": 5
+  },
+  "facility": {
+    "name": "Konkan Rural Mission Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Debashish S.",
+        "ref": "KR-3604416",
+        "age_sex": "20/M"
+      },
+      "date": "2025-08-02",
+      "complaint": "C/O joint pains x 1 month",
+      "vitals": {
+        "bp": "122/97",
+        "pulse": 74
+      },
+      "dx": {
+        "code": "N39.0",
+        "display": "Urinary tract infection, site not specified"
+      },
+      "advice": "Tab. Cefixime 200 mg HS x 5 days",
+      "doctor": "Dr. Imtiaz Hussain",
+      "callback_no": "065007-21784"
+    },
+    {
+      "slip": 2,
+      "pt": {
+        "nm": "Philomena Mathew",
+        "ref": "KR-1221890",
+        "age_sex": "71/F"
+      },
+      "date": "2025-08-08",
+      "complaint": "C/O giddiness x 1 week",
+      "vitals": {
+        "bp": "157/77",
+        "pulse": 88
+      },
+      "dx": {
+        "code": "E11.9",
+        "display": "Type 2 diabetes mellitus without complications"
+      },
+      "advice": "Tab. Ecosprin 75 mg 1-0-0 x 5 days",
+      "doctor": "Dr. Pandurang Joshi"
+    },
+    {
+      "slip": 3,
+      "pt": {
+        "nm": "Ishani Kharbanda",
+        "ref": "KR-2296572",
+        "age_sex": "78/F"
+      },
+      "date": "2025-08-10",
+      "complaint": "C/O fever x 3 days",
+      "vitals": {
+        "bp": "161/70",
+        "pulse": 103
+      },
+      "dx": {
+        "code": "A90",
+        "display": "Dengue fever"
+      },
+      "advice": "Tab. Penicillamine 250 mg TDS x 5 days",
+      "doctor": "Dr. Sukhdev Bhalla",
+      "callback_no": "910 126 8302"
+    },
+    {
+      "slip": 4,
+      "pt": {
+        "nm": "Debashish O.",
+        "ref": "KR-7189698",
+        "age_sex": "31/M"
+      },
+      "date": "2025-08-20",
+      "complaint": "C/O burning micturition x 4 days",
+      "vitals": {
+        "bp": "152/78",
+        "pulse": 83
+      },
+      "dx": {
+        "code": "J45.909",
+        "display": "Asthma, uncomplicated"
+      },
+      "advice": "Tab. Penicillamine 250 mg 1-0-0 x 5 days",
+      "doctor": "Dr. Imtiaz Hussain"
+    },
+    {
+      "slip": 5,
+      "pt": {
+        "nm": "Ujwala Kharbanda",
+        "ref": "KR-8303398",
+        "age_sex": "35/F"
+      },
+      "date": "2025-08-29",
+      "complaint": "C/O breathlessness on exertion",
+      "vitals": {
+        "bp": "128/73",
+        "pulse": 79
+      },
+      "dx": {
+        "code": "J45.909",
+        "display": "Asthma, uncomplicated"
+      },
+      "advice": "Tab. Amlodipine 5 mg BD x 5 days",
+      "doctor": "Dr. Grace Varghese",
+      "callback_no": "0091 6040565148"
+    }
+  ]
+}

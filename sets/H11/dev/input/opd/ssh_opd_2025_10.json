@@ -1,0 +1,74 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Bajrangi_Sema_SSH-R-25-080822.xlsx",
+    "rows": 3
+  },
+  "facility": {
+    "name": "Sahyadri Sevashram Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Bhupendra G.",
+        "hosp_no": "SSH-R-25-052516",
+        "age_sex": "79/M"
+      },
+      "date": "2025-10-04",
+      "complaint": "C/O burning micturition x 4 days",
+      "vitals": {
+        "bp": "120/70",
+        "pulse": 95
+      },
+      "dx": {
+        "code": "J18.9",
+        "display": "Pneumonia, unspecified organism"
+      },
+      "advice": "Tab. Ondansetron 4 mg HS x 30 days",
+      "doctor": "Dr. Imtiaz Hussain",
+      "contact": "077523-04908"
+    },
+    {
+      "slip": 2,
+      "patient_info": {
+        "full_name": "Kezhokhoto Ganguly",
+        "hosp_no": "SSH-R-25-043366",
+        "age_sex": "84/M"
+      },
+      "date": "2025-10-08",
+      "complaint": "C/O burning micturition x 4 days",
+      "vitals": {
+        "bp": "135/85",
+        "pulse": 85
+      },
+      "dx": {
+        "code": "K35.80",
+        "display": "Acute appendicitis"
+      },
+      "advice": "Tab. Telmisartan 40 mg 1-1-1 x 7 days",
+      "doctor": "Dr. Sukhdev Bhalla"
+    },
+    {
+      "slip": 3,
+      "patient_info": {
+        "full_name": "Bajrangi Sema",
+        "hosp_no": "SSH-R-25-080822",
+        "age_sex": "25/M"
+      },
+      "date": "2025-10-31",
+      "complaint": "C/O vomiting x 1 day",
+      "vitals": {
+        "bp": "159/91",
+        "pulse": 102
+      },
+      "dx": {
+        "code": "J45.909",
+        "display": "Asthma, uncomplicated"
+      },
+      "advice": "Tab. Atorvastatin 10 mg 0-0-1 x 7 days",
+      "doctor": "Dr. Grace Varghese",
+      "contact": "858 989 2572"
+    }
+  ]
+}

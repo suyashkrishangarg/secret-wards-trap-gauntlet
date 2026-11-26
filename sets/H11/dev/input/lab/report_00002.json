@@ -1,0 +1,30 @@
+{
+  "lab": "Lifecare Diagnostics",
+  "subject": {
+    "name": "Bajrangi Sema",
+    "hosp_id": "BCT55263539",
+    "mobile": "7087-504284",
+    "age": "34 Yrs"
+  },
+  "referred_by": "Dr. Kaveri Rao",
+  "collected": "2025-11-25",
+  "panels": [
+    {
+      "name": "Routine",
+      "results": [
+        {
+          "test": "Haemoglobin",
+          "value": "9.2",
+          "unit": "g/dL",
+          "range": "12-16"
+        },
+        {
+          "test": "Platelet count",
+          "value": "236620",
+          "unit": "/cumm",
+          "range": "150000-450000"
+        }
+      ]
+    }
+  ]
+}

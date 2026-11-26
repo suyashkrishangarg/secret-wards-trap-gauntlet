@@ -1,0 +1,27 @@
+sample,pt,ref,age_sex,test,result,unit,collected,reported,ref_by
+S111536,Anirban Murmu,KR-6361141,49/M,TSH,5.61,mIU/L,30/08/2025,30/08/2025,Dr. Imtiaz Hussain
+S528988,Anirban Murmu,KR-6361141,49Y/M,Total Leucocyte Count,6562,/cumm,30/08/2025,30/08/2025,Dr. Imtiaz Hussain
+S800625,Pandurang Gurung,KR-3976332,97/M,TSH,3.04,mIU/L,13/11/2025,13/11/2025,Dr. Kaveri Rao
+S733217,Pandurang Gurung,KR-3976332,97Y/M,Total Leucocyte Count,4863,/cumm,13/11/2025,13/11/2025,Dr. Kaveri Rao
+S674579,Yamuna Pillai,KR-5210112,34/F,Total Leucocyte Count,6303,/cumm,20/05/2025,20/05/2025,Dr. Ramesh Iyer
+S867383,Yamuna Pillai,KR-5210112,34Y/F,Platelet count,168133,/cumm,20/05/2025,20/05/2025,Dr. Sukhdev Bhalla
+S366904,Ilavarasi Qureshi,KR-8186736,57/F,HbA1c,11.0,%,18/04/2025,18/04/2025,Dr. Pandurang Joshi
+S594311,Ilavarasi Devi Qureshi,KR-8186736,57Y/F,Haemoglobin,11.0,g/dL,18/04/2025,18/04/2025,Dr. Anirban Saha
+S721656,Ujwala Bhutia,KR-3349587,51/F,Total Leucocyte Count,13135,/cumm,19/09/2025,19/09/2025,Dr. Pandurang Joshi
+S595824,Ujwala Bhutia,KR-3349587,51Y/F,HbA1c,11.7,%,19/09/2025,19/09/2025,Dr. Meenakshi Sundaram
+S287760,Imtiaz Lepcha,KR-9162257,61/M,Total Leucocyte Count,12816,/cumm,03/05/2025,03/05/2025,Dr. Ramesh Iyer
+S284153,Mohd Imtiaz Lepcha,KR-9162257,61Y/M,HbA1c,11.1,%,03/05/2025,03/05/2025,Dr. Grace Varghese
+S735611,Pandurang Oraon,KR-9273747,25/M,HbA1c,5.1,%,28/10/2025,28/10/2025,Dr. Ramesh Iyer
+S802105,Pandurang Oraon,KR-9273747,25Y/M,TSH,6.90,mIU/L,28/10/2025,28/10/2025,Dr. Anirban Saha
+S749455,Shabnam Prajapati,KR-5788100,73/F,HbA1c,8.0,%,10/10/2025,10/10/2025,Dr. Meenakshi Sundaram
+S698414,Shabnam Prajapati,KR-5788100,73Y/F,Total Leucocyte Count,11315,/cumm,10/10/2025,10/10/2025,Dr. Kaveri Rao
+S718198,Debashish Shaikh,KR-3604416,20/M,Haemoglobin,12.0,g/dL,02/08/2025,02/08/2025,Dr. Sukhdev Bhalla
+S341578,Debashish Shaikh,KR-3604416,20Y/M,Total Leucocyte Count,9403,/cumm,02/08/2025,02/08/2025,Dr. Ramesh Iyer
+S851021,Ishani Kharbanda,KR-2296572,78/F,TSH,8.77,mIU/L,10/08/2025,10/08/2025,Dr. Anirban Saha
+S612692,Ishani Kharbanda,KR-2296572,78Y/F,HbA1c,10.5,%,10/08/2025,10/08/2025,Dr. Ramesh Iyer
+S685798,Venkatesh Lodhi,KR-9760471,21/M,Random Blood Sugar,269,mg/dL,30/05/2025,30/05/2025,Dr. Sukhdev Bhalla
+S537188,Venkatesh Lodhi,KR-9760471,21Y/M,Serum Creatinine,2.1,mg/dL,30/05/2025,30/05/2025,Dr. Pandurang Joshi
+S119203,Yamuna Desai,KR-8075744,23/F,HbA1c,5.7,%,13/09/2025,13/09/2025,Dr. Grace Varghese
+S358641,Yamuna Desai,KR-8075744,23Y/F,Haemoglobin,10.1,g/dL,13/09/2025,13/09/2025,Dr. Meenakshi Sundaram
+S434606,Ujwala Kharbanda,KR-8303398,35/F,Random Blood Sugar,127,mg/dL,29/08/2025,29/08/2025,Dr. Grace Varghese
+S179324,Ujwala Kharbanda,KR-8303398,35Y/F,Haemoglobin,11.1,g/dL,29/08/2025,29/08/2025,Dr. Imtiaz Hussain

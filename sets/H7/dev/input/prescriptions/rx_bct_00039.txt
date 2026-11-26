@@ -1,0 +1,11 @@
+Brahmaputra Care Trust Hospital - OPD Prescription
+Name: Thenmozhi Oraon   Age: 54 yrs   Sex: F
+UHID: BCT93923832   Mob: 6789-574975
+Aadhaar: XXXX XXXX 6233
+Date: 22/01/2025
+C/O vomiting x 1 day
+Dx: Asthma, uncomplicated (J45.909)
+Rx:
+ 1. Tab Atorvastatin 10 mg  1-0-1 x 30 days
+ 2. Dolo 650 BD x 5 days
+Dr. Ramesh Iyer (MBBS, MD)

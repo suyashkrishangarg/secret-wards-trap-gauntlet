@@ -1,0 +1,33 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Ishani_Kharbanda_KR-2296572.xlsx",
+    "rows": 1
+  },
+  "facility": {
+    "name": "Konkan Rural Mission Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Ishani K.",
+        "ref": "KR-2296572",
+        "age_sex": "78/F"
+      },
+      "date": "2025-03-25",
+      "complaint": "C/O cough with expectoration x 2 weeks",
+      "vitals": {
+        "bp": "127/99",
+        "pulse": 79
+      },
+      "dx": {
+        "code": "E11.9",
+        "display": "Type 2 diabetes mellitus without complications"
+      },
+      "advice": "Tab. Metformin 500 mg 1-1-1 x 7 days",
+      "doctor": "Dr. Anirban Saha",
+      "callback_no": "091012-68302"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "lab": "Lifecare Diagnostics",
+  "subject": {
+    "name": "Harpreet Shekhawat",
+    "hosp_id": "VZC.25.489530",
+    "mobile": "+918830560856",
+    "age": "97 Yrs"
+  },
+  "referred_by": "Dr. Sukhdev Bhalla",
+  "collected": "2025-11-11",
+  "panels": [
+    {
+      "name": "Routine",
+      "results": [
+        {
+          "test": "Haemoglobin",
+          "value": "8.2",
+          "unit": "g/dL",
+          "range": "12-16"
+        },
+        {
+          "test": "Platelet count",
+          "value": "374468",
+          "unit": "/cumm",
+          "range": "150000-450000"
+        }
+      ]
+    }
+  ]
+}

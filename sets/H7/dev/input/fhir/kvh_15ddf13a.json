@@ -1,0 +1,75 @@
+{
+  "resourceType": "Bundle",
+  "id": "kvh-2",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:kvh:pat-2",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "pat-2",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Thiruvenkadam Bhattacharya (S/o Debashish Bhattacharya), Belhalli 785293</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:kvh",
+            "value": "kvh/op/25-207035"
+          }
+        ],
+        "name": [
+          {
+            "text": "Thiruvenkadam Bhattacharya"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "888 520 0184"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1978-12-05",
+        "address": [
+          {
+            "city": "Belhalli",
+            "district": "Jorhat",
+            "postalCode": "785293"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:prac-2",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "prac-2",
+        "name": [
+          {
+            "text": "Dr. Grace Varghese"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:cond-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-2",
+        "subject": {
+          "reference": "Patient/pat-2"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "E11.9",
+              "display": "Type 2 diabetes mellitus without complications"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "files": 243,
+  "patients": 59,
+  "registry": 381,
+  "required_units": 3469,
+  "ambiguous_units": 2,
+  "canaries": 8,
+  "pool": "B",
+  "seed": 11
+}

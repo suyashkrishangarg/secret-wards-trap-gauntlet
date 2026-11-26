@@ -1,0 +1,6 @@
+drug,strength,frequency,notes
+Amlodipine,5 mg,0-0-1,Hypertension
+Metformin,500 mg,1-0-1,Type 2 diabetes
+Rifampicin,450 mg,1-0-0,Tuberculosis (ATT)
+Penicillamine,250 mg,1-1-1,Wilson's disease
+Dolo,650 mg,SOS,Fever

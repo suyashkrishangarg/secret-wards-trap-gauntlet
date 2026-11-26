@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "31e31425-00f7-4268-ac46-2f5b7bd81540",
+  "type": "document",
+  "meta": {
+    "source": "#BCT79936545"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:2f2cebf9-eb88-4fff-ad11-bc1713005b55",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "2f2cebf9-eb88-4fff-ad11-bc1713005b55",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Lakhan Murmu, S/o Bhavik Murmu</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:bct",
+            "value": "BCT79936545"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-3498-0850-1385"
+          }
+        ],
+        "name": [
+          {
+            "text": "Lakhan Murmu",
+            "family": "Murmu",
+            "given": [
+              "Lakhan"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 81883 91777"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1961-02-14",
+        "address": [
+          {
+            "line": [
+              "H.No. 460/A",
+              "Gandhi Chowk"
+            ],
+            "city": "Hiragaon",
+            "district": "Ratnagiri",
+            "postalCode": "415220",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:557ab1f9-bfef-4b9b-a430-3ecaa16c3f2b",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "557ab1f9-bfef-4b9b-a430-3ecaa16c3f2b",
+        "name": [
+          {
+            "text": "Dr. Pandurang Joshi"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b32f6157-d5e9-44df-a8ed-531d559e6b0c",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "b32f6157-d5e9-44df-a8ed-531d559e6b0c",
+        "name": "Brahmaputra Care Trust Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:332e19be-a94f-466a-abc1-28ae984eb3e2",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "332e19be-a94f-466a-abc1-28ae984eb3e2",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:2f2cebf9-eb88-4fff-ad11-bc1713005b55"
+        },
+        "period": {
+          "start": "2025-04-14",
+          "end": "2025-04-20"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:b32f6157-d5e9-44df-a8ed-531d559e6b0c"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4c047b38-691e-4199-a061-a1f35aee0cc6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "4c047b38-691e-4199-a061-a1f35aee0cc6",
+        "subject": {
+          "reference": "urn:uuid:2f2cebf9-eb88-4fff-ad11-bc1713005b55"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "D50.9",
+              "display": "Iron deficiency anaemia, unspecified"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cdbc10bd-51af-4637-ac7b-075daf84a3db",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cdbc10bd-51af-4637-ac7b-075daf84a3db",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2f2cebf9-eb88-4fff-ad11-bc1713005b55"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 9.6,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e7f0f83c-4849-4af9-aa5e-d683712653c5",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "e7f0f83c-4849-4af9-aa5e-d683712653c5",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:2f2cebf9-eb88-4fff-ad11-bc1713005b55"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogTGFraGFuIE11cm11ClBob25lOiArOTEgODE4ODMgOTE3NzcKRHg6IElyb24gZGVmaWNpZW5jeSBhbmFlbWlhLCB1bnNwZWNpZmllZAo="
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

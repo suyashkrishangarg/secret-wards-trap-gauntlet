@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "a9e1d0f5-7f75-48ee-a456-e57c15c4cbff",
+  "type": "document",
+  "meta": {
+    "source": "#KR-3349587"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:4760858c-2603-476f-a1be-03488b6337d8",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "4760858c-2603-476f-a1be-03488b6337d8",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Ujwala Bhutia, D/o Dhananjay Bhutia</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:krm",
+            "value": "KR-3349587"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-6583-3798-7458"
+          }
+        ],
+        "name": [
+          {
+            "text": "Ujwala Bhutia",
+            "family": "Bhutia",
+            "given": [
+              "Ujwala"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 86365 32657"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1974-11-05",
+        "address": [
+          {
+            "line": [
+              "H.No. 311",
+              "Burma Camp Lane 3"
+            ],
+            "city": "Mahuawadi Khurd",
+            "district": "Barmer",
+            "postalCode": "344367",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f516474d-2415-4e3f-a86f-db494ab3c574",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "f516474d-2415-4e3f-a86f-db494ab3c574",
+        "name": [
+          {
+            "text": "Dr. Imtiaz Hussain"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:586edf81-d438-47f6-a6a5-87a32cbdd898",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "586edf81-d438-47f6-a6a5-87a32cbdd898",
+        "name": "Konkan Rural Mission Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a7f6cf0f-e67a-4d5c-a8ad-f6405596eb17",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "a7f6cf0f-e67a-4d5c-a8ad-f6405596eb17",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:4760858c-2603-476f-a1be-03488b6337d8"
+        },
+        "period": {
+          "start": "2025-02-19",
+          "end": "2025-02-26"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:586edf81-d438-47f6-a6a5-87a32cbdd898"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c07166d7-953e-4ad7-a274-a47c9d7447f8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "c07166d7-953e-4ad7-a274-a47c9d7447f8",
+        "subject": {
+          "reference": "urn:uuid:4760858c-2603-476f-a1be-03488b6337d8"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "D50.9",
+              "display": "Iron deficiency anaemia, unspecified"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dbbd6129-d3b7-4503-a973-611138cfa55c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "dbbd6129-d3b7-4503-a973-611138cfa55c",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:4760858c-2603-476f-a1be-03488b6337d8"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 9.8,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:92775173-c869-4fcb-ae0f-147b76433c75",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "92775173-c869-4fcb-ae0f-147b76433c75",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:4760858c-2603-476f-a1be-03488b6337d8"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogVWp3YWxhIEJodXRpYQpQaG9uZTogKzkxIDg2MzY1IDMyNjU3CkR4OiBJcm9uIGRlZmljaWVuY3kgYW5hZW1pYSwgdW5zcGVjaWZpZWQK"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

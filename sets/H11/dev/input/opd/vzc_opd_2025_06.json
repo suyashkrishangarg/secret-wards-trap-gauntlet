@@ -1,0 +1,53 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Bajrangi_Chakraborty_VZC.25.125457.xlsx",
+    "rows": 2
+  },
+  "facility": {
+    "name": "Vindhya Zila Chikitsalaya"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Muthuswamy S.",
+        "hosp_no": "VZC.25.191648",
+        "age_sex": "19/M"
+      },
+      "date": "2025-06-11",
+      "complaint": "C/O joint pains x 1 month",
+      "vitals": {
+        "bp": "166/97",
+        "pulse": 73
+      },
+      "dx": {
+        "code": "E11.9",
+        "display": "Type 2 diabetes mellitus without complications"
+      },
+      "advice": "Tab. Prednisolone 10 mg 1-0-1 x 5 days",
+      "doctor": "Dr. Kaveri Rao",
+      "contact": "094337-68575"
+    },
+    {
+      "slip": 2,
+      "patient_info": {
+        "full_name": "Bajrangi Chakraborty",
+        "hosp_no": "VZC.25.125457",
+        "age_sex": "67/M"
+      },
+      "date": "2025-06-20",
+      "complaint": "C/O giddiness x 1 week",
+      "vitals": {
+        "bp": "120/92",
+        "pulse": 89
+      },
+      "dx": {
+        "code": "A90",
+        "display": "Dengue fever"
+      },
+      "advice": "Tab. Cefixime 200 mg 1-0-0 x 5 days",
+      "doctor": "Dr. Ramesh Iyer"
+    }
+  ]
+}

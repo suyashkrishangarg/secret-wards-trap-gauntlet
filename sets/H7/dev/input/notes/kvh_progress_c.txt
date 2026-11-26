@@ -1,0 +1,3 @@
+Name: Zubeda D'Mello   DOB: 29/02/1996
+Follow-up was booked for 31/02/2025 (invalid date in source).
+Dx: Guillain-Barré syndrome; Platelets 245000 /uL

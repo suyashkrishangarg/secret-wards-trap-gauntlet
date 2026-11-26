@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "14d7699b-6420-4de5-a85a-89b6539e45ae",
+  "type": "document",
+  "meta": {
+    "source": "#BCT46924849"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:1a05b11d-1990-4487-a337-193a2697cf25",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "1a05b11d-1990-4487-a337-193a2697cf25",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bajrangi Shekhawat, S/o Nagarjuna Shekhawat</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:bct",
+            "value": "BCT46924849"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-6425-9305-1940"
+          }
+        ],
+        "name": [
+          {
+            "text": "Bajrangi Shekhawat",
+            "family": "Shekhawat",
+            "given": [
+              "Bajrangi"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 70670 96484"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1959-08-13",
+        "address": [
+          {
+            "line": [
+              "H.No. 24",
+              "Mohalla Kazi Tola"
+            ],
+            "city": "Motidih",
+            "district": "Barmer",
+            "postalCode": "344884",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:377b144e-1c25-42d6-a122-14d760ff0d41",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "377b144e-1c25-42d6-a122-14d760ff0d41",
+        "name": [
+          {
+            "text": "Dr. Meenakshi Sundaram"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:536aa7fb-a2cc-44f7-ab11-41e1c798281f",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "536aa7fb-a2cc-44f7-ab11-41e1c798281f",
+        "name": "Brahmaputra Care Trust Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:57c19e62-3d69-43c6-a503-535425a0be43",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "57c19e62-3d69-43c6-a503-535425a0be43",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:1a05b11d-1990-4487-a337-193a2697cf25"
+        },
+        "period": {
+          "start": "2025-08-28",
+          "end": "2025-09-07"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:536aa7fb-a2cc-44f7-ab11-41e1c798281f"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6e28b34b-cb81-4549-a6ba-f32206b1191b",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "6e28b34b-cb81-4549-a6ba-f32206b1191b",
+        "subject": {
+          "reference": "urn:uuid:1a05b11d-1990-4487-a337-193a2697cf25"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "J18.9",
+              "display": "Pneumonia, unspecified organism"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bb1d8698-7712-46e6-ae62-8f7b5ebd3b6d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "bb1d8698-7712-46e6-ae62-8f7b5ebd3b6d",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1a05b11d-1990-4487-a337-193a2697cf25"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 8.4,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:61ed636b-45dc-448c-a015-5cf849ce3fb8",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "61ed636b-45dc-448c-a015-5cf849ce3fb8",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:1a05b11d-1990-4487-a337-193a2697cf25"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogQmFqcmFuZ2kgU2hla2hhd2F0ClBob25lOiArOTEgNzA2NzAgOTY0ODQKRHg6IFBuZXVtb25pYSwgdW5zcGVjaWZpZWQgb3JnYW5pc20K"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+accession,patient,hosp_no,agesex,investigation,value,uom,drawn,signed,referring
+S633220,Bajrangi Sema,BCT55263539,34/M,TSH,8.02,mIU/L,25/11/2025,25/11/2025,Dr. Kaveri Rao
+S613493,Bajrangi Sema,BCT55263539,34Y/M,Haemoglobin,13.5,g/dL,25/11/2025,25/11/2025,Dr. Imtiaz Hussain
+S606955,Rukhsana Parmar,BCT81592143,57/F,Total Leucocyte Count,6599,/cumm,04/09/2025,04/09/2025,Dr. Kaveri Rao
+S674742,Rukhsana Devi Parmar,BCT81592143,57Y/F,Serum Creatinine,2.8,mg/dL,04/09/2025,04/09/2025,Dr. Ramesh Iyer
+S821016,Hitesh Grewal,BCT62563664,61/M,TSH,6.68,mIU/L,13/10/2025,13/10/2025,Dr. Sukhdev Bhalla
+S455918,Hitesh Grewal,BCT62563664,61Y/M,Total Leucocyte Count,11990,/cumm,13/10/2025,13/10/2025,Dr. Ramesh Iyer
+S220463,Chandrakala Parmar,BCT63962092,39/F,Platelet count,378464,/cumm,28/10/2025,28/10/2025,Dr. Anirban Saha
+S874416,Chandrakala Parmar,BCT63962092,39Y/F,Serum Creatinine,0.8,mg/dL,28/10/2025,28/10/2025,Dr. Kaveri Rao
+S575074,Joseph Kulkarni,BCT77870845,82/M,TSH,7.82,mIU/L,15/04/2025,15/04/2025,Dr. Pandurang Joshi
+S608251,Joseph Kumar Kulkarni,BCT77870845,82Y/M,Total Leucocyte Count,5530,/cumm,15/04/2025,15/04/2025,Dr. Ramesh Iyer
+S857128,Bajrangi Shekhawat,BCT46924849,66/M,Platelet count,281526,/cumm,10/10/2025,10/10/2025,Dr. Grace Varghese
+S296068,Bajrangi Shekhawat,BCT46924849,66Y/M,Random Blood Sugar,130,mg/dL,10/10/2025,10/10/2025,Dr. Sukhdev Bhalla
+S482523,Hetal Soren,BCT56489272,73/F,Total Leucocyte Count,10349,/cumm,12/11/2025,12/11/2025,Dr. Kaveri Rao
+S792770,Hetal Devi Soren,BCT56489272,73Y/F,Random Blood Sugar,195,mg/dL,12/11/2025,12/11/2025,Dr. Anirban Saha
+S363126,Gopinath Siddiqui,BCT53641696,68/M,HbA1c,8.9,%,24/04/2025,24/04/2025,Dr. Sukhdev Bhalla
+S140983,Gopinath Siddiqui,BCT53641696,68Y/M,Serum Creatinine,2.6,mg/dL,24/04/2025,24/04/2025,Dr. Pandurang Joshi
+S337763,Tanveer Kulkarni,BCT26108041,75/M,Platelet count,138577,/cumm,06/10/2025,06/10/2025,Dr. Anirban Saha
+S441026,Tanveer Kulkarni,BCT26108041,75Y/M,HbA1c,9.9,%,06/10/2025,06/10/2025,Dr. Kaveri Rao
+S273972,Hemlata Gill,BCT73643682,30/F,Platelet count,197163,/cumm,18/05/2025,18/05/2025,Dr. Grace Varghese
+S459745,Hemlata Gill,BCT73643682,30Y/F,TSH,8.46,mIU/L,18/05/2025,18/05/2025,Dr. Grace Varghese
+S182375,Bhupendra Shekhawat,BCT17161336,26/M,Haemoglobin,13.1,g/dL,14/05/2025,14/05/2025,Dr. Imtiaz Hussain
+S675314,Bhupendra Shekhawat,BCT17161336,26Y/M,Platelet count,307009,/cumm,14/05/2025,14/05/2025,Dr. Ramesh Iyer
+S506822,Saroj Sema,BCT45365162,84/F,Total Leucocyte Count,14509,/cumm,14/04/2025,14/04/2025,Dr. Meenakshi Sundaram
+S988566,Saroj Sema,BCT45365162,84Y/F,TSH,7.45,mIU/L,14/04/2025,14/04/2025,Dr. Imtiaz Hussain
+S666052,Shrikant Naidu,BCT96265553,48/M,HbA1c,11.5,%,27/03/2025,27/03/2025,Dr. Kaveri Rao
+S284182,Shrikant Kumar Naidu,BCT96265553,48Y/M,Serum Creatinine,2.3,mg/dL,27/03/2025,27/03/2025,Dr. Ramesh Iyer

@@ -1,0 +1,30 @@
+{
+  "lab": "Lifecare Diagnostics",
+  "subject": {
+    "name": "Chandrakala Parmar",
+    "hosp_id": "BCT63962092",
+    "mobile": "63 3615 4862",
+    "age": "39 Yrs"
+  },
+  "referred_by": "Dr. Meenakshi Sundaram",
+  "collected": "2025-10-28",
+  "panels": [
+    {
+      "name": "Routine",
+      "results": [
+        {
+          "test": "Haemoglobin",
+          "value": "10.1",
+          "unit": "g/dL",
+          "range": "12-16"
+        },
+        {
+          "test": "Platelet count",
+          "value": "389311",
+          "unit": "/cumm",
+          "range": "150000-450000"
+        }
+      ]
+    }
+  ]
+}

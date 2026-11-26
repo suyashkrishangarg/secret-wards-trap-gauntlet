@@ -1,0 +1,30 @@
+{
+  "lab": "Lifecare Diagnostics",
+  "subject": {
+    "name": "Hitesh Grewal",
+    "hosp_id": "BCT62563664",
+    "mobile": "७६६६३ १६३२०",
+    "age": "61 Yrs"
+  },
+  "referred_by": "Dr. Pandurang Joshi",
+  "collected": "2025-10-13",
+  "panels": [
+    {
+      "name": "Routine",
+      "results": [
+        {
+          "test": "Haemoglobin",
+          "value": "11.4",
+          "unit": "g/dL",
+          "range": "12-16"
+        },
+        {
+          "test": "Platelet count",
+          "value": "150991",
+          "unit": "/cumm",
+          "range": "150000-450000"
+        }
+      ]
+    }
+  ]
+}

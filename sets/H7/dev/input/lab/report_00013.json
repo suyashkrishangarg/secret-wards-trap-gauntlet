@@ -1,0 +1,30 @@
+{
+  "lab": "Lifecare Diagnostics",
+  "patient": {
+    "name": "Ilavarasi Mukherjee",
+    "hosp_id": "BCT70192695",
+    "mobile": "077298-28414",
+    "age": "54 Yrs"
+  },
+  "referred_by": "Dr. Imtiaz Hussain",
+  "collected": "2025-10-09",
+  "panels": [
+    {
+      "name": "Routine",
+      "results": [
+        {
+          "test": "Haemoglobin",
+          "value": "15.0",
+          "unit": "g/dL",
+          "range": "12-16"
+        },
+        {
+          "test": "Platelet count",
+          "value": "299534",
+          "unit": "/cumm",
+          "range": "150000-450000"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "lab": "Lifecare Diagnostics",
+  "subject": {
+    "name": "Hitesh Grewal",
+    "hosp_id": "SSH-R-25-043312",
+    "mobile": "+91-802-821-0793",
+    "age": "19 Yrs"
+  },
+  "referred_by": "Dr. Grace Varghese",
+  "collected": "2025-04-24",
+  "panels": [
+    {
+      "name": "Routine",
+      "results": [
+        {
+          "test": "Haemoglobin",
+          "value": "11.6",
+          "unit": "g/dL",
+          "range": "12-16"
+        },
+        {
+          "test": "Platelet count",
+          "value": "203087",
+          "unit": "/cumm",
+          "range": "150000-450000"
+        }
+      ]
+    }
+  ]
+}

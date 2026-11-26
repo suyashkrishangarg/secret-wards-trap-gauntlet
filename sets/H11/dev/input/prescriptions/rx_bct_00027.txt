@@ -1,0 +1,11 @@
+Brahmaputra Care Trust Hospital - OPD Prescription
+Name: Hemlata Gill   Age: 30 yrs   Sex: F
+UHID: BCT73643682   Mob: 6253-507780
+Aadhaar: XXXX XXXX 9081
+Date: 18/05/2025
+C/O breathlessness on exertion
+Dx: Tuberculosis of lung (A15.0)
+Rx:
+ 1. Tab Ondansetron 4 mg  1-0-1 x 30 days
+ 2. Dolo 650 BD x 5 days
+Dr. Pandurang Joshi (MBBS, MD)

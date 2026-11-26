@@ -1,0 +1,94 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Jitendra_Kharbanda_BCT84227930.xlsx",
+    "rows": 4
+  },
+  "facility": {
+    "name": "Brahmaputra Care Trust Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Ashwini R.",
+        "ref": "BCT18444731",
+        "age_sex": "53/F"
+      },
+      "date": "2025-06-02",
+      "complaint": "C/O giddiness x 1 week",
+      "vitals": {
+        "bp": "159/95",
+        "pulse": 67
+      },
+      "dx": {
+        "code": "A15.0",
+        "display": "Tuberculosis of lung"
+      },
+      "advice": "Tab. Azithromycin 500 mg TDS x 7 days",
+      "doctor": "Dr. Sukhdev Bhalla",
+      "callback_no": "084855-19655"
+    },
+    {
+      "slip": 2,
+      "pt": {
+        "nm": "Pema Rathore",
+        "ref": "BCT65770931",
+        "age_sex": "50/F"
+      },
+      "date": "2025-06-08",
+      "complaint": "C/O fever x 3 days",
+      "vitals": {
+        "bp": "139/94",
+        "pulse": 97
+      },
+      "dx": {
+        "code": "K35.80",
+        "display": "Acute appendicitis"
+      },
+      "advice": "Tab. Cefixime 200 mg HS x 5 days",
+      "doctor": "Dr. Sukhdev Bhalla"
+    },
+    {
+      "slip": 3,
+      "pt": {
+        "nm": "Jitendra Kharbanda",
+        "ref": "BCT84227930",
+        "age_sex": "65/M"
+      },
+      "date": "2025-06-15",
+      "complaint": "C/O giddiness x 1 week",
+      "vitals": {
+        "bp": "168/88",
+        "pulse": 94
+      },
+      "dx": {
+        "code": "J18.9",
+        "display": "Pneumonia, unspecified organism"
+      },
+      "advice": "Tab. Ramipril 5 mg 1-0-1 x 7 days",
+      "doctor": "Dr. Ramesh Iyer",
+      "callback_no": "709 299 5922"
+    },
+    {
+      "slip": 4,
+      "pt": {
+        "nm": "Ramdular D.",
+        "ref": "BCT20254149",
+        "age_sex": "79/M"
+      },
+      "date": "2025-06-16",
+      "complaint": "C/O burning micturition x 4 days",
+      "vitals": {
+        "bp": "116/78",
+        "pulse": 73
+      },
+      "dx": {
+        "code": "D50.9",
+        "display": "Iron deficiency anaemia, unspecified"
+      },
+      "advice": "Tab. Levothyroxine 50 mcg TDS x 7 days",
+      "doctor": "Dr. Imtiaz Hussain"
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "facility": {
+    "name": "Vindhya Zila Chikitsalaya",
+    "state_code": "MP"
+  },
+  "export_meta": {
+    "tool": "HMIS 4.1",
+    "source_file": "E:/hmis/export/Jitendra_Bhattacharya_VZC.25.824740.xlsx",
+    "record_count": 16
+  },
+  "beneficiaries": [
+    {
+      "vzc_id": "VZC.25.824740",
+      "beneficiary": {
+        "given": "Jitendra",
+        "family": "Bhattacharya"
+      },
+      "kin": {
+        "relation": "S/o",
+        "name": "Hemant Bhattacharya"
+      },
+      "sex": "M",
+      "age": 50,
+      "born": "1975-10-04",
+      "residence": {
+        "house": "H.No. 284-B",
+        "locality": "Gandhi Chowk",
+        "village": "Ratanpur",
+        "tehsil": "Chirawa",
+        "district": "Jhunjhunu",
+        "pin": "333654"
+      },
+      "contact_no": "8837569207",
+      "email": "jitendra.bhat57@mailbox.in",
+      "aadhr_num": 373575834520,
+      "registered": "2023-12-19"
+    },
+    {
+      "vzc_id": "VZC.25.934542",
+      "beneficiary": {
+        "given": "Pandurang",
+        "family": "Gurung"
+      },
+      "kin": {
+        "relation": "S/o",
+        "name": "Gurbaksh Gurung"
+      },
+      "sex": "M",
+      "age": 97,
+      "born": "1928-11-29",
+      "residence": {
+        "house": "H.No. 310-B",
+        "locality": "Mohalla Kazi Tola",
+        "village": "Hirakhera Chhota",
+        "tehsil": "Rangiya",
+        "district": "Kamrup",
+        "pin": "781355"
+      },
+      "contact_no": "8310441609",
+      "email": null,
+      "aadhr_num": 670389884665,
+      "registered": "2024-03-15"
+    },
+    {
+      "vzc_id": "VZC.25.926387",
+      "beneficiary": {
+        "given": "Venkatesh",
+        "family": "Subramaniam"
+      },
+      "kin": {
+        "relation": "S/o",
+        "name": "Pandurang Subramaniam"
+      },
+      "sex": "M",
+      "age": 76,
+      "born": "1949-07-30",
+      "residence": {
+        "house": "H.No. 236",
+        "locality": "Nehru Colony",
+        "village": "Kadamkhera Khurd",
+        "tehsil": "Rangiya",
+        "district": "Kamrup",
+        "pin": "781042"
+      },
+      "contact_no": "8592463852",
+      "email": null,
+      "aadhr_num": 710145136410,
+      "registered": "2024-09-08"
+    },
+    {
+      "vzc_id": "VZC.25.283534",
+      "beneficiary": {
+        "given": "Ilavarasi",
+        "family": "Mukherjee"
+      },
+      "kin": {
+        "relation": "W/o",
+        "name": "Anirban Mukherjee"
+      },
+      "sex": "F",
+      "age": 54,
+      "born": "1971-02-27",
+      "residence": {
+        "house": "H.No. 368-B",
+        "locality": "Burma Camp Lane 3",
+        "village": "Ratanpur Khurd",
+        "tehsil": "Cherthala",
+        "district": "Alappuzha",
+        "pin": "688934"
+      },
+      "contact_no": "7729828414",
+      "email": "ilavarasi.mukh71@rediffmail.com",
+      "aadhr_num": 606099062494,
+      "registered": "2024-02-03"
+    },
+    {
+      "vzc_id": "VZC.25.532145",
+      "beneficiary": {
+        "given": "Shoaib",
+        "family": "Lepcha"
+      },
+      "kin": {
+        "relation": "S/o",
+        "name": "Ignatius Lepcha"
+      },
+      "sex": "M",
+      "age": 54,
+      "born": "1971-07-14",
+      "residence": {
+        "house": "H.No. 114",
+        "locality": "Mohalla Kazi Tola",
+        "village": "Ratanpalli",
+        "tehsil": "Wai",
+        "district": "Satara",
+        "pin": "415544"
+      },
+      "contact_no": "8416773697",
+      "email": null,
+      "aadhr_num": 748107253922,
+      "registered": "2025-04-28"
+    },
+    {
+      "vzc_id": "VZC.25.901251",
+      "beneficiary": {
+        "given": "Meera",
+        "family": "Pillai"
+      },
+      "kin": {
+        "relation": "W/o",
+        "name": "Shoaib Pillai"
+      },
+      "sex": "F",
+      "age": 77,
+      "born": "1948-11-28",
+      "residence": {
+        "house": "H.No. 381/A",
+        "locality": "Burma Camp Lane 3",
+        "village": "Kadamgaon",
+        "tehsil": "Mariani",
+        "district": "Jorhat",
+        "pin": "785826"
+      },
+      "contact_no": "7630428450",
+      "email": null,
+      "aadhr_num": 862308573822,
+      "registered": "2024-03-01"
+    },
+    {
+      "vzc_id": "VZC.25.390552",
+      "beneficiary": {
+        "given": "Pandurang",
+        "family": "Murmu"
+      },
+      "kin": {
+        "relation": "S/o",
+        "name": "Sukhdev Murmu"
+      },
+      "sex": "M",
+      "age": 37,
+      "born": "1988-08-25",
+      "residence": {
+        "house": "H.No. 305/A",
+        "locality": "Ward 14",
+        "village": "Hirapalli",
+        "tehsil": "Mariani",
+        "district": "Jorhat",
+        "pin": "785858"
+      },
+      "contact_no": "6974563425",
+      "email": "pandurang.murm46@mailbox.in",
+      "aadhr_num": 244505713507,
+      "registered": "2024-09-14"
+    },
+    {
+      "vzc_id": "VZC.25.424362",
+      "beneficiary": {
+        "given": "Ishani",
+        "family": "Oraon"
+      },
+      "kin": {
+        "relation": "D/o",
+        "name": "Ramesh Oraon"
+      },
+      "sex": "F",
+      "age": 75,
+      "born": "1950-06-05",
+      "residence": {
+        "house": "H.No. 326-B",
+        "locality": "Ward 14",
+        "village": "Jamundih",
+        "tehsil": "Sirmour",
+        "district": "Rewa",
+        "pin": "486045"
+      },
+      "contact_no": "9580983622",
+      "email": null,
+      "aadhr_num": 583046500501,
+      "registered": "2025-02-01"
+    },
+    {
+      "vzc_id": "VZC.25.114050",
+      "beneficiary": {
+        "given": "Shabnam",
+        "family": "Prajapati"
+      },
+      "kin": {
+        "relation": "D/o",
+        "name": "Imtiaz Prajapati"
+      },
+      "sex": "F",
+      "age": 73,
+      "born": "1952-09-08",
+      "residence": {
+        "house": "H.No. 36",
+        "locality": "Mohalla Kazi Tola",
+        "village": "Ratanpalli Khurd",
+        "tehsil": "Titabor",
+        "district": "Jorhat",
+        "pin": "785479"
+      },
+      "contact_no": "9163176156",
+      "email": null,
+      "aadhr_num": 382702873572,
+      "registered": "2023-08-06"
+    },
+    {
+      "vzc_id": "VZC.25.514818",
+      "beneficiary": {
+        "given": "Dorjee",
+        "family": "Subramaniam"
+      },
+      "kin": {
+        "relation": "S/o",
+        "name": "Selvaraj Subramaniam"
+      },
+      "sex": "M",
+      "age": 53,
+      "born": "1972-10-08",
+      "residence": {
+        "house": "H.No. 245-B",
+        "locality": "Gandhi Chowk",
+        "village": "Kadampur Khurd",
+        "tehsil": "Chirawa",
+        "district": "Jhunjhunu",
+        "pin": "333902"
+      },
+      "contact_no": "8604133790",
+      "email": "dorjee.subr34@mailbox.in",
+      "aadhr_num": 291414112703,
+      "registered": "2024-09-09"
+    },
+    {
+      "vzc_id": "VZC.25.031808",
+      "beneficiary": {
+        "given": "Jitendra",
+        "family": "Kharbanda"
+      },
+      "kin": {
+        "relation": "S/o",
+        "name": "Selvaraj Kharbanda"
+      },
+      "sex": "M",
+      "age": 65,
+      "born": "1960-11-14",
+      "residence": {
+        "house": "H.No. 346",
+        "locality": "Burma Camp Lane 3",
+        "village": "Ratanwadi",
+        "tehsil": "Rangiya",
+        "district": "Kamrup",
+        "pin": "781671"
+      },
+      "contact_no": "7092995922",
+      "email": null,
+      "aadhr_num": 980478446409,
+      "registered": "2024-03-06"
+    },
+    {
+      "vzc_id": "VZC.25.692507",
+      "beneficiary": {
+        "given": "Venkatesh",
+        "family": "Lodhi"
+      },
+      "kin": {
+        "relation": "S/o",
+        "name": "Thiruvenkadam Lodhi"
+      },
+      "sex": "M",
+      "age": 21,
+      "born": "2004-03-09",
+      "residence": {
+        "house": "H.No. 195",
+        "locality": "Mohalla Kazi Tola",
+        "village": "Ratanpur",
+        "tehsil": "Balotra",
+        "district": "Barmer",
+        "pin": "344082"
+      },
+      "contact_no": "9359743700",
+      "email": null,
+      "aadhr_num": 698678879302,
+      "registered": "2025-02-24"
+    },
+    {
+      "vzc_id": "VZC.25.038470",
+      "beneficiary": {
+        "given": "Ignatius",
+        "family": "Qureshi"
+      },
+      "kin": {
+        "relation": "S/o",
+        "name": "Bhavik Qureshi"
+      },
+      "sex": "M",
+      "age": 48,
+      "born": "1977-10-04",
+      "residence": {
+        "house": "H.No. 83",
+        "locality": "Ward 14",
+        "village": "Hirawadi Khurd",
+        "tehsil": "Sheo",
+        "district": "Barmer",
+        "pin": "344824"
+      },
+      "contact_no": "9391157395",
+      "email": "ignatius.qure35@rediffmail.com",
+      "aadhr_num": 345580783306,
+      "registered": "2025-04-26"
+    },
+    {
+      "vzc_id": "VZC.25.768340",
+      "beneficiary": {
+        "given": "Yamuna",
+        "family": "Menon"
+      },
+      "kin": {
+        "relation": "D/o",
+        "name": "Selvaraj Menon"
+      },
+      "sex": "F",
+      "age": 23,
+      "born": "2002-11-12",
+      "residence": {
+        "house": "H.No. 236-B",
+        "locality": "Shivaji Peth",
+        "village": "Ratankhera Khurd",
+        "tehsil": "Mariani",
+        "district": "Jorhat",
+        "pin": "785230"
+      },
+      "contact_no": "6097708511",
+      "email": null,
+      "aadhr_num": 576348778048,
+      "registered": "2023-07-18"
+    },
+    {
+      "vzc_id": "VZC.25.046635",
+      "beneficiary": {
+        "given": "Lalitha",
+        "family": "Oraon"
+      },
+      "kin": {
+        "relation": "D/o",
+        "name": "Yusuf Oraon"
+      },
+      "sex": "F",
+      "age": 64,
+      "born": "1961-04-17",
+      "residence": {
+        "house": "H.No. 51/A",
+        "locality": "Mohalla Kazi Tola",
+        "village": "Kadampalli",
+        "tehsil": "Dapoli",
+        "district": "Ratnagiri",
+        "pin": "415957"
+      },
+      "contact_no": "6647026676",
+      "email": null,
+      "aadhr_num": 881273524303,
+      "registered": "2025-05-24"
+    },
+    {
+      "vzc_id": "VZC.25.325431",
+      "beneficiary": {
+        "given": "Sharmistha",
+        "family": "Pillai"
+      },
+      "kin": {
+        "relation": "D/o",
+        "name": "Venkatesh Pillai"
+      },
+      "sex": "F",
+      "age": 35,
+      "born": "1990-03-11",
+      "residence": {
+        "house": "H.No. 149",
+        "locality": "Ward 14",
+        "village": "Kadamdih",
+        "tehsil": "Sheo",
+        "district": "Barmer",
+        "pin": "344905"
+      },
+      "contact_no": "8577642525",
+      "email": "sharmistha.pill81@gmail.com",
+      "aadhr_num": 526071383004,
+      "registered": "2024-08-30"
+    }
+  ]
+}

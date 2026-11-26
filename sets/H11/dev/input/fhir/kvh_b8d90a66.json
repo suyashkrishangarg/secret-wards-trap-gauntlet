@@ -1,0 +1,75 @@
+{
+  "resourceType": "Bundle",
+  "id": "kvh-7",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:kvh:pat-7",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "pat-7",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Arivazhagan Baghel (S/o Shrikant Baghel), Kanhaipur 688657</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:kvh",
+            "value": "kvh/op/25-908073"
+          }
+        ],
+        "name": [
+          {
+            "text": "Arivazhagan Baghel"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+918998070804"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1992-09-10",
+        "address": [
+          {
+            "city": "Kanhaipur",
+            "district": "Alappuzha",
+            "postalCode": "688657"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:prac-7",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "prac-7",
+        "name": [
+          {
+            "text": "Dr. Sukhdev Bhalla"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:cond-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-7",
+        "subject": {
+          "reference": "Patient/pat-7"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "K35.80",
+              "display": "Acute appendicitis"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

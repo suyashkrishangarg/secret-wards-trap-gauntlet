@@ -1,0 +1,75 @@
+{
+  "resourceType": "Bundle",
+  "id": "kvh-0",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:kvh:pat-0",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "pat-0",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">अरिवलगन मेनन (S/o तनवीर मेनन), हीराटोला 333837</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:kvh",
+            "value": "kvh/op/25-962224"
+          }
+        ],
+        "name": [
+          {
+            "text": "अरिवलगन मेनन"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "078941-29743"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1956-04-11",
+        "address": [
+          {
+            "city": "हीराटोला",
+            "district": "Jhunjhunu",
+            "postalCode": "333837"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:prac-0",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "prac-0",
+        "name": [
+          {
+            "text": "Dr. Pandurang Joshi"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:cond-0",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-0",
+        "subject": {
+          "reference": "Patient/pat-0"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "N39.0",
+              "display": "Urinary tract infection, site not specified"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

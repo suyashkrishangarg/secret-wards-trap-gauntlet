@@ -1,0 +1,30 @@
+{
+  "lab": "Lifecare Diagnostics",
+  "patient": {
+    "name": "Ashwini Rathore",
+    "hosp_id": "BCT18444731",
+    "mobile": "(848) 551-9655",
+    "age": "53 Yrs"
+  },
+  "referred_by": "Dr. Ramesh Iyer",
+  "collected": "2025-10-10",
+  "panels": [
+    {
+      "name": "Routine",
+      "results": [
+        {
+          "test": "Haemoglobin",
+          "value": "13.3",
+          "unit": "g/dL",
+          "range": "12-16"
+        },
+        {
+          "test": "Platelet count",
+          "value": "186875",
+          "unit": "/cumm",
+          "range": "150000-450000"
+        }
+      ]
+    }
+  ]
+}

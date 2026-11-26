@@ -1,0 +1,4 @@
+unit,consultant,ward,days
+Medicine Unit 2,Dr. Ramesh Iyer,Ward 3 (Medicine),Mon/Thu
+Surgery Unit 1,Dr. Sukhdev Bhalla,Ward 7 (Surgery),Tue/Fri
+Obstetrics,Dr. Kaveri Rao,Ward 2 (Obstetrics & Gynaecology),Wed/Sat

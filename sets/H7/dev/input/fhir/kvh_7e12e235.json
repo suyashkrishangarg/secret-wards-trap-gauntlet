@@ -1,0 +1,75 @@
+{
+  "resourceType": "Bundle",
+  "id": "kvh-5",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:kvh:pat-5",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "pat-5",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Gurbaksh Oraon (S/o Gurbaksh Oraon), Ratanhalli Khurd 688447</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:kvh",
+            "value": "kvh/op/25-057444"
+          }
+        ],
+        "name": [
+          {
+            "text": "Gurbaksh Oraon"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "९२९१७ ०९२६१"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1993-03-30",
+        "address": [
+          {
+            "city": "Ratanhalli Khurd",
+            "district": "Alappuzha",
+            "postalCode": "688447"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:prac-5",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "prac-5",
+        "name": [
+          {
+            "text": "Dr. Ramesh Iyer"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:cond-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-5",
+        "subject": {
+          "reference": "Patient/pat-5"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "E11.9",
+              "display": "Type 2 diabetes mellitus without complications"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "generated": "nightly",
+  "map": {
+    "KR-7261757 Bajrangi Sema": {
+      "bed": 8,
+      "diet": "diabetic"
+    },
+    "KR-8748240 Madhavi Kulkarni": {
+      "bed": 19,
+      "diet": "soft"
+    },
+    "BCT55263539 Bajrangi Sema": {
+      "bed": 26,
+      "diet": "diabetic"
+    },
+    "BCT81592143 Rukhsana Parmar": {
+      "bed": 9,
+      "diet": "normal"
+    },
+    "SSH-R-25-043312 Hitesh Grewal": {
+      "bed": 24,
+      "diet": "normal"
+    },
+    "KR-9857295 Bidisha Bora": {
+      "bed": 35,
+      "diet": "diabetic"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Hitesh_Grewal_VZC.25.930269.xlsx",
+    "rows": 2
+  },
+  "facility": {
+    "name": "Vindhya Zila Chikitsalaya"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Hitesh G.",
+        "hosp_no": "VZC.25.930269",
+        "age_sex": "61/M"
+      },
+      "date": "2025-10-13",
+      "complaint": "C/O pain abdomen x 2 days",
+      "vitals": {
+        "bp": "167/87",
+        "pulse": 84
+      },
+      "dx": {
+        "code": "K35.80",
+        "display": "Acute appendicitis"
+      },
+      "advice": "Tab. Telmisartan 40 mg OD x 5 days",
+      "doctor": "Dr. Ramesh Iyer",
+      "contact": "076663-16320"
+    },
+    {
+      "slip": 2,
+      "patient_info": {
+        "full_name": "Meenakshi Devi Nambiar",
+        "hosp_no": "VZC.25.968178",
+        "age_sex": "75/F"
+      },
+      "date": "2025-10-14",
+      "complaint": "C/O vomiting x 1 day",
+      "vitals": {
+        "bp": "164/88",
+        "pulse": 92
+      },
+      "dx": {
+        "code": "J18.9",
+        "display": "Pneumonia, unspecified organism"
+      },
+      "advice": "Tab. Atorvastatin 10 mg 1-1-1 x 30 days",
+      "doctor": "Dr. Ramesh Iyer"
+    }
+  ]
+}

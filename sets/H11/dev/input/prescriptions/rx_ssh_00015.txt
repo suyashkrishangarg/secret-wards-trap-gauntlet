@@ -1,0 +1,11 @@
+Sahyadri Sevashram Hospital - OPD Prescription
+Name: Rukmini Tamang   Age: 41 yrs   Sex: F
+UHID: SSH-R-25-080733   Mob: 6645-444217
+Aadhaar: XXXX XXXX 1682
+Date: 01/05/2025
+C/O fever x 3 days
+Dx: Dengue fever (A90)
+Rx:
+ 1. Tab Ecosprin 75 mg  1-0-1 x 30 days
+ 2. Dolo 650 BD x 5 days
+Dr. Imtiaz Hussain (MBBS, MD)

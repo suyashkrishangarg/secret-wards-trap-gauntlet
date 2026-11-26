@@ -1,0 +1,94 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Hetal_Soren_BCT56489272.xlsx",
+    "rows": 4
+  },
+  "facility": {
+    "name": "Brahmaputra Care Trust Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Shrikant N.",
+        "hosp_no": "BCT96265553",
+        "age_sex": "48/M"
+      },
+      "date": "2025-03-04",
+      "complaint": "C/O giddiness x 1 week",
+      "vitals": {
+        "bp": "119/95",
+        "pulse": 80
+      },
+      "dx": {
+        "code": "E11.9",
+        "display": "Type 2 diabetes mellitus without complications"
+      },
+      "advice": "Tab. Ramipril 5 mg HS x 30 days",
+      "doctor": "Dr. Sukhdev Bhalla",
+      "contact": "061809-65323"
+    },
+    {
+      "slip": 2,
+      "patient_info": {
+        "full_name": "Hetal Devi Soren",
+        "hosp_no": "BCT56489272",
+        "age_sex": "73/F"
+      },
+      "date": "2025-03-05",
+      "complaint": "C/O burning micturition x 4 days",
+      "vitals": {
+        "bp": "140/93",
+        "pulse": 102
+      },
+      "dx": {
+        "code": "J18.9",
+        "display": "Pneumonia, unspecified organism"
+      },
+      "advice": "Tab. Telmisartan 40 mg 1-0-1 x 30 days",
+      "doctor": "Dr. Anirban Saha"
+    },
+    {
+      "slip": 3,
+      "patient_info": {
+        "full_name": "Bhupendra Shekhawat",
+        "hosp_no": "BCT17161336",
+        "age_sex": "26/M"
+      },
+      "date": "2025-03-20",
+      "complaint": "C/O cough with expectoration x 2 weeks",
+      "vitals": {
+        "bp": "140/84",
+        "pulse": 71
+      },
+      "dx": {
+        "code": "D50.9",
+        "display": "Iron deficiency anaemia, unspecified"
+      },
+      "advice": "Tab. Prednisolone 10 mg 1-1-1 x 30 days",
+      "doctor": "Dr. Pandurang Joshi",
+      "contact": "850 809 6804"
+    },
+    {
+      "slip": 4,
+      "patient_info": {
+        "full_name": "Shrikant N.",
+        "hosp_no": "BCT96265553",
+        "age_sex": "48/M"
+      },
+      "date": "2025-03-27",
+      "complaint": "C/O cough with expectoration x 2 weeks",
+      "vitals": {
+        "bp": "132/72",
+        "pulse": 64
+      },
+      "dx": {
+        "code": "J18.9",
+        "display": "Pneumonia, unspecified organism"
+      },
+      "advice": "Tab. Atorvastatin 10 mg TDS x 30 days",
+      "doctor": "Dr. Meenakshi Sundaram"
+    }
+  ]
+}

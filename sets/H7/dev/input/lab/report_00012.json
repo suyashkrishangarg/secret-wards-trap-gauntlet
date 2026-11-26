@@ -1,0 +1,30 @@
+{
+  "lab": "Lifecare Diagnostics",
+  "patient": {
+    "name": "Ignatius Qureshi",
+    "hosp_id": "BCT79792316",
+    "mobile": "+91 93911 57395",
+    "age": "48 Yrs"
+  },
+  "referred_by": "Dr. Ramesh Iyer",
+  "collected": "2025-11-20",
+  "panels": [
+    {
+      "name": "Routine",
+      "results": [
+        {
+          "test": "Haemoglobin",
+          "value": "9.2",
+          "unit": "g/dL",
+          "range": "12-16"
+        },
+        {
+          "test": "Platelet count",
+          "value": "334119",
+          "unit": "/cumm",
+          "range": "150000-450000"
+        }
+      ]
+    }
+  ]
+}

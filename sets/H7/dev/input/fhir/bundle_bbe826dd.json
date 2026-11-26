@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "ba329577-25ac-4c11-a82f-af6d1cf97362",
+  "type": "document",
+  "meta": {
+    "source": "#SSH-R-25-055336"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:bc4ab4cf-0a59-4f9e-aaa3-3ba40828f115",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "bc4ab4cf-0a59-4f9e-aaa3-3ba40828f115",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Ishani Oraon, D/o Ramesh Oraon</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:ssh",
+            "value": "SSH-R-25-055336"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-6624-0487-5827"
+          }
+        ],
+        "name": [
+          {
+            "text": "Ishani Oraon",
+            "family": "Oraon",
+            "given": [
+              "Ishani"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 95809 83622"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1950-06-05",
+        "address": [
+          {
+            "line": [
+              "H.No. 326-B",
+              "Ward 14"
+            ],
+            "city": "Jamundih",
+            "district": "Rewa",
+            "postalCode": "486045",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f2aad819-2c59-4f37-ada5-9a478e3410d2",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "f2aad819-2c59-4f37-ada5-9a478e3410d2",
+        "name": [
+          {
+            "text": "Dr. Imtiaz Hussain"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4e72efc9-f20e-4dcb-a6a7-7831934d3831",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "4e72efc9-f20e-4dcb-a6a7-7831934d3831",
+        "name": "Sahyadri Sevashram Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2bca319f-e3f3-4ced-a11d-09afd3b4a24e",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "2bca319f-e3f3-4ced-a11d-09afd3b4a24e",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:bc4ab4cf-0a59-4f9e-aaa3-3ba40828f115"
+        },
+        "period": {
+          "start": "2025-09-18",
+          "end": "2025-09-24"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:4e72efc9-f20e-4dcb-a6a7-7831934d3831"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:aea6ae9d-6a11-4338-a592-9b6ee5433186",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "aea6ae9d-6a11-4338-a592-9b6ee5433186",
+        "subject": {
+          "reference": "urn:uuid:bc4ab4cf-0a59-4f9e-aaa3-3ba40828f115"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "E11.9",
+              "display": "Type 2 diabetes mellitus without complications"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:da89f501-ac4a-4973-a356-7484f456ba15",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "da89f501-ac4a-4973-a356-7484f456ba15",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:bc4ab4cf-0a59-4f9e-aaa3-3ba40828f115"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 9.4,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7609d815-a761-4b1c-a88b-a0a26f94a595",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "7609d815-a761-4b1c-a88b-a0a26f94a595",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:bc4ab4cf-0a59-4f9e-aaa3-3ba40828f115"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogSXNoYW5pIE9yYW9uClBob25lOiArOTEgOTU4MDkgODM2MjIKRHg6IFR5cGUgMiBkaWFiZXRlcyBtZWxsaXR1cyB3aXRob3V0IGNvbXBsaWNhdGlvbnMK"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

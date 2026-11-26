@@ -1,0 +1,4 @@
+claim_no,insured,scheme_id,payer_pan,hosp_no,procedure,package,amount_inr,admitted,discharged
+CLM555517,Ashwini Murmu,ABPMJAY/SSH/25/476148,YLYPS4989N,SSH-R-25-048967,Medical management,PKG-465,162448,14/06/2025,24/06/2025
+CLM561250,ISHANI ORAON,ABPMJAY/SSH/25/366122,,SSH-R-25-055336,Medical management,PKG-256,171910,18/09/2025,24/09/2025
+CLM691849,Thiruvenkadam Lodhi,ABPMJAY/SSH/25/492462,QZQPL1124C,SSH-R-25-079253,Medical management,PKG-809,48276,15/11/2025,25/11/2025

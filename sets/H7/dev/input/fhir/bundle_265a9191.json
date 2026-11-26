@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "a2e215c6-110e-48f9-aec0-c40ef90dd8c9",
+  "type": "document",
+  "meta": {
+    "source": "#KR-9760471"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:dc133f72-af91-41dd-a96e-ae899ad616d8",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "dc133f72-af91-41dd-a96e-ae899ad616d8",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Venkatesh Lodhi, S/o Thiruvenkadam Lodhi</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:krm",
+            "value": "KR-9760471"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-2272-1889-4945"
+          }
+        ],
+        "name": [
+          {
+            "text": "Venkatesh Lodhi",
+            "family": "Lodhi",
+            "given": [
+              "Venkatesh"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 93597 43700"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "2004-03-09",
+        "address": [
+          {
+            "line": [
+              "H.No. 195",
+              "Mohalla Kazi Tola"
+            ],
+            "city": "Ratanpur",
+            "district": "Barmer",
+            "postalCode": "344082",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a8bcf15c-1b4e-405e-a0a3-39e6f5649d27",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "a8bcf15c-1b4e-405e-a0a3-39e6f5649d27",
+        "name": [
+          {
+            "text": "Dr. Ramesh Iyer"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9d26e421-0037-4242-acb7-6ede5d51b312",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "9d26e421-0037-4242-acb7-6ede5d51b312",
+        "name": "Konkan Rural Mission Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d4ad989c-9f8b-462d-a027-7380999f2d5c",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "d4ad989c-9f8b-462d-a027-7380999f2d5c",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:dc133f72-af91-41dd-a96e-ae899ad616d8"
+        },
+        "period": {
+          "start": "2025-07-22",
+          "end": "2025-07-26"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:9d26e421-0037-4242-acb7-6ede5d51b312"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2769e568-7f5c-47de-aa02-1ea4bdea7d5a",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "2769e568-7f5c-47de-aa02-1ea4bdea7d5a",
+        "subject": {
+          "reference": "urn:uuid:dc133f72-af91-41dd-a96e-ae899ad616d8"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "J45.909",
+              "display": "Asthma, uncomplicated"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bb9f3f1e-c2df-4a38-aacc-8e560932d42b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "bb9f3f1e-c2df-4a38-aacc-8e560932d42b",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:dc133f72-af91-41dd-a96e-ae899ad616d8"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 10.4,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:40d65c66-c106-43fa-a610-4660d4bc9057",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "40d65c66-c106-43fa-a610-4660d4bc9057",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:dc133f72-af91-41dd-a96e-ae899ad616d8"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogVmVua2F0ZXNoIExvZGhpClBob25lOiArOTEgOTM1OTcgNDM3MDAKRHg6IEFzdGhtYSwgdW5jb21wbGljYXRlZAo="
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

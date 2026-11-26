@@ -1,0 +1,115 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Bajrangi_Sema_KR-7261757.xlsx",
+    "rows": 5
+  },
+  "facility": {
+    "name": "Konkan Rural Mission Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Rukhsana P.",
+        "hosp_no": "KR-3803252",
+        "age_sex": "57/F"
+      },
+      "date": "2025-09-04",
+      "complaint": "C/O vomiting x 1 day",
+      "vitals": {
+        "bp": "169/96",
+        "pulse": 102
+      },
+      "dx": {
+        "code": "A15.0",
+        "display": "Tuberculosis of lung"
+      },
+      "advice": "Tab. Rifampicin 450 mg 1-0-1 x 5 days",
+      "doctor": "Dr. Grace Varghese",
+      "contact": "099883-64666"
+    },
+    {
+      "slip": 2,
+      "patient_info": {
+        "full_name": "Bajrangi Sema",
+        "hosp_no": "KR-7261757",
+        "age_sex": "25/M"
+      },
+      "date": "2025-09-05",
+      "complaint": "C/O joint pains x 1 month",
+      "vitals": {
+        "bp": "170/94",
+        "pulse": 82
+      },
+      "dx": {
+        "code": "E03.9",
+        "display": "Hypothyroidism, unspecified"
+      },
+      "advice": "Tab. Rifampicin 450 mg TDS x 30 days",
+      "doctor": "Dr. Sukhdev Bhalla"
+    },
+    {
+      "slip": 3,
+      "patient_info": {
+        "full_name": "Bidisha Bora",
+        "hosp_no": "KR-9857295",
+        "age_sex": "76/F"
+      },
+      "date": "2025-09-05",
+      "complaint": "C/O giddiness x 1 week",
+      "vitals": {
+        "bp": "165/82",
+        "pulse": 64
+      },
+      "dx": {
+        "code": "N39.0",
+        "display": "Urinary tract infection, site not specified"
+      },
+      "advice": "Tab. Rifampicin 450 mg 1-0-1 x 7 days",
+      "doctor": "Dr. Sukhdev Bhalla",
+      "contact": "648 373 0376"
+    },
+    {
+      "slip": 4,
+      "patient_info": {
+        "full_name": "Bhupendra G.",
+        "hosp_no": "KR-2198599",
+        "age_sex": "20/M"
+      },
+      "date": "2025-09-05",
+      "complaint": "C/O breathlessness on exertion",
+      "vitals": {
+        "bp": "113/97",
+        "pulse": 91
+      },
+      "dx": {
+        "code": "A15.0",
+        "display": "Tuberculosis of lung"
+      },
+      "advice": "Tab. Pantoprazole 40 mg OD x 7 days",
+      "doctor": "Dr. Grace Varghese"
+    },
+    {
+      "slip": 5,
+      "patient_info": {
+        "full_name": "Shrikant Grewal",
+        "hosp_no": "KR-8359209",
+        "age_sex": "50/M"
+      },
+      "date": "2025-09-30",
+      "complaint": "C/O breathlessness on exertion",
+      "vitals": {
+        "bp": "115/92",
+        "pulse": 92
+      },
+      "dx": {
+        "code": "J45.909",
+        "display": "Asthma, uncomplicated"
+      },
+      "advice": "Tab. Cefixime 200 mg 1-0-0 x 5 days",
+      "doctor": "Dr. Meenakshi Sundaram",
+      "contact": "0091 9595522428"
+    }
+  ]
+}

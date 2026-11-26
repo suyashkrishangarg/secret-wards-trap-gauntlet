@@ -1,0 +1,74 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Tulsi_Soren_KR-2946206.xlsx",
+    "rows": 3
+  },
+  "facility": {
+    "name": "Konkan Rural Mission Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Tulsi S.",
+        "hosp_no": "KR-2946206",
+        "age_sex": "63/F"
+      },
+      "date": "2025-08-08",
+      "complaint": "C/O pain abdomen x 2 days",
+      "vitals": {
+        "bp": "126/85",
+        "pulse": 88
+      },
+      "dx": {
+        "code": "I10",
+        "display": "Essential (primary) hypertension"
+      },
+      "advice": "Tab. Rifampicin 450 mg 0-0-1 x 5 days",
+      "doctor": "Dr. Pandurang Joshi",
+      "contact": "096561-15936"
+    },
+    {
+      "slip": 2,
+      "patient_info": {
+        "full_name": "Tulsi Soren",
+        "hosp_no": "KR-2946206",
+        "age_sex": "63/F"
+      },
+      "date": "2025-08-09",
+      "complaint": "C/O cough with expectoration x 2 weeks",
+      "vitals": {
+        "bp": "140/79",
+        "pulse": 67
+      },
+      "dx": {
+        "code": "A90",
+        "display": "Dengue fever"
+      },
+      "advice": "Tab. Azithromycin 500 mg BD x 30 days",
+      "doctor": "Dr. Grace Varghese"
+    },
+    {
+      "slip": 3,
+      "patient_info": {
+        "full_name": "Grace Kulkarni",
+        "hosp_no": "KR-7146180",
+        "age_sex": "51/F"
+      },
+      "date": "2025-08-31",
+      "complaint": "C/O breathlessness on exertion",
+      "vitals": {
+        "bp": "165/93",
+        "pulse": 83
+      },
+      "dx": {
+        "code": "N39.0",
+        "display": "Urinary tract infection, site not specified"
+      },
+      "advice": "Tab. Glimepiride 1 mg BD x 5 days",
+      "doctor": "Dr. Kaveri Rao",
+      "contact": "875 400 0523"
+    }
+  ]
+}

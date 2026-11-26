@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "6cf3be48-f863-492d-a449-3363209e4613",
+  "type": "document",
+  "meta": {
+    "source": "#BCT92173426"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:361415fc-6698-4432-a052-3de834452d69",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "361415fc-6698-4432-a052-3de834452d69",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Vimala Sandhu, D/o Bhaskar Sandhu</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:bct",
+            "value": "BCT92173426"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-7130-2159-7822"
+          }
+        ],
+        "name": [
+          {
+            "text": "Vimala Sandhu",
+            "family": "Sandhu",
+            "given": [
+              "Vimala"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 91493 03994"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1970-05-12",
+        "address": [
+          {
+            "line": [
+              "H.No. 226",
+              "Ward 14"
+            ],
+            "city": "Kanhaipur Khurd",
+            "district": "Ratnagiri",
+            "postalCode": "415648",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:91429cbd-599f-4be0-a678-63c79e878fe2",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "91429cbd-599f-4be0-a678-63c79e878fe2",
+        "name": [
+          {
+            "text": "Dr. Ramesh Iyer"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:76f84f81-785d-4859-accb-91fa6eea2fca",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "76f84f81-785d-4859-accb-91fa6eea2fca",
+        "name": "Brahmaputra Care Trust Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4e80d16e-173e-4eba-a927-e7e4a71ce2a4",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "4e80d16e-173e-4eba-a927-e7e4a71ce2a4",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:361415fc-6698-4432-a052-3de834452d69"
+        },
+        "period": {
+          "start": "2025-11-22",
+          "end": "2025-12-03"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:76f84f81-785d-4859-accb-91fa6eea2fca"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:212fdf8c-d281-4578-a7a6-0197085b7a94",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "212fdf8c-d281-4578-a7a6-0197085b7a94",
+        "subject": {
+          "reference": "urn:uuid:361415fc-6698-4432-a052-3de834452d69"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "J45.909",
+              "display": "Asthma, uncomplicated"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fc69dac2-423d-47bd-ac47-5cdf0656a417",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "fc69dac2-423d-47bd-ac47-5cdf0656a417",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:361415fc-6698-4432-a052-3de834452d69"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 10.3,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:04571c29-37dd-4290-a065-965dd8d938ac",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "04571c29-37dd-4290-a065-965dd8d938ac",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:361415fc-6698-4432-a052-3de834452d69"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogVmltYWxhIFNhbmRodQpQaG9uZTogKzkxIDkxNDkzIDAzOTk0CkR4OiBBc3RobWEsIHVuY29tcGxpY2F0ZWQK"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

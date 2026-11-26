@@ -1,0 +1,30 @@
+{
+  "lab": "Lifecare Diagnostics",
+  "patient": {
+    "name": "Yamuna Pillai",
+    "hosp_id": "KR-5210112",
+    "mobile": "95 3299 4930",
+    "age": "34 Yrs"
+  },
+  "referred_by": "Dr. Anirban Saha",
+  "collected": "2025-05-20",
+  "panels": [
+    {
+      "name": "Routine",
+      "results": [
+        {
+          "test": "Haemoglobin",
+          "value": "14.7",
+          "unit": "g/dL",
+          "range": "12-16"
+        },
+        {
+          "test": "Platelet count",
+          "value": "292447",
+          "unit": "/cumm",
+          "range": "150000-450000"
+        }
+      ]
+    }
+  ]
+}

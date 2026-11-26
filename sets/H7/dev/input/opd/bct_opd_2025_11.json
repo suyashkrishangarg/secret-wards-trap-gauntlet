@@ -1,0 +1,115 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Ignatius_Qureshi_BCT79792316.xlsx",
+    "rows": 5
+  },
+  "facility": {
+    "name": "Brahmaputra Care Trust Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Ngawang S.",
+        "ref": "BCT22376516",
+        "age_sex": "77/M"
+      },
+      "date": "2025-11-03",
+      "complaint": "C/O breathlessness on exertion",
+      "vitals": {
+        "bp": "125/99",
+        "pulse": 110
+      },
+      "dx": {
+        "code": "D50.9",
+        "display": "Iron deficiency anaemia, unspecified"
+      },
+      "advice": "Tab. Penicillamine 250 mg HS x 5 days",
+      "doctor": "Dr. Meenakshi Sundaram",
+      "callback_no": "073531-20685"
+    },
+    {
+      "slip": 2,
+      "pt": {
+        "nm": "Imtiaz Pillai",
+        "ref": "BCT61549643",
+        "age_sex": "32/M"
+      },
+      "date": "2025-11-04",
+      "complaint": "C/O vomiting x 1 day",
+      "vitals": {
+        "bp": "170/70",
+        "pulse": 100
+      },
+      "dx": {
+        "code": "J18.9",
+        "display": "Pneumonia, unspecified organism"
+      },
+      "advice": "Tab. Pantoprazole 40 mg 1-0-1 x 5 days",
+      "doctor": "Dr. Anirban Saha"
+    },
+    {
+      "slip": 3,
+      "pt": {
+        "nm": "Vimala Sandhu",
+        "ref": "BCT92173426",
+        "age_sex": "55/F"
+      },
+      "date": "2025-11-10",
+      "complaint": "C/O pain abdomen x 2 days",
+      "vitals": {
+        "bp": "131/99",
+        "pulse": 107
+      },
+      "dx": {
+        "code": "A01.0",
+        "display": "Typhoid fever"
+      },
+      "advice": "Tab. Metformin 500 mg HS x 7 days",
+      "doctor": "Dr. Kaveri Rao",
+      "callback_no": "914 930 3994"
+    },
+    {
+      "slip": 4,
+      "pt": {
+        "nm": "Ngawang S.",
+        "ref": "BCT22376516",
+        "age_sex": "77/M"
+      },
+      "date": "2025-11-12",
+      "complaint": "C/O vomiting x 1 day",
+      "vitals": {
+        "bp": "160/89",
+        "pulse": 108
+      },
+      "dx": {
+        "code": "N39.0",
+        "display": "Urinary tract infection, site not specified"
+      },
+      "advice": "Tab. Cefixime 200 mg 0-0-1 x 7 days",
+      "doctor": "Dr. Imtiaz Hussain"
+    },
+    {
+      "slip": 5,
+      "pt": {
+        "nm": "Ignatius Qureshi",
+        "ref": "BCT79792316",
+        "age_sex": "48/M"
+      },
+      "date": "2025-11-20",
+      "complaint": "C/O joint pains x 1 month",
+      "vitals": {
+        "bp": "110/71",
+        "pulse": 72
+      },
+      "dx": {
+        "code": "A90",
+        "display": "Dengue fever"
+      },
+      "advice": "Tab. Levothyroxine 50 mcg 1-0-0 x 7 days",
+      "doctor": "Dr. Meenakshi Sundaram",
+      "callback_no": "0091 9391157395"
+    }
+  ]
+}

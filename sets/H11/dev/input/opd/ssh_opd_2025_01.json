@@ -1,0 +1,74 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Anupama_Naidu_SSH-R-25-009467.xlsx",
+    "rows": 3
+  },
+  "facility": {
+    "name": "Sahyadri Sevashram Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Rukmini T.",
+        "hosp_no": "SSH-R-25-080733",
+        "age_sex": "41/F"
+      },
+      "date": "2025-01-22",
+      "complaint": "C/O breathlessness on exertion",
+      "vitals": {
+        "bp": "147/88",
+        "pulse": 72
+      },
+      "dx": {
+        "code": "A90",
+        "display": "Dengue fever"
+      },
+      "advice": "Tab. Ecosprin 75 mg 0-0-1 x 30 days",
+      "doctor": "Dr. Kaveri Rao",
+      "contact": "066454-44217"
+    },
+    {
+      "slip": 2,
+      "patient_info": {
+        "full_name": "Prabhakar Mahato",
+        "hosp_no": "SSH-R-25-052674",
+        "age_sex": "80/M"
+      },
+      "date": "2025-01-25",
+      "complaint": "C/O breathlessness on exertion",
+      "vitals": {
+        "bp": "146/94",
+        "pulse": 100
+      },
+      "dx": {
+        "code": "K35.80",
+        "display": "Acute appendicitis"
+      },
+      "advice": "Tab. Ondansetron 4 mg BD x 30 days",
+      "doctor": "Dr. Anirban Saha"
+    },
+    {
+      "slip": 3,
+      "patient_info": {
+        "full_name": "Anupama Devi Naidu",
+        "hosp_no": "SSH-R-25-009467",
+        "age_sex": "22/F"
+      },
+      "date": "2025-01-30",
+      "complaint": "C/O fever x 3 days",
+      "vitals": {
+        "bp": "121/72",
+        "pulse": 64
+      },
+      "dx": {
+        "code": "A01.0",
+        "display": "Typhoid fever"
+      },
+      "advice": "Tab. Amlodipine 5 mg 1-1-1 x 30 days",
+      "doctor": "Dr. Pandurang Joshi",
+      "contact": "878 460 5374"
+    }
+  ]
+}

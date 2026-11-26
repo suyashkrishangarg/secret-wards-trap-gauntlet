@@ -1,0 +1,11 @@
+Brahmaputra Care Trust Hospital - OPD Prescription
+Name: Tanveer Kulkarni   Age: 75 yrs   Sex: M
+UHID: BCT26108041   Mob: 7861968649
+Aadhaar: XXXX XXXX 1655
+Date: 06/10/2025
+C/O pain abdomen x 2 days
+Dx: Dengue fever (A90)
+Rx:
+ 1. Tab Levothyroxine 50 mcg  1-0-1 x 30 days
+ 2. Dolo 650 BD x 5 days
+Dr. Sukhdev Bhalla (MBBS, MD)

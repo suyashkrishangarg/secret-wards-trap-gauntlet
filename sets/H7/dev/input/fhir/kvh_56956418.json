@@ -1,0 +1,75 @@
+{
+  "resourceType": "Bundle",
+  "id": "kvh-7",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:kvh:pat-7",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "pat-7",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Lakhan Lepcha (S/o Ngawang Lepcha), Ratantola 781382</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:kvh",
+            "value": "kvh/op/25-673588"
+          }
+        ],
+        "name": [
+          {
+            "text": "Lakhan Lepcha"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+916843785042"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "2001-12-10",
+        "address": [
+          {
+            "city": "Ratantola",
+            "district": "Kamrup",
+            "postalCode": "781382"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:prac-7",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "prac-7",
+        "name": [
+          {
+            "text": "Dr. Grace Varghese"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:cond-7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-7",
+        "subject": {
+          "reference": "Patient/pat-7"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "D50.9",
+              "display": "Iron deficiency anaemia, unspecified"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

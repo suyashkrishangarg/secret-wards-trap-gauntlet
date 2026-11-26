@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "9409e7f6-c58e-4277-a959-aca6759ecf15",
+  "type": "document",
+  "meta": {
+    "source": "#BCT56489272"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:06d6bd2a-294c-419a-adb8-76857be7e508",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "06d6bd2a-294c-419a-adb8-76857be7e508",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Hetal Devi Soren, D/o Chhotelal Soren</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:bct",
+            "value": "BCT56489272"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-6876-1115-5354"
+          }
+        ],
+        "name": [
+          {
+            "text": "Hetal Soren",
+            "family": "Soren",
+            "given": [
+              "Hetal"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 81185 36475"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1952-05-11",
+        "address": [
+          {
+            "line": [
+              "H.No. 122",
+              "Burma Camp Lane 3"
+            ],
+            "city": "Kesarkhera",
+            "district": "Barmer",
+            "postalCode": "344803",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ee5502bf-d963-4e58-a0d6-11a639e0ba25",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "ee5502bf-d963-4e58-a0d6-11a639e0ba25",
+        "name": [
+          {
+            "text": "Dr. Sukhdev Bhalla"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f9afb01a-7f1e-4d18-a589-c5e6fb2196fe",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "f9afb01a-7f1e-4d18-a589-c5e6fb2196fe",
+        "name": "Brahmaputra Care Trust Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:983e017b-e95c-4a58-a16c-a4e17ba8ecc4",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "983e017b-e95c-4a58-a16c-a4e17ba8ecc4",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:06d6bd2a-294c-419a-adb8-76857be7e508"
+        },
+        "period": {
+          "start": "2025-11-23",
+          "end": "2025-12-04"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:f9afb01a-7f1e-4d18-a589-c5e6fb2196fe"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dd28fc7f-d4db-4ab2-a8bf-adaf95b6bee9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "dd28fc7f-d4db-4ab2-a8bf-adaf95b6bee9",
+        "subject": {
+          "reference": "urn:uuid:06d6bd2a-294c-419a-adb8-76857be7e508"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "K35.80",
+              "display": "Acute appendicitis"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f89f16d6-9edf-40de-ae36-ac798e94b55e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f89f16d6-9edf-40de-ae36-ac798e94b55e",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:06d6bd2a-294c-419a-adb8-76857be7e508"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 11.2,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e6267313-8b58-427b-af97-bc0b1df741df",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "e6267313-8b58-427b-af97-bc0b1df741df",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:06d6bd2a-294c-419a-adb8-76857be7e508"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogSGV0YWwgU29yZW4KUGhvbmU6ICs5MSA4MTE4NSAzNjQ3NQpEeDogQWN1dGUgYXBwZW5kaWNpdGlzCg=="
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

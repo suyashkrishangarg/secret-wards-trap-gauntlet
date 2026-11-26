@@ -1,0 +1,53 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Rukhsana_Parmar_BCT81592143.xlsx",
+    "rows": 2
+  },
+  "facility": {
+    "name": "Brahmaputra Care Trust Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Rukhsana P.",
+        "hosp_no": "BCT81592143",
+        "age_sex": "57/F"
+      },
+      "date": "2025-04-09",
+      "complaint": "C/O pain abdomen x 2 days",
+      "vitals": {
+        "bp": "147/89",
+        "pulse": 65
+      },
+      "dx": {
+        "code": "J18.9",
+        "display": "Pneumonia, unspecified organism"
+      },
+      "advice": "Tab. Ondansetron 4 mg 1-0-1 x 30 days",
+      "doctor": "Dr. Imtiaz Hussain",
+      "contact": "099883-64666"
+    },
+    {
+      "slip": 2,
+      "patient_info": {
+        "full_name": "Saroj Sema",
+        "hosp_no": "BCT45365162",
+        "age_sex": "84/F"
+      },
+      "date": "2025-04-14",
+      "complaint": "C/O joint pains x 1 month",
+      "vitals": {
+        "bp": "131/76",
+        "pulse": 71
+      },
+      "dx": {
+        "code": "K35.80",
+        "display": "Acute appendicitis"
+      },
+      "advice": "Tab. Atorvastatin 10 mg HS x 30 days",
+      "doctor": "Dr. Imtiaz Hussain"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+Brahmaputra Care Trust Hospital - OPD Prescription
+Name: Ignatius Qureshi   Age: 48 yrs   Sex: M
+UHID: BCT79792316   Mob: 9391157395
+Aadhaar: XXXX XXXX 3306
+Date: 20/11/2025
+C/O joint pains x 1 month
+Dx: Dengue fever (A90)
+Rx:
+ 1. Tab Azithromycin 500 mg  1-0-1 x 30 days
+ 2. Dolo 650 BD x 5 days
+Dr. Imtiaz Hussain (MBBS, MD)

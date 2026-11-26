@@ -1,0 +1,75 @@
+{
+  "resourceType": "Bundle",
+  "id": "kvh-2",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:kvh:pat-2",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "pat-2",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Tulsi Soren (W/o Hitesh Soren), Jamunkhera 415330</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:kvh",
+            "value": "kvh/op/25-038708"
+          }
+        ],
+        "name": [
+          {
+            "text": "Tulsi Soren"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "733 119 1353"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1975-05-03",
+        "address": [
+          {
+            "city": "Jamunkhera",
+            "district": "Satara",
+            "postalCode": "415330"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:prac-2",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "prac-2",
+        "name": [
+          {
+            "text": "Dr. Ramesh Iyer"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:kvh:cond-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-2",
+        "subject": {
+          "reference": "Patient/pat-2"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "E11.9",
+              "display": "Type 2 diabetes mellitus without complications"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

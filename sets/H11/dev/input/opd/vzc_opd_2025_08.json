@@ -1,0 +1,74 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Bhupendra_Gill_VZC.25.567146.xlsx",
+    "rows": 3
+  },
+  "facility": {
+    "name": "Vindhya Zila Chikitsalaya"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Grace S.",
+        "hosp_no": "VZC.25.058490",
+        "age_sex": "40/F"
+      },
+      "date": "2025-08-13",
+      "complaint": "C/O breathlessness on exertion",
+      "vitals": {
+        "bp": "161/80",
+        "pulse": 89
+      },
+      "dx": {
+        "code": "A90",
+        "display": "Dengue fever"
+      },
+      "advice": "Tab. Ramipril 5 mg 1-0-1 x 7 days",
+      "doctor": "Dr. Ramesh Iyer",
+      "contact": "096887-52956"
+    },
+    {
+      "slip": 2,
+      "patient_info": {
+        "full_name": "Madhavi Kulkarni",
+        "hosp_no": "VZC.25.128246",
+        "age_sex": "26/F"
+      },
+      "date": "2025-08-17",
+      "complaint": "C/O pain abdomen x 2 days",
+      "vitals": {
+        "bp": "132/90",
+        "pulse": 92
+      },
+      "dx": {
+        "code": "J18.9",
+        "display": "Pneumonia, unspecified organism"
+      },
+      "advice": "Tab. Glimepiride 1 mg BD x 7 days",
+      "doctor": "Dr. Sukhdev Bhalla"
+    },
+    {
+      "slip": 3,
+      "patient_info": {
+        "full_name": "Md. Bhupendra Gill",
+        "hosp_no": "VZC.25.567146",
+        "age_sex": "79/M"
+      },
+      "date": "2025-08-30",
+      "complaint": "C/O cough with expectoration x 2 weeks",
+      "vitals": {
+        "bp": "170/98",
+        "pulse": 88
+      },
+      "dx": {
+        "code": "J45.909",
+        "display": "Asthma, uncomplicated"
+      },
+      "advice": "Tab. Ecosprin 75 mg 0-0-1 x 7 days",
+      "doctor": "Dr. Sukhdev Bhalla",
+      "contact": "847 320 9666"
+    }
+  ]
+}

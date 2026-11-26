@@ -1,0 +1,94 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Yamuna_Pillai_KR-5210112.xlsx",
+    "rows": 4
+  },
+  "facility": {
+    "name": "Konkan Rural Mission Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Mohammad Imtiaz L.",
+        "ref": "KR-9162257",
+        "age_sex": "61/M"
+      },
+      "date": "2025-05-03",
+      "complaint": "C/O burning micturition x 4 days",
+      "vitals": {
+        "bp": "151/82",
+        "pulse": 72
+      },
+      "dx": {
+        "code": "J45.909",
+        "display": "Asthma, uncomplicated"
+      },
+      "advice": "Tab. Rifampicin 450 mg TDS x 5 days",
+      "doctor": "Dr. Meenakshi Sundaram",
+      "callback_no": "071489-66718"
+    },
+    {
+      "slip": 2,
+      "pt": {
+        "nm": "Debashish Oraon",
+        "ref": "KR-7189698",
+        "age_sex": "31/M"
+      },
+      "date": "2025-05-12",
+      "complaint": "C/O joint pains x 1 month",
+      "vitals": {
+        "bp": "142/96",
+        "pulse": 94
+      },
+      "dx": {
+        "code": "J18.9",
+        "display": "Pneumonia, unspecified organism"
+      },
+      "advice": "Tab. Azithromycin 500 mg BD x 5 days",
+      "doctor": "Dr. Pandurang Joshi"
+    },
+    {
+      "slip": 3,
+      "pt": {
+        "nm": "Yamuna Pillai",
+        "ref": "KR-5210112",
+        "age_sex": "34/F"
+      },
+      "date": "2025-05-20",
+      "complaint": "C/O cough with expectoration x 2 weeks",
+      "vitals": {
+        "bp": "158/71",
+        "pulse": 101
+      },
+      "dx": {
+        "code": "I10",
+        "display": "Essential (primary) hypertension"
+      },
+      "advice": "Tab. Prednisolone 10 mg BD x 5 days",
+      "doctor": "Dr. Pandurang Joshi",
+      "callback_no": "953 299 4930"
+    },
+    {
+      "slip": 4,
+      "pt": {
+        "nm": "Venkatesh L.",
+        "ref": "KR-9760471",
+        "age_sex": "21/M"
+      },
+      "date": "2025-05-30",
+      "complaint": "C/O breathlessness on exertion",
+      "vitals": {
+        "bp": "161/87",
+        "pulse": 73
+      },
+      "dx": {
+        "code": "E03.9",
+        "display": "Hypothyroidism, unspecified"
+      },
+      "advice": "Tab. Ondansetron 4 mg BD x 5 days",
+      "doctor": "Dr. Imtiaz Hussain"
+    }
+  ]
+}

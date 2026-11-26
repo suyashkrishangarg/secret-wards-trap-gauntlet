@@ -1,0 +1,11 @@
+Vindhya Zila Chikitsalaya - OPD Prescription
+Name: Madhavi Kulkarni   Age: 26 yrs   Sex: F
+UHID: VZC.25.128246   Mob: +917705408091
+Aadhaar: XXXX XXXX 3868
+Date: 17/08/2025
+C/O pain abdomen x 2 days
+Dx: Pneumonia, unspecified organism (J18.9)
+Rx:
+ 1. Tab Glimepiride 1 mg  1-0-1 x 30 days
+ 2. Dolo 650 BD x 5 days
+Dr. Pandurang Joshi (MBBS, MD)
