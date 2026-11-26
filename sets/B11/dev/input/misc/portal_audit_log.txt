@@ -1,0 +1,4 @@
+GET /portal/search?name=Gopinath%20Siddiqui&mobile=9120663482 200
+<td>&#2327;&#2379;&#2346;&#2368;&#2344;&#2366;&#2341;&#32;&#2360;&#2367;&#2342;&#2381;&#2342;&#2368;&#2325;&#2364;&#2368;</td><td>Hb 10.2 g/dL</td>
+Display name (OCR): Gоpinаth Siddiqui
+Copied from chat: Gop​inath Siddiqui — Metformin 500 mg 1-0-1

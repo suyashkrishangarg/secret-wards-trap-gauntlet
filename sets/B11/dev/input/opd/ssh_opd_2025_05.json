@@ -1,0 +1,33 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Rukmini_Tamang_SSH-R-25-080733.xlsx",
+    "rows": 1
+  },
+  "facility": {
+    "name": "Sahyadri Sevashram Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Rukmini T.",
+        "hosp_no": "SSH-R-25-080733",
+        "age_sex": "41/F"
+      },
+      "date": "2025-05-01",
+      "complaint": "C/O fever x 3 days",
+      "vitals": {
+        "bp": "115/84",
+        "pulse": 99
+      },
+      "dx": {
+        "code": "A90",
+        "display": "Dengue fever"
+      },
+      "advice": "Tab. Pantoprazole 40 mg 1-0-1 x 5 days",
+      "doctor": "Dr. Meenakshi Sundaram",
+      "contact": "066454-44217"
+    }
+  ]
+}

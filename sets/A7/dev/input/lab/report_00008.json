@@ -1,0 +1,30 @@
+{
+  "lab": "Lifecare Diagnostics",
+  "patient": {
+    "name": "Pandurang Gurung",
+    "hosp_id": "KR-3976332",
+    "mobile": "+918310441609",
+    "age": "97 Yrs"
+  },
+  "referred_by": "Dr. Sukhdev Bhalla",
+  "collected": "2025-11-13",
+  "panels": [
+    {
+      "name": "Routine",
+      "results": [
+        {
+          "test": "Haemoglobin",
+          "value": "9.0",
+          "unit": "g/dL",
+          "range": "12-16"
+        },
+        {
+          "test": "Platelet count",
+          "value": "363100",
+          "unit": "/cumm",
+          "range": "150000-450000"
+        }
+      ]
+    }
+  ]
+}

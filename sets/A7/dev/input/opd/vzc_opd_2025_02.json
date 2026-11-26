@@ -1,0 +1,33 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Shoaib_Lepcha_VZC.25.532145.xlsx",
+    "rows": 1
+  },
+  "facility": {
+    "name": "Vindhya Zila Chikitsalaya"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Shoaib L.",
+        "ref": "VZC.25.532145",
+        "age_sex": "54/M"
+      },
+      "date": "2025-02-22",
+      "complaint": "C/O pain abdomen x 2 days",
+      "vitals": {
+        "bp": "151/87",
+        "pulse": 89
+      },
+      "dx": {
+        "code": "E03.9",
+        "display": "Hypothyroidism, unspecified"
+      },
+      "advice": "Tab. Furosemide 40 mg 1-0-1 x 7 days",
+      "doctor": "Dr. Ramesh Iyer",
+      "callback_no": "084167-73697"
+    }
+  ]
+}

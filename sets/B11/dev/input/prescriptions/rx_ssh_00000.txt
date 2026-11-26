@@ -1,0 +1,11 @@
+Sahyadri Sevashram Hospital - OPD Prescription
+Name: Bajrangi Sema   Age: 25 yrs   Sex: M
+UHID: SSH-R-25-080822   Mob: 8589892572
+Aadhaar: XXXX XXXX 6567
+Date: 31/10/2025
+C/O vomiting x 1 day
+Dx: Asthma, uncomplicated (J45.909)
+Rx:
+ 1. Tab Azithromycin 500 mg  1-0-1 x 30 days
+ 2. Dolo 650 BD x 5 days
+Dr. Grace Varghese (MBBS, MD)

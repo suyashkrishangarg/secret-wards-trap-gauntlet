@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "2ca57c0c-2ca8-4de5-ae9a-c882e01411e7",
+  "type": "document",
+  "meta": {
+    "source": "#KR-7320740"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:c0363db9-1e48-46bb-a14a-279c93e6b965",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "c0363db9-1e48-46bb-a14a-279c93e6b965",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Tulsi Tamang, W/o Bhupendra Tamang</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:krm",
+            "value": "KR-7320740"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-1815-5018-8392"
+          }
+        ],
+        "name": [
+          {
+            "text": "Tulsi Tamang",
+            "family": "Tamang",
+            "given": [
+              "Tulsi"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 66579 39751"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1974-08-24",
+        "address": [
+          {
+            "line": [
+              "H.No. 31/A",
+              "Ward 14"
+            ],
+            "city": "Mahuapur",
+            "district": "Alappuzha",
+            "postalCode": "688695",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f6fe180a-dda2-48a5-a2fa-62aff6b8c6fb",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "f6fe180a-dda2-48a5-a2fa-62aff6b8c6fb",
+        "name": [
+          {
+            "text": "Dr. Grace Varghese"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:853a2f50-d8f7-4dce-a8f4-81b1235349f0",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "853a2f50-d8f7-4dce-a8f4-81b1235349f0",
+        "name": "Konkan Rural Mission Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b1b27932-44cd-4b6b-acea-a356ce5ab71f",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "b1b27932-44cd-4b6b-acea-a356ce5ab71f",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:c0363db9-1e48-46bb-a14a-279c93e6b965"
+        },
+        "period": {
+          "start": "2025-10-12",
+          "end": "2025-10-19"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:853a2f50-d8f7-4dce-a8f4-81b1235349f0"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cebd9c0f-ea84-475a-a12f-0bba72f47641",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cebd9c0f-ea84-475a-a12f-0bba72f47641",
+        "subject": {
+          "reference": "urn:uuid:c0363db9-1e48-46bb-a14a-279c93e6b965"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "E11.9",
+              "display": "Type 2 diabetes mellitus without complications"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:48340a39-b1ba-4cfe-a51c-7724cf57e2c9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "48340a39-b1ba-4cfe-a51c-7724cf57e2c9",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:c0363db9-1e48-46bb-a14a-279c93e6b965"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 8.1,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f2149f8f-04ee-4bb0-af74-577a0188f4b3",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "f2149f8f-04ee-4bb0-af74-577a0188f4b3",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:c0363db9-1e48-46bb-a14a-279c93e6b965"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogVHVsc2kgVGFtYW5nClBob25lOiArOTEgNjY1NzkgMzk3NTEKRHg6IFR5cGUgMiBkaWFiZXRlcyBtZWxsaXR1cyB3aXRob3V0IGNvbXBsaWNhdGlvbnMK"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

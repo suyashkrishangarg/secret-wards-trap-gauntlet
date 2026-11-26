@@ -1,0 +1,53 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Pandurang_Gurung_KR-3976332.xlsx",
+    "rows": 2
+  },
+  "facility": {
+    "name": "Konkan Rural Mission Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Pandurang G.",
+        "ref": "KR-3976332",
+        "age_sex": "97/M"
+      },
+      "date": "2025-01-21",
+      "complaint": "C/O breathlessness on exertion",
+      "vitals": {
+        "bp": "127/71",
+        "pulse": 109
+      },
+      "dx": {
+        "code": "A90",
+        "display": "Dengue fever"
+      },
+      "advice": "Tab. Atorvastatin 10 mg BD x 7 days",
+      "doctor": "Dr. Ramesh Iyer",
+      "callback_no": "083104-41609"
+    },
+    {
+      "slip": 2,
+      "pt": {
+        "nm": "Yamuna Pillai",
+        "ref": "KR-5210112",
+        "age_sex": "34/F"
+      },
+      "date": "2025-01-25",
+      "complaint": "C/O cough with expectoration x 2 weeks",
+      "vitals": {
+        "bp": "114/99",
+        "pulse": 74
+      },
+      "dx": {
+        "code": "A90",
+        "display": "Dengue fever"
+      },
+      "advice": "Tab. Telmisartan 40 mg TDS x 5 days",
+      "doctor": "Dr. Sukhdev Bhalla"
+    }
+  ]
+}

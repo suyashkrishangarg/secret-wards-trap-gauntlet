@@ -1,0 +1,74 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Meera_Pillai_VZC.25.901251.xlsx",
+    "rows": 3
+  },
+  "facility": {
+    "name": "Vindhya Zila Chikitsalaya"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Shabnam P.",
+        "ref": "VZC.25.114050",
+        "age_sex": "73/F"
+      },
+      "date": "2025-01-20",
+      "complaint": "C/O breathlessness on exertion",
+      "vitals": {
+        "bp": "143/97",
+        "pulse": 106
+      },
+      "dx": {
+        "code": "K35.80",
+        "display": "Acute appendicitis"
+      },
+      "advice": "Tab. Ondansetron 4 mg 1-0-0 x 5 days",
+      "doctor": "Dr. Ramesh Iyer",
+      "callback_no": "091631-76156"
+    },
+    {
+      "slip": 2,
+      "pt": {
+        "nm": "Venkatesh Lodhi",
+        "ref": "VZC.25.692507",
+        "age_sex": "21/M"
+      },
+      "date": "2025-01-28",
+      "complaint": "C/O fever x 3 days",
+      "vitals": {
+        "bp": "166/96",
+        "pulse": 82
+      },
+      "dx": {
+        "code": "A01.0",
+        "display": "Typhoid fever"
+      },
+      "advice": "Tab. Azithromycin 500 mg 1-0-0 x 5 days",
+      "doctor": "Dr. Ramesh Iyer"
+    },
+    {
+      "slip": 3,
+      "pt": {
+        "nm": "Meera Pillai",
+        "ref": "VZC.25.901251",
+        "age_sex": "77/F"
+      },
+      "date": "2025-01-31",
+      "complaint": "C/O burning micturition x 4 days",
+      "vitals": {
+        "bp": "162/80",
+        "pulse": 109
+      },
+      "dx": {
+        "code": "D50.9",
+        "display": "Iron deficiency anaemia, unspecified"
+      },
+      "advice": "Tab. Cefixime 200 mg TDS x 5 days",
+      "doctor": "Dr. Meenakshi Sundaram",
+      "callback_no": "763 042 8450"
+    }
+  ]
+}

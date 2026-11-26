@@ -1,0 +1,53 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Hitesh_Grewal_SSH-R-25-043312.xlsx",
+    "rows": 2
+  },
+  "facility": {
+    "name": "Sahyadri Sevashram Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Hitesh G.",
+        "hosp_no": "SSH-R-25-043312",
+        "age_sex": "19/M"
+      },
+      "date": "2025-04-24",
+      "complaint": "C/O joint pains x 1 month",
+      "vitals": {
+        "bp": "117/79",
+        "pulse": 104
+      },
+      "dx": {
+        "code": "N39.0",
+        "display": "Urinary tract infection, site not specified"
+      },
+      "advice": "Tab. Rifampicin 450 mg 0-0-1 x 5 days",
+      "doctor": "Dr. Ramesh Iyer",
+      "contact": "080282-10793"
+    },
+    {
+      "slip": 2,
+      "patient_info": {
+        "full_name": "Anupama Devi Naidu",
+        "hosp_no": "SSH-R-25-009467",
+        "age_sex": "22/F"
+      },
+      "date": "2025-04-30",
+      "complaint": "C/O cough with expectoration x 2 weeks",
+      "vitals": {
+        "bp": "111/72",
+        "pulse": 68
+      },
+      "dx": {
+        "code": "A90",
+        "display": "Dengue fever"
+      },
+      "advice": "Tab. Metformin 500 mg 1-0-1 x 5 days",
+      "doctor": "Dr. Sukhdev Bhalla"
+    }
+  ]
+}

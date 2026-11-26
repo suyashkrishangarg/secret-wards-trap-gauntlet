@@ -1,0 +1,53 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Thiruvenkadam_Shaikh_BCT91917647.xlsx",
+    "rows": 2
+  },
+  "facility": {
+    "name": "Brahmaputra Care Trust Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Thiruvenkadam S.",
+        "ref": "BCT91917647",
+        "age_sex": "53/M"
+      },
+      "date": "2025-01-22",
+      "complaint": "C/O vomiting x 1 day",
+      "vitals": {
+        "bp": "133/93",
+        "pulse": 88
+      },
+      "dx": {
+        "code": "D50.9",
+        "display": "Iron deficiency anaemia, unspecified"
+      },
+      "advice": "Tab. Rifampicin 450 mg 1-0-1 x 30 days",
+      "doctor": "Dr. Sukhdev Bhalla",
+      "callback_no": "074931-65268"
+    },
+    {
+      "slip": 2,
+      "pt": {
+        "nm": "Thenmozhi Oraon",
+        "ref": "BCT93923832",
+        "age_sex": "54/F"
+      },
+      "date": "2025-01-22",
+      "complaint": "C/O vomiting x 1 day",
+      "vitals": {
+        "bp": "126/83",
+        "pulse": 88
+      },
+      "dx": {
+        "code": "J45.909",
+        "display": "Asthma, uncomplicated"
+      },
+      "advice": "Tab. Prednisolone 10 mg HS x 30 days",
+      "doctor": "Dr. Sukhdev Bhalla"
+    }
+  ]
+}

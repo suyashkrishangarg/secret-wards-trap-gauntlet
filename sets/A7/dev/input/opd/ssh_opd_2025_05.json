@@ -1,0 +1,33 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Ashwini_Murmu_SSH-R-25-048967.xlsx",
+    "rows": 1
+  },
+  "facility": {
+    "name": "Sahyadri Sevashram Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Ashwini M.",
+        "ref": "SSH-R-25-048967",
+        "age_sex": "22/F"
+      },
+      "date": "2025-05-30",
+      "complaint": "C/O giddiness x 1 week",
+      "vitals": {
+        "bp": "127/77",
+        "pulse": 104
+      },
+      "dx": {
+        "code": "I10",
+        "display": "Essential (primary) hypertension"
+      },
+      "advice": "Tab. Azithromycin 500 mg BD x 7 days",
+      "doctor": "Dr. Ramesh Iyer",
+      "callback_no": "081883-91777"
+    }
+  ]
+}

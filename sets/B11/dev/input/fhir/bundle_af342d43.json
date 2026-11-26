@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "383aa71a-dbed-4d77-a7f0-4bf16d2186d6",
+  "type": "document",
+  "meta": {
+    "source": "#SSH-R-25-009467"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:eb150060-1237-4f04-a0aa-0274fc1fff27",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "eb150060-1237-4f04-a0aa-0274fc1fff27",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Anupama Devi Naidu, W/o Rajan Naidu</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:ssh",
+            "value": "SSH-R-25-009467"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-7441-3233-5640"
+          }
+        ],
+        "name": [
+          {
+            "text": "Anupama Naidu",
+            "family": "Naidu",
+            "given": [
+              "Anupama"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 87846 05374"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "2003-01-30",
+        "address": [
+          {
+            "line": [
+              "H.No. 465/A",
+              "Mohalla Kazi Tola"
+            ],
+            "city": "Motikhera Khurd",
+            "district": "Kamrup",
+            "postalCode": "781143",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1f5f1959-f941-4608-abfb-e6a4205be165",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "1f5f1959-f941-4608-abfb-e6a4205be165",
+        "name": [
+          {
+            "text": "Dr. Ramesh Iyer"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:077ed318-6b48-4084-aad8-43e0dcbb427d",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "077ed318-6b48-4084-aad8-43e0dcbb427d",
+        "name": "Sahyadri Sevashram Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:938941b7-89bf-42d1-a78e-db56af9236d5",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "938941b7-89bf-42d1-a78e-db56af9236d5",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:eb150060-1237-4f04-a0aa-0274fc1fff27"
+        },
+        "period": {
+          "start": "2025-05-30",
+          "end": "2025-06-09"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:077ed318-6b48-4084-aad8-43e0dcbb427d"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1ddf11ee-6118-4f5f-af48-0fdcc8cb80bb",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1ddf11ee-6118-4f5f-af48-0fdcc8cb80bb",
+        "subject": {
+          "reference": "urn:uuid:eb150060-1237-4f04-a0aa-0274fc1fff27"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "A90",
+              "display": "Dengue fever"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:01ad5fa5-03c7-4859-ac81-a8fb30ded50b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "01ad5fa5-03c7-4859-ac81-a8fb30ded50b",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:eb150060-1237-4f04-a0aa-0274fc1fff27"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 12.6,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:20b54d89-aad1-4522-acbf-174d9b42bc42",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "20b54d89-aad1-4522-acbf-174d9b42bc42",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:eb150060-1237-4f04-a0aa-0274fc1fff27"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogQW51cGFtYSBOYWlkdQpQaG9uZTogKzkxIDg3ODQ2IDA1Mzc0CkR4OiBEZW5ndWUgZmV2ZXIK"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

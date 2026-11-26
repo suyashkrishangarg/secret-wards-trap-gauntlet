@@ -1,0 +1,33 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Ashwini_Murmu_SSH-R-25-048967.xlsx",
+    "rows": 1
+  },
+  "facility": {
+    "name": "Sahyadri Sevashram Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Ashwini M.",
+        "ref": "SSH-R-25-048967",
+        "age_sex": "22/F"
+      },
+      "date": "2025-04-17",
+      "complaint": "C/O cough with expectoration x 2 weeks",
+      "vitals": {
+        "bp": "147/73",
+        "pulse": 110
+      },
+      "dx": {
+        "code": "A01.0",
+        "display": "Typhoid fever"
+      },
+      "advice": "Tab. Rifampicin 450 mg TDS x 7 days",
+      "doctor": "Dr. Kaveri Rao",
+      "callback_no": "081883-91777"
+    }
+  ]
+}

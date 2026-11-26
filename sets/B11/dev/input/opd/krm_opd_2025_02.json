@@ -1,0 +1,53 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Arivazhagan_Kushwaha_KR-3565087.xlsx",
+    "rows": 2
+  },
+  "facility": {
+    "name": "Konkan Rural Mission Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Arivazhagan K.",
+        "hosp_no": "KR-3565087",
+        "age_sex": "66/M"
+      },
+      "date": "2025-02-02",
+      "complaint": "C/O joint pains x 1 month",
+      "vitals": {
+        "bp": "143/91",
+        "pulse": 74
+      },
+      "dx": {
+        "code": "N39.0",
+        "display": "Urinary tract infection, site not specified"
+      },
+      "advice": "Tab. Amlodipine 5 mg HS x 7 days",
+      "doctor": "Dr. Imtiaz Hussain",
+      "contact": "082387-24065"
+    },
+    {
+      "slip": 2,
+      "patient_info": {
+        "full_name": "Faizan Kumar Shekhawat",
+        "hosp_no": "KR-2560424",
+        "age_sex": "56/M"
+      },
+      "date": "2025-02-16",
+      "complaint": "C/O joint pains x 1 month",
+      "vitals": {
+        "bp": "144/70",
+        "pulse": 110
+      },
+      "dx": {
+        "code": "J18.9",
+        "display": "Pneumonia, unspecified organism"
+      },
+      "advice": "Tab. Levothyroxine 50 mcg 1-0-0 x 5 days",
+      "doctor": "Dr. Anirban Saha"
+    }
+  ]
+}

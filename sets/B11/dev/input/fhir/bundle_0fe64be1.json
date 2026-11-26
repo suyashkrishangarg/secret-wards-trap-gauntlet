@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "40e750c2-2640-4b80-abc1-c797a2622801",
+  "type": "document",
+  "meta": {
+    "source": "#KR-7785874"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:733a7a4a-2035-4a64-ab75-fb7bfe7234a1",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "733a7a4a-2035-4a64-ab75-fb7bfe7234a1",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Hetal Kulkarni, W/o Joseph Kumar Kulkarni</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:krm",
+            "value": "KR-7785874"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-4839-5226-0359"
+          }
+        ],
+        "name": [
+          {
+            "text": "Hetal Kulkarni",
+            "family": "Kulkarni",
+            "given": [
+              "Hetal"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 65140 50181"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1954-04-14",
+        "address": [
+          {
+            "line": [
+              "H.No. 87-B",
+              "Nehru Colony"
+            ],
+            "city": "Mahuakhera",
+            "district": "Alappuzha",
+            "postalCode": "688657",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:31134c24-93a8-4b7d-abb8-ae8e295e7467",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "31134c24-93a8-4b7d-abb8-ae8e295e7467",
+        "name": [
+          {
+            "text": "Dr. Imtiaz Hussain"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:688fbf8e-f558-4c62-a5a8-a7724ec3d475",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "688fbf8e-f558-4c62-a5a8-a7724ec3d475",
+        "name": "Konkan Rural Mission Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0f1c606f-a376-48d6-a57e-176c9cc1a9bb",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "0f1c606f-a376-48d6-a57e-176c9cc1a9bb",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:733a7a4a-2035-4a64-ab75-fb7bfe7234a1"
+        },
+        "period": {
+          "start": "2025-10-07",
+          "end": "2025-10-15"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:688fbf8e-f558-4c62-a5a8-a7724ec3d475"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:12244418-240b-43bb-adb5-a54b5e558c36",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "12244418-240b-43bb-adb5-a54b5e558c36",
+        "subject": {
+          "reference": "urn:uuid:733a7a4a-2035-4a64-ab75-fb7bfe7234a1"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "D50.9",
+              "display": "Iron deficiency anaemia, unspecified"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:98412390-83a1-4f13-a738-afa8a52525d4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "98412390-83a1-4f13-a738-afa8a52525d4",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:733a7a4a-2035-4a64-ab75-fb7bfe7234a1"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 13.8,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e21708cb-5547-4a90-ae78-276088ce3e3e",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "e21708cb-5547-4a90-ae78-276088ce3e3e",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:733a7a4a-2035-4a64-ab75-fb7bfe7234a1"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogSGV0YWwgS3Vsa2FybmkKUGhvbmU6ICs5MSA2NTE0MCA1MDE4MQpEeDogSXJvbiBkZWZpY2llbmN5IGFuYWVtaWEsIHVuc3BlY2lmaWVkCg=="
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

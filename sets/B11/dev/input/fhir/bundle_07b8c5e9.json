@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "9cf21c8e-7fbb-4772-a9c0-68207026d3f8",
+  "type": "document",
+  "meta": {
+    "source": "#BCT81592143"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:87f20011-4ae6-447d-a0a6-c58f5103202e",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "87f20011-4ae6-447d-a0a6-c58f5103202e",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Rukhsana Devi Parmar, W/o Muthuswamy Parmar</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:bct",
+            "value": "BCT81592143"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-4929-8188-1929"
+          }
+        ],
+        "name": [
+          {
+            "text": "Rukhsana Parmar",
+            "family": "Parmar",
+            "given": [
+              "Rukhsana"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 99883 64666"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1968-05-09",
+        "address": [
+          {
+            "line": [
+              "H.No. 215-B",
+              "Nehru Colony"
+            ],
+            "city": "Kanhaihalli",
+            "district": "Ratnagiri",
+            "postalCode": "415432",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a4a965af-8573-4234-a446-8a9efb5eef47",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "a4a965af-8573-4234-a446-8a9efb5eef47",
+        "name": [
+          {
+            "text": "Dr. Imtiaz Hussain"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:313f7a93-37ca-468e-a5e5-5c9e86b0fa1f",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "313f7a93-37ca-468e-a5e5-5c9e86b0fa1f",
+        "name": "Brahmaputra Care Trust Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c270ee1c-6751-40dc-ad65-e1d846d01630",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "c270ee1c-6751-40dc-ad65-e1d846d01630",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:87f20011-4ae6-447d-a0a6-c58f5103202e"
+        },
+        "period": {
+          "start": "2025-05-17",
+          "end": "2025-05-27"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:313f7a93-37ca-468e-a5e5-5c9e86b0fa1f"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0f648d82-520a-4b33-a6e4-2437e0d7db99",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "0f648d82-520a-4b33-a6e4-2437e0d7db99",
+        "subject": {
+          "reference": "urn:uuid:87f20011-4ae6-447d-a0a6-c58f5103202e"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "I10",
+              "display": "Essential (primary) hypertension"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b92c404a-c060-46e4-a3bd-3d323500da47",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b92c404a-c060-46e4-a3bd-3d323500da47",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:87f20011-4ae6-447d-a0a6-c58f5103202e"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 9.7,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f47c512c-90bf-4919-ac30-c0aaade7df42",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "f47c512c-90bf-4919-ac30-c0aaade7df42",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:87f20011-4ae6-447d-a0a6-c58f5103202e"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogUnVraHNhbmEgUGFybWFyClBob25lOiArOTEgOTk4ODMgNjQ2NjYKRHg6IEVzc2VudGlhbCAocHJpbWFyeSkgaHlwZXJ0ZW5zaW9uCg=="
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Anupama_Naidu_SSH-R-25-009467.xlsx",
+    "rows": 3
+  },
+  "facility": {
+    "name": "Sahyadri Sevashram Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Kezhokhoto G.",
+        "hosp_no": "SSH-R-25-043366",
+        "age_sex": "84/M"
+      },
+      "date": "2025-08-09",
+      "complaint": "C/O fever x 3 days",
+      "vitals": {
+        "bp": "123/75",
+        "pulse": 83
+      },
+      "dx": {
+        "code": "I10",
+        "display": "Essential (primary) hypertension"
+      },
+      "advice": "Tab. Glimepiride 1 mg 0-0-1 x 30 days",
+      "doctor": "Dr. Imtiaz Hussain",
+      "contact": "065578-08086"
+    },
+    {
+      "slip": 2,
+      "patient_info": {
+        "full_name": "Anupama Devi Naidu",
+        "hosp_no": "SSH-R-25-009467",
+        "age_sex": "22/F"
+      },
+      "date": "2025-08-10",
+      "complaint": "C/O fever x 3 days",
+      "vitals": {
+        "bp": "143/95",
+        "pulse": 76
+      },
+      "dx": {
+        "code": "J18.9",
+        "display": "Pneumonia, unspecified organism"
+      },
+      "advice": "Tab. Rifampicin 450 mg HS x 5 days",
+      "doctor": "Dr. Grace Varghese"
+    },
+    {
+      "slip": 3,
+      "patient_info": {
+        "full_name": "Gowri Devi Soren",
+        "hosp_no": "SSH-R-25-081774",
+        "age_sex": "31/F"
+      },
+      "date": "2025-08-24",
+      "complaint": "C/O cough with expectoration x 2 weeks",
+      "vitals": {
+        "bp": "165/74",
+        "pulse": 102
+      },
+      "dx": {
+        "code": "E11.9",
+        "display": "Type 2 diabetes mellitus without complications"
+      },
+      "advice": "Tab. Penicillamine 250 mg 1-0-0 x 5 days",
+      "doctor": "Dr. Anirban Saha",
+      "contact": "735 994 4570"
+    }
+  ]
+}

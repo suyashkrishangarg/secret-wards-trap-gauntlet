@@ -1,0 +1,15 @@
+{
+  "date": "census",
+  "wards": [
+    {
+      "ward": "Ward 3 (Medicine)",
+      "beds": 30,
+      "occupied": 24
+    },
+    {
+      "ward": "Ward 7 (Surgery)",
+      "beds": 24,
+      "occupied": 19
+    }
+  ]
+}

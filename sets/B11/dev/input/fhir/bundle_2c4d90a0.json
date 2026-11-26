@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "2dc8079f-06c6-4bf9-a668-43231037d2bc",
+  "type": "document",
+  "meta": {
+    "source": "#KR-8149630"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:54a0f51f-62ca-4bb3-a4e0-1b12d558936a",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "54a0f51f-62ca-4bb3-a4e0-1b12d558936a",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Gowri Devi Soren, W/o Harpreet Soren</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:krm",
+            "value": "KR-8149630"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-1004-4325-4775"
+          }
+        ],
+        "name": [
+          {
+            "text": "Gowri Soren",
+            "family": "Soren",
+            "given": [
+              "Gowri"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 73599 44570"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1994-04-06",
+        "address": [
+          {
+            "line": [
+              "H.No. 333/A",
+              "Nehru Colony"
+            ],
+            "city": "Nimbahalli",
+            "district": "Barmer",
+            "postalCode": "344162",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:df64cb0d-776a-40c6-a3fa-f3a920ab77d9",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "df64cb0d-776a-40c6-a3fa-f3a920ab77d9",
+        "name": [
+          {
+            "text": "Dr. Pandurang Joshi"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a5d27a8a-78fe-4563-a201-6725c295b521",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "a5d27a8a-78fe-4563-a201-6725c295b521",
+        "name": "Konkan Rural Mission Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3b8000b8-8083-402a-a1b8-70fc75067f00",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "3b8000b8-8083-402a-a1b8-70fc75067f00",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:54a0f51f-62ca-4bb3-a4e0-1b12d558936a"
+        },
+        "period": {
+          "start": "2025-08-02",
+          "end": "2025-08-10"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:a5d27a8a-78fe-4563-a201-6725c295b521"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e83c216d-b8c6-4f53-a052-21382539cb9e",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "e83c216d-b8c6-4f53-a052-21382539cb9e",
+        "subject": {
+          "reference": "urn:uuid:54a0f51f-62ca-4bb3-a4e0-1b12d558936a"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "J18.9",
+              "display": "Pneumonia, unspecified organism"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:21ef763b-b0ae-4da7-ab4a-7f944ccfce53",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "21ef763b-b0ae-4da7-ab4a-7f944ccfce53",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:54a0f51f-62ca-4bb3-a4e0-1b12d558936a"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 9.3,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6d870f08-3df8-4343-a1ca-1624c8a24baf",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "6d870f08-3df8-4343-a1ca-1624c8a24baf",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:54a0f51f-62ca-4bb3-a4e0-1b12d558936a"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogR293cmkgU29yZW4KUGhvbmU6ICs5MSA3MzU5OSA0NDU3MApEeDogUG5ldW1vbmlhLCB1bnNwZWNpZmllZCBvcmdhbmlzbQo="
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

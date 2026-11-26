@@ -1,0 +1,94 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Jitendra_Kharbanda_SSH-R-25-060661.xlsx",
+    "rows": 4
+  },
+  "facility": {
+    "name": "Sahyadri Sevashram Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Jitendra K.",
+        "ref": "SSH-R-25-060661",
+        "age_sex": "62/M"
+      },
+      "date": "2025-02-01",
+      "complaint": "C/O burning micturition x 4 days",
+      "vitals": {
+        "bp": "151/92",
+        "pulse": 105
+      },
+      "dx": {
+        "code": "E11.9",
+        "display": "Type 2 diabetes mellitus without complications"
+      },
+      "advice": "Tab. Telmisartan 40 mg 1-0-1 x 30 days",
+      "doctor": "Dr. Imtiaz Hussain",
+      "callback_no": "092307-34600"
+    },
+    {
+      "slip": 2,
+      "pt": {
+        "nm": "Ishani Oraon",
+        "ref": "SSH-R-25-055336",
+        "age_sex": "75/F"
+      },
+      "date": "2025-02-02",
+      "complaint": "C/O fever x 3 days",
+      "vitals": {
+        "bp": "161/80",
+        "pulse": 78
+      },
+      "dx": {
+        "code": "B54",
+        "display": "Unspecified malaria"
+      },
+      "advice": "Tab. Prednisolone 10 mg HS x 7 days",
+      "doctor": "Dr. Sukhdev Bhalla"
+    },
+    {
+      "slip": 3,
+      "pt": {
+        "nm": "Thiruvenkadam Lodhi",
+        "ref": "SSH-R-25-079253",
+        "age_sex": "32/M"
+      },
+      "date": "2025-02-17",
+      "complaint": "C/O vomiting x 1 day",
+      "vitals": {
+        "bp": "155/80",
+        "pulse": 100
+      },
+      "dx": {
+        "code": "J45.909",
+        "display": "Asthma, uncomplicated"
+      },
+      "advice": "Tab. Atorvastatin 10 mg OD x 5 days",
+      "doctor": "Dr. Ramesh Iyer",
+      "callback_no": "924 310 4610"
+    },
+    {
+      "slip": 4,
+      "pt": {
+        "nm": "Thiruvenkadam L.",
+        "ref": "SSH-R-25-079253",
+        "age_sex": "32/M"
+      },
+      "date": "2025-02-27",
+      "complaint": "C/O joint pains x 1 month",
+      "vitals": {
+        "bp": "165/83",
+        "pulse": 106
+      },
+      "dx": {
+        "code": "D50.9",
+        "display": "Iron deficiency anaemia, unspecified"
+      },
+      "advice": "Tab. Levothyroxine 50 mcg HS x 7 days",
+      "doctor": "Dr. Imtiaz Hussain"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "babb10b0-4149-4820-a2a3-83c2ce72207b",
+  "type": "document",
+  "meta": {
+    "source": "#BCT63962092"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:94e95521-838d-4d53-a224-a10c3ca86955",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "94e95521-838d-4d53-a224-a10c3ca86955",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Chandrakala Parmar, W/o Shrikant Parmar</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:bct",
+            "value": "BCT63962092"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-1159-8930-2562"
+          }
+        ],
+        "name": [
+          {
+            "text": "Chandrakala Parmar",
+            "family": "Parmar",
+            "given": [
+              "Chandrakala"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 63361 54862"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1986-11-21",
+        "address": [
+          {
+            "line": [
+              "H.No. 245/A",
+              "Mohalla Kazi Tola"
+            ],
+            "city": "Kanhaigaon",
+            "district": "Satara",
+            "postalCode": "415281",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3647c147-c44e-44b0-ad79-9d71fc0f0e4a",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "3647c147-c44e-44b0-ad79-9d71fc0f0e4a",
+        "name": [
+          {
+            "text": "Dr. Kaveri Rao"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9a6b23f1-1984-4136-a25e-86651b4d84cd",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "9a6b23f1-1984-4136-a25e-86651b4d84cd",
+        "name": "Brahmaputra Care Trust Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:93a668e4-38c2-4676-ae1e-950efea8f06c",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "93a668e4-38c2-4676-ae1e-950efea8f06c",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:94e95521-838d-4d53-a224-a10c3ca86955"
+        },
+        "period": {
+          "start": "2025-03-15",
+          "end": "2025-04-01"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:9a6b23f1-1984-4136-a25e-86651b4d84cd"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9624e080-bd18-4575-a44c-96dff45e69c0",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "9624e080-bd18-4575-a44c-96dff45e69c0",
+        "subject": {
+          "reference": "urn:uuid:94e95521-838d-4d53-a224-a10c3ca86955"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "M31.4",
+              "display": "Takayasu arteritis"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0b56897c-746f-4f40-aaa9-348a27d692c4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0b56897c-746f-4f40-aaa9-348a27d692c4",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:94e95521-838d-4d53-a224-a10c3ca86955"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 9.9,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cc02e43f-3d7f-4b60-aeb9-54dae2ca5e4f",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "cc02e43f-3d7f-4b60-aeb9-54dae2ca5e4f",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:94e95521-838d-4d53-a224-a10c3ca86955"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogQ2hhbmRyYWthbGEgUGFybWFyClBob25lOiArOTEgNjMzNjEgNTQ4NjIKRHg6IFRha2F5YXN1IGFydGVyaXRpcwo="
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

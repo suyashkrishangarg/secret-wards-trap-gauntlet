@@ -1,0 +1,4 @@
+GET /portal/search?name=Pandurang%20Oraon&mobile=8500558274 200
+<td>&#2346;&#2366;&#2306;&#2337;&#2369;&#2352;&#2306;&#2327;&#32;&#2313;&#2352;&#2366;&#2306;&#2357;</td><td>Hb 10.2 g/dL</td>
+Display name (OCR): Pаndurang Oraon
+Copied from chat: Pan​durang Oraon — Metformin 500 mg 1-0-1

@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "071ccab6-c6e0-4f4a-ae5e-c4f71f299faf",
+  "type": "document",
+  "meta": {
+    "source": "#SSH-R-25-039023"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:8f5055e4-5b93-4bd2-aa40-944fe0fb8f7f",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "8f5055e4-5b93-4bd2-aa40-944fe0fb8f7f",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Saroj Tamang, W/o Ramesh Tamang</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:ssh",
+            "value": "SSH-R-25-039023"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-6883-0125-7987"
+          }
+        ],
+        "name": [
+          {
+            "text": "Saroj Tamang",
+            "family": "Tamang",
+            "given": [
+              "Saroj"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 97622 14221"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1950-02-17",
+        "address": [
+          {
+            "line": [
+              "H.No. 321/A",
+              "Nehru Colony"
+            ],
+            "city": "Bakhrikhera Khurd",
+            "district": "Kamrup",
+            "postalCode": "781551",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:017fee58-eb79-4969-aaa6-f6167cdd3aea",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "017fee58-eb79-4969-aaa6-f6167cdd3aea",
+        "name": [
+          {
+            "text": "Dr. Meenakshi Sundaram"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:89c71bb8-e217-45ad-abc9-8cf276d200b7",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "89c71bb8-e217-45ad-abc9-8cf276d200b7",
+        "name": "Sahyadri Sevashram Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:418eb48e-538c-4eb3-a640-5435706ad5c2",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "418eb48e-538c-4eb3-a640-5435706ad5c2",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:8f5055e4-5b93-4bd2-aa40-944fe0fb8f7f"
+        },
+        "period": {
+          "start": "2025-07-25",
+          "end": "2025-07-28"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:89c71bb8-e217-45ad-abc9-8cf276d200b7"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:217b2ce2-339a-48fa-afec-e0c4acb54c93",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "217b2ce2-339a-48fa-afec-e0c4acb54c93",
+        "subject": {
+          "reference": "urn:uuid:8f5055e4-5b93-4bd2-aa40-944fe0fb8f7f"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "D50.9",
+              "display": "Iron deficiency anaemia, unspecified"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5bbac42f-c693-4f73-a174-aef8d9833817",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5bbac42f-c693-4f73-a174-aef8d9833817",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:8f5055e4-5b93-4bd2-aa40-944fe0fb8f7f"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 14.1,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:225bc5d4-a316-4042-ad3b-365a9ea40378",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "225bc5d4-a316-4042-ad3b-365a9ea40378",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:8f5055e4-5b93-4bd2-aa40-944fe0fb8f7f"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogU2Fyb2ogVGFtYW5nClBob25lOiArOTEgOTc2MjIgMTQyMjEKRHg6IElyb24gZGVmaWNpZW5jeSBhbmFlbWlhLCB1bnNwZWNpZmllZAo="
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

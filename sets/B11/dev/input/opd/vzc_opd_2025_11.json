@@ -1,0 +1,53 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Harpreet_Shekhawat_VZC.25.489530.xlsx",
+    "rows": 2
+  },
+  "facility": {
+    "name": "Vindhya Zila Chikitsalaya"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Harpreet S.",
+        "hosp_no": "VZC.25.489530",
+        "age_sex": "97/M"
+      },
+      "date": "2025-11-11",
+      "complaint": "C/O pain abdomen x 2 days",
+      "vitals": {
+        "bp": "139/74",
+        "pulse": 104
+      },
+      "dx": {
+        "code": "D50.9",
+        "display": "Iron deficiency anaemia, unspecified"
+      },
+      "advice": "Tab. Penicillamine 250 mg OD x 5 days",
+      "doctor": "Dr. Pandurang Joshi",
+      "contact": "088305-60856"
+    },
+    {
+      "slip": 2,
+      "patient_info": {
+        "full_name": "Rukmini Fernandes",
+        "hosp_no": "VZC.25.168567",
+        "age_sex": "70/F"
+      },
+      "date": "2025-11-21",
+      "complaint": "C/O burning micturition x 4 days",
+      "vitals": {
+        "bp": "112/78",
+        "pulse": 88
+      },
+      "dx": {
+        "code": "A15.0",
+        "display": "Tuberculosis of lung"
+      },
+      "advice": "Tab. Levothyroxine 50 mcg 1-0-1 x 7 days",
+      "doctor": "Dr. Ramesh Iyer"
+    }
+  ]
+}

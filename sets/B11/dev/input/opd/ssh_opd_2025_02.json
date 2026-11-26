@@ -1,0 +1,53 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Bhupendra_Gill_SSH-R-25-052516.xlsx",
+    "rows": 2
+  },
+  "facility": {
+    "name": "Sahyadri Sevashram Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Gowri S.",
+        "hosp_no": "SSH-R-25-081774",
+        "age_sex": "31/F"
+      },
+      "date": "2025-02-11",
+      "complaint": "C/O burning micturition x 4 days",
+      "vitals": {
+        "bp": "148/99",
+        "pulse": 102
+      },
+      "dx": {
+        "code": "J18.9",
+        "display": "Pneumonia, unspecified organism"
+      },
+      "advice": "Tab. Furosemide 40 mg 1-0-1 x 7 days",
+      "doctor": "Dr. Imtiaz Hussain",
+      "contact": "073599-44570"
+    },
+    {
+      "slip": 2,
+      "patient_info": {
+        "full_name": "Bhupendra Gill",
+        "hosp_no": "SSH-R-25-052516",
+        "age_sex": "79/M"
+      },
+      "date": "2025-02-25",
+      "complaint": "C/O burning micturition x 4 days",
+      "vitals": {
+        "bp": "119/89",
+        "pulse": 109
+      },
+      "dx": {
+        "code": "E03.9",
+        "display": "Hypothyroidism, unspecified"
+      },
+      "advice": "Tab. Furosemide 40 mg HS x 5 days",
+      "doctor": "Dr. Meenakshi Sundaram"
+    }
+  ]
+}

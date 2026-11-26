@@ -1,0 +1,30 @@
+{
+  "lab": "Lifecare Diagnostics",
+  "patient": {
+    "name": "Lakhan Murmu",
+    "hosp_id": "BCT79936545",
+    "mobile": "81883.91777",
+    "age": "64 Yrs"
+  },
+  "referred_by": "Dr. Pandurang Joshi",
+  "collected": "2025-09-08",
+  "panels": [
+    {
+      "name": "Routine",
+      "results": [
+        {
+          "test": "Haemoglobin",
+          "value": "15.0",
+          "unit": "g/dL",
+          "range": "12-16"
+        },
+        {
+          "test": "Platelet count",
+          "value": "261046",
+          "unit": "/cumm",
+          "range": "150000-450000"
+        }
+      ]
+    }
+  ]
+}

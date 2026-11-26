@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "9258c09c-ff51-48a4-af61-e5a60a961712",
+  "type": "document",
+  "meta": {
+    "source": "#KR-1248617"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:61fd229a-33e0-4d81-a567-7665bf62babf",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "61fd229a-33e0-4d81-a567-7665bf62babf",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bhargavi Mahato, W/o Omkar Mahato</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:krm",
+            "value": "KR-1248617"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-9203-2504-0445"
+          }
+        ],
+        "name": [
+          {
+            "text": "Bhargavi Mahato",
+            "family": "Mahato",
+            "given": [
+              "Bhargavi"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 60860 63246"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "2000-11-08",
+        "address": [
+          {
+            "line": [
+              "H.No. 131-B",
+              "Gandhi Chowk"
+            ],
+            "city": "Kadamgaon",
+            "district": "Jorhat",
+            "postalCode": "785562",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:36958cc7-44a1-4bf7-aeb8-5fcf1c296c32",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "36958cc7-44a1-4bf7-aeb8-5fcf1c296c32",
+        "name": [
+          {
+            "text": "Dr. Anirban Saha"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4ae11a76-88ef-486e-a7c6-fe72d1af22da",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "4ae11a76-88ef-486e-a7c6-fe72d1af22da",
+        "name": "Konkan Rural Mission Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ab2fc60b-9552-4b4f-a322-2d4efab4ebcc",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "ab2fc60b-9552-4b4f-a322-2d4efab4ebcc",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:61fd229a-33e0-4d81-a567-7665bf62babf"
+        },
+        "period": {
+          "start": "2025-11-11",
+          "end": "2025-11-17"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:4ae11a76-88ef-486e-a7c6-fe72d1af22da"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fa893953-82cf-40ff-a409-b032c842746c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "fa893953-82cf-40ff-a409-b032c842746c",
+        "subject": {
+          "reference": "urn:uuid:61fd229a-33e0-4d81-a567-7665bf62babf"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "K35.80",
+              "display": "Acute appendicitis"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:213ac150-a029-4a78-a1c5-e8394283b136",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "213ac150-a029-4a78-a1c5-e8394283b136",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:61fd229a-33e0-4d81-a567-7665bf62babf"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 14.2,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e37c7ff1-2137-4af7-ae70-71cb8b3858f9",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "e37c7ff1-2137-4af7-ae70-71cb8b3858f9",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:61fd229a-33e0-4d81-a567-7665bf62babf"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogQmhhcmdhdmkgTWFoYXRvClBob25lOiArOTEgNjA4NjAgNjMyNDYKRHg6IEFjdXRlIGFwcGVuZGljaXRpcwo="
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

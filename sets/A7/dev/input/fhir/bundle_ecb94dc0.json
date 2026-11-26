@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "a256096c-bf19-471d-a67d-e8b7e7f9c6b7",
+  "type": "document",
+  "meta": {
+    "source": "#VZC.25.532145"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:b29e0b94-7c15-4c13-a0ad-7b2484979605",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "b29e0b94-7c15-4c13-a0ad-7b2484979605",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Shoaib Lepcha, S/o Ignatius Lepcha</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:vzc",
+            "value": "VZC.25.532145"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-8195-7930-7436"
+          }
+        ],
+        "name": [
+          {
+            "text": "Shoaib Lepcha",
+            "family": "Lepcha",
+            "given": [
+              "Shoaib"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 84167 73697"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1971-07-14",
+        "address": [
+          {
+            "line": [
+              "H.No. 114",
+              "Mohalla Kazi Tola"
+            ],
+            "city": "Ratanpalli",
+            "district": "Satara",
+            "postalCode": "415544",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2463bde1-cfb9-4a66-afca-1d2a33158961",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "2463bde1-cfb9-4a66-afca-1d2a33158961",
+        "name": [
+          {
+            "text": "Dr. Sukhdev Bhalla"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:40f99182-b3fe-414a-a200-95ef94647ea9",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "40f99182-b3fe-414a-a200-95ef94647ea9",
+        "name": "Vindhya Zila Chikitsalaya"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4161455d-4861-4987-a300-57b8bb1fa093",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "4161455d-4861-4987-a300-57b8bb1fa093",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:b29e0b94-7c15-4c13-a0ad-7b2484979605"
+        },
+        "period": {
+          "start": "2025-10-15",
+          "end": "2025-10-27"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:40f99182-b3fe-414a-a200-95ef94647ea9"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:652621da-6e26-4d0c-ae92-e4f7cf981587",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "652621da-6e26-4d0c-ae92-e4f7cf981587",
+        "subject": {
+          "reference": "urn:uuid:b29e0b94-7c15-4c13-a0ad-7b2484979605"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "D50.9",
+              "display": "Iron deficiency anaemia, unspecified"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9f744a03-4997-495a-a434-29eac511b1aa",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9f744a03-4997-495a-a434-29eac511b1aa",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b29e0b94-7c15-4c13-a0ad-7b2484979605"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 10.6,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:41907d83-3d02-499c-a06c-5e9df787d1c7",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "41907d83-3d02-499c-a06c-5e9df787d1c7",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:b29e0b94-7c15-4c13-a0ad-7b2484979605"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogU2hvYWliIExlcGNoYQpQaG9uZTogKzkxIDg0MTY3IDczNjk3CkR4OiBJcm9uIGRlZmljaWVuY3kgYW5hZW1pYSwgdW5zcGVjaWZpZWQK"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

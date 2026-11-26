@@ -1,0 +1,33 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Bhagwati_Bhutia_BCT21806064.xlsx",
+    "rows": 1
+  },
+  "facility": {
+    "name": "Brahmaputra Care Trust Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Bhagwati B.",
+        "ref": "BCT21806064",
+        "age_sex": "38/F"
+      },
+      "date": "2025-03-08",
+      "complaint": "C/O burning micturition x 4 days",
+      "vitals": {
+        "bp": "135/92",
+        "pulse": 77
+      },
+      "dx": {
+        "code": "B54",
+        "display": "Unspecified malaria"
+      },
+      "advice": "Tab. Glimepiride 1 mg 0-0-1 x 5 days",
+      "doctor": "Dr. Anirban Saha",
+      "callback_no": "076165-08212"
+    }
+  ]
+}

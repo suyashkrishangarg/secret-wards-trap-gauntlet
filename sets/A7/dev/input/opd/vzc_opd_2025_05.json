@@ -1,0 +1,74 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Ignatius_Qureshi_VZC.25.038470.xlsx",
+    "rows": 3
+  },
+  "facility": {
+    "name": "Vindhya Zila Chikitsalaya"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Ignatius Q.",
+        "ref": "VZC.25.038470",
+        "age_sex": "48/M"
+      },
+      "date": "2025-05-20",
+      "complaint": "C/O burning micturition x 4 days",
+      "vitals": {
+        "bp": "110/80",
+        "pulse": 65
+      },
+      "dx": {
+        "code": "D50.9",
+        "display": "Iron deficiency anaemia, unspecified"
+      },
+      "advice": "Tab. Rifampicin 450 mg TDS x 5 days",
+      "doctor": "Dr. Pandurang Joshi",
+      "callback_no": "093911-57395"
+    },
+    {
+      "slip": 2,
+      "pt": {
+        "nm": "Lalitha Devi Oraon",
+        "ref": "VZC.25.046635",
+        "age_sex": "64/F"
+      },
+      "date": "2025-05-24",
+      "complaint": "C/O vomiting x 1 day",
+      "vitals": {
+        "bp": "133/99",
+        "pulse": 86
+      },
+      "dx": {
+        "code": "A01.0",
+        "display": "Typhoid fever"
+      },
+      "advice": "Tab. Pantoprazole 40 mg OD x 30 days",
+      "doctor": "Dr. Anirban Saha"
+    },
+    {
+      "slip": 3,
+      "pt": {
+        "nm": "Sharmistha Pillai",
+        "ref": "VZC.25.325431",
+        "age_sex": "35/F"
+      },
+      "date": "2025-05-27",
+      "complaint": "C/O burning micturition x 4 days",
+      "vitals": {
+        "bp": "129/100",
+        "pulse": 73
+      },
+      "dx": {
+        "code": "E11.9",
+        "display": "Type 2 diabetes mellitus without complications"
+      },
+      "advice": "Tab. Telmisartan 40 mg TDS x 30 days",
+      "doctor": "Dr. Anirban Saha",
+      "callback_no": "857 764 2525"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "8d5c3417-6b42-4f28-affb-f63ce0178efa",
+  "type": "document",
+  "meta": {
+    "source": "#BCT20254149"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:0e10cc4a-eb0a-4cb5-ac39-9351d40dbdf2",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "0e10cc4a-eb0a-4cb5-ac39-9351d40dbdf2",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Ramdular Desai, S/o Jitendra Desai</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:bct",
+            "value": "BCT20254149"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-7442-8860-8812"
+          }
+        ],
+        "name": [
+          {
+            "text": "Ramdular Desai",
+            "family": "Desai",
+            "given": [
+              "Ramdular"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 64147 65430"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1946-10-01",
+        "address": [
+          {
+            "line": [
+              "H.No. 198",
+              "Burma Camp Lane 3"
+            ],
+            "city": "Kesarhalli",
+            "district": "Kamrup",
+            "postalCode": "781546",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:caef98cb-d00c-4025-a3ac-de2721360705",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "caef98cb-d00c-4025-a3ac-de2721360705",
+        "name": [
+          {
+            "text": "Dr. Grace Varghese"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ce70d55f-ad00-4190-a468-3fa3185ee85d",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "ce70d55f-ad00-4190-a468-3fa3185ee85d",
+        "name": "Brahmaputra Care Trust Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:568005ba-49ca-4b4d-a2c5-7dcc0e520058",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "568005ba-49ca-4b4d-a2c5-7dcc0e520058",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:0e10cc4a-eb0a-4cb5-ac39-9351d40dbdf2"
+        },
+        "period": {
+          "start": "2025-02-19",
+          "end": "2025-03-03"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:ce70d55f-ad00-4190-a468-3fa3185ee85d"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f0689b6a-14c9-4419-a550-803d35daed4f",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "f0689b6a-14c9-4419-a550-803d35daed4f",
+        "subject": {
+          "reference": "urn:uuid:0e10cc4a-eb0a-4cb5-ac39-9351d40dbdf2"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "J45.909",
+              "display": "Asthma, uncomplicated"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:df51236e-9de0-4bd3-a3db-23adca6855c8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "df51236e-9de0-4bd3-a3db-23adca6855c8",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:0e10cc4a-eb0a-4cb5-ac39-9351d40dbdf2"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 14.0,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0c5331b9-24c7-47f4-a10c-912d77232bc7",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "0c5331b9-24c7-47f4-a10c-912d77232bc7",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:0e10cc4a-eb0a-4cb5-ac39-9351d40dbdf2"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogUmFtZHVsYXIgRGVzYWkKUGhvbmU6ICs5MSA2NDE0NyA2NTQzMApEeDogQXN0aG1hLCB1bmNvbXBsaWNhdGVkCg=="
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

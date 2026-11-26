@@ -1,0 +1,31 @@
+accession,patient,hosp_no,agesex,investigation,value,uom,drawn,signed,referring
+S810126,Bajrangi Sema,KR-7261757,25/M,Serum Creatinine,0.8,mg/dL,31/10/2025,31/10/2025,Dr. Grace Varghese
+S528118,Bajrangi Sema,KR-7261757,25Y/M,TSH,6.58,mIU/L,31/10/2025,31/10/2025,Dr. Ramesh Iyer
+S249714,Madhavi Kulkarni,KR-8748240,27/F,Serum Creatinine,1.8,mg/dL,04/10/2025,04/10/2025,Dr. Kaveri Rao
+S175797,Madhavi Kulkarni,KR-8748240,27Y/F,Haemoglobin,7.6,g/dL,04/10/2025,04/10/2025,Dr. Anirban Saha
+S551843,Bidisha Bora,KR-9857295,76/F,HbA1c,8.2,%,05/09/2025,05/09/2025,Dr. Pandurang Joshi
+S145406,Bidisha Bora,KR-9857295,76Y/F,Haemoglobin,10.8,g/dL,05/09/2025,05/09/2025,Dr. Ramesh Iyer
+S308834,Tulsi Tamang,KR-7320740,51/F,TSH,8.30,mIU/L,09/11/2025,09/11/2025,Dr. Ramesh Iyer
+S994011,Tulsi Tamang,KR-7320740,51Y/F,Total Leucocyte Count,6432,/cumm,09/11/2025,09/11/2025,Dr. Grace Varghese
+S539179,Hetal Kulkarni,KR-7785874,71/F,Haemoglobin,12.4,g/dL,27/04/2025,27/04/2025,Dr. Pandurang Joshi
+S500993,Hetal Kulkarni,KR-7785874,71Y/F,Serum Creatinine,0.7,mg/dL,27/04/2025,27/04/2025,Dr. Grace Varghese
+S401559,Arivazhagan Kushwaha,KR-3565087,66/M,Serum Creatinine,2.2,mg/dL,06/09/2025,06/09/2025,Dr. Meenakshi Sundaram
+S215444,Arivazhagan Kushwaha,KR-3565087,66Y/M,TSH,2.31,mIU/L,06/09/2025,06/09/2025,Dr. Sukhdev Bhalla
+S203146,Bhupendra Gill,KR-6302910,79/M,Platelet count,359605,/cumm,02/11/2025,02/11/2025,Dr. Anirban Saha
+S889771,Mohd. Bhupendra Gill,KR-6302910,79Y/M,Serum Creatinine,0.7,mg/dL,02/11/2025,02/11/2025,Dr. Pandurang Joshi
+S691783,Tulsi Soren,KR-2946206,63/F,Random Blood Sugar,224,mg/dL,11/11/2025,11/11/2025,Dr. Pandurang Joshi
+S534897,Tulsi Soren,KR-2946206,63Y/F,HbA1c,6.1,%,11/11/2025,11/11/2025,Dr. Meenakshi Sundaram
+S604462,Shrikant Grewal,KR-8359209,50/M,HbA1c,6.1,%,12/11/2025,12/11/2025,Dr. Sukhdev Bhalla
+S382101,Shrikant Grewal,KR-8359209,50Y/M,TSH,0.75,mIU/L,12/11/2025,12/11/2025,Dr. Imtiaz Hussain
+S933263,Faizan Shekhawat,KR-2560424,56/M,Random Blood Sugar,225,mg/dL,16/02/2025,16/02/2025,Dr. Sukhdev Bhalla
+S590385,Faizan Kumar Shekhawat,KR-2560424,56Y/M,Total Leucocyte Count,10735,/cumm,16/02/2025,16/02/2025,Dr. Grace Varghese
+S162012,Grace Kulkarni,KR-7146180,51/F,Haemoglobin,12.5,g/dL,31/08/2025,31/08/2025,Dr. Meenakshi Sundaram
+S391190,Grace Kulkarni,KR-7146180,51Y/F,Serum Creatinine,0.7,mg/dL,31/08/2025,31/08/2025,Dr. Ramesh Iyer
+S866891,Bhargavi Mahato,KR-1248617,25/F,Serum Creatinine,1.6,mg/dL,22/04/2025,22/04/2025,Dr. Pandurang Joshi
+S918241,Bhargavi Mahato,KR-1248617,25Y/F,Haemoglobin,9.8,g/dL,22/04/2025,22/04/2025,Dr. Pandurang Joshi
+S443924,Gowri Soren,KR-8149630,31/F,Serum Creatinine,3.1,mg/dL,24/08/2025,24/08/2025,Dr. Imtiaz Hussain
+S853690,Gowri Devi Soren,KR-8149630,31Y/F,TSH,6.88,mIU/L,24/08/2025,24/08/2025,Dr. Grace Varghese
+S294232,Bhupendra Gill,KR-2198599,20/M,HbA1c,6.3,%,05/09/2025,05/09/2025,Dr. Meenakshi Sundaram
+S506943,Bhupendra Gill,KR-2198599,20Y/M,Total Leucocyte Count,8965,/cumm,05/09/2025,05/09/2025,Dr. Meenakshi Sundaram
+S792593,Grace Sema,KR-3698205,40/F,Serum Creatinine,1.9,mg/dL,13/08/2025,13/08/2025,Dr. Sukhdev Bhalla
+S605536,Grace Sema,KR-3698205,40Y/F,Platelet count,351674,/cumm,13/08/2025,13/08/2025,Dr. Pandurang Joshi

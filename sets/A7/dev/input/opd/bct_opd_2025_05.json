@@ -1,0 +1,94 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Pema_Rathore_BCT65770931.xlsx",
+    "rows": 4
+  },
+  "facility": {
+    "name": "Brahmaputra Care Trust Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Pema R.",
+        "ref": "BCT65770931",
+        "age_sex": "50/F"
+      },
+      "date": "2025-05-02",
+      "complaint": "C/O vomiting x 1 day",
+      "vitals": {
+        "bp": "118/90",
+        "pulse": 110
+      },
+      "dx": {
+        "code": "J45.909",
+        "display": "Asthma, uncomplicated"
+      },
+      "advice": "Tab. Pantoprazole 40 mg 0-0-1 x 7 days",
+      "doctor": "Dr. Imtiaz Hussain",
+      "callback_no": "087140-46028"
+    },
+    {
+      "slip": 2,
+      "pt": {
+        "nm": "Jitendra Kharbanda",
+        "ref": "BCT63892946",
+        "age_sex": "62/M"
+      },
+      "date": "2025-05-03",
+      "complaint": "C/O vomiting x 1 day",
+      "vitals": {
+        "bp": "125/85",
+        "pulse": 108
+      },
+      "dx": {
+        "code": "B54",
+        "display": "Unspecified malaria"
+      },
+      "advice": "Tab. Atorvastatin 10 mg 0-0-1 x 7 days",
+      "doctor": "Dr. Pandurang Joshi"
+    },
+    {
+      "slip": 3,
+      "pt": {
+        "nm": "Lakhan Murmu",
+        "ref": "BCT79936545",
+        "age_sex": "64/M"
+      },
+      "date": "2025-05-20",
+      "complaint": "C/O vomiting x 1 day",
+      "vitals": {
+        "bp": "119/100",
+        "pulse": 107
+      },
+      "dx": {
+        "code": "J45.909",
+        "display": "Asthma, uncomplicated"
+      },
+      "advice": "Tab. Pantoprazole 40 mg BD x 5 days",
+      "doctor": "Dr. Ramesh Iyer",
+      "callback_no": "818 839 1777"
+    },
+    {
+      "slip": 4,
+      "pt": {
+        "nm": "Ngawang S.",
+        "ref": "BCT22376516",
+        "age_sex": "77/M"
+      },
+      "date": "2025-05-25",
+      "complaint": "C/O fever x 3 days",
+      "vitals": {
+        "bp": "138/73",
+        "pulse": 69
+      },
+      "dx": {
+        "code": "A15.0",
+        "display": "Tuberculosis of lung"
+      },
+      "advice": "Tab. Azithromycin 500 mg 0-0-1 x 30 days",
+      "doctor": "Dr. Kaveri Rao"
+    }
+  ]
+}

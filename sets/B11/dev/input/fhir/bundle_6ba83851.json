@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "9f48d08b-6beb-41de-ab06-f5fe671c8c75",
+  "type": "document",
+  "meta": {
+    "source": "#KR-6302910"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:87816b1d-8b32-4910-afd8-e5e8d10952a1",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "87816b1d-8b32-4910-afd8-e5e8d10952a1",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Md. Bhupendra Gill, S/o Ilango Gill</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:krm",
+            "value": "KR-6302910"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-3756-5434-3369"
+          }
+        ],
+        "name": [
+          {
+            "text": "Bhupendra Gill",
+            "family": "Gill",
+            "given": [
+              "Bhupendra"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 84732 09666"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1946-09-18",
+        "address": [
+          {
+            "line": [
+              "H.No. 203",
+              "Shivaji Peth"
+            ],
+            "city": "Mahuagaon",
+            "district": "Alappuzha",
+            "postalCode": "688903",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:09d8165e-f0e9-4eb9-ae63-d27ca6531999",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "09d8165e-f0e9-4eb9-ae63-d27ca6531999",
+        "name": [
+          {
+            "text": "Dr. Meenakshi Sundaram"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4deee827-d7c7-427d-a040-888a3107c4cb",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "4deee827-d7c7-427d-a040-888a3107c4cb",
+        "name": "Konkan Rural Mission Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:39fd4495-9f19-4f21-a552-80f0442ff0fb",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "39fd4495-9f19-4f21-a552-80f0442ff0fb",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:87816b1d-8b32-4910-afd8-e5e8d10952a1"
+        },
+        "period": {
+          "start": "2025-08-11",
+          "end": "2025-08-16"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:4deee827-d7c7-427d-a040-888a3107c4cb"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8e146c0d-9682-4de6-a341-c820c6f87798",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "8e146c0d-9682-4de6-a341-c820c6f87798",
+        "subject": {
+          "reference": "urn:uuid:87816b1d-8b32-4910-afd8-e5e8d10952a1"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "E03.9",
+              "display": "Hypothyroidism, unspecified"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:be64c57c-2c19-4973-adea-0be27b1febac",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "be64c57c-2c19-4973-adea-0be27b1febac",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:87816b1d-8b32-4910-afd8-e5e8d10952a1"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 9.2,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:490cebbc-e1fa-4d31-a7e4-58f61abf0cbc",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "490cebbc-e1fa-4d31-a7e4-58f61abf0cbc",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:87816b1d-8b32-4910-afd8-e5e8d10952a1"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogQmh1cGVuZHJhIEdpbGwKUGhvbmU6ICs5MSA4NDczMiAwOTY2NgpEeDogSHlwb3RoeXJvaWRpc20sIHVuc3BlY2lmaWVkCg=="
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "lab": "Lifecare Diagnostics",
+  "subject": {
+    "name": "Tulsi Tamang",
+    "hosp_id": "KR-7320740",
+    "mobile": "(665) 793-9751",
+    "age": "51 Yrs"
+  },
+  "referred_by": "Dr. Grace Varghese",
+  "collected": "2025-11-09",
+  "panels": [
+    {
+      "name": "Routine",
+      "results": [
+        {
+          "test": "Haemoglobin",
+          "value": "11.4",
+          "unit": "g/dL",
+          "range": "12-16"
+        },
+        {
+          "test": "Platelet count",
+          "value": "312951",
+          "unit": "/cumm",
+          "range": "150000-450000"
+        }
+      ]
+    }
+  ]
+}

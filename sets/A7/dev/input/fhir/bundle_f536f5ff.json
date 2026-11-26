@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "16f3aedf-0f8c-4ccc-a5bd-674cbc302589",
+  "type": "document",
+  "meta": {
+    "source": "#BCT88112087"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:d5e53017-f5cc-483a-a30a-88649fd7fa46",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "d5e53017-f5cc-483a-a30a-88649fd7fa46",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Debashish Oraon, S/o Selvaraj Oraon</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:bct",
+            "value": "BCT88112087"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-7853-4261-0681"
+          }
+        ],
+        "name": [
+          {
+            "text": "Debashish Oraon",
+            "family": "Oraon",
+            "given": [
+              "Debashish"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 70006 35448"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1994-06-15",
+        "address": [
+          {
+            "line": [
+              "H.No. 316/A",
+              "Ward 14"
+            ],
+            "city": "Ratanpur Khurd",
+            "district": "Barmer",
+            "postalCode": "344582",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f6b4c4e3-07a9-4729-aee0-aeb2df032c34",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "f6b4c4e3-07a9-4729-aee0-aeb2df032c34",
+        "name": [
+          {
+            "text": "Dr. Pandurang Joshi"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a6c6fafb-9371-4f2e-af03-93ededc94a1b",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "a6c6fafb-9371-4f2e-af03-93ededc94a1b",
+        "name": "Brahmaputra Care Trust Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d725e4a9-1a06-4102-a4e5-e1556e1d836c",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "d725e4a9-1a06-4102-a4e5-e1556e1d836c",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:d5e53017-f5cc-483a-a30a-88649fd7fa46"
+        },
+        "period": {
+          "start": "2025-07-07",
+          "end": "2025-07-09"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:a6c6fafb-9371-4f2e-af03-93ededc94a1b"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a831bfc0-a5dc-490e-ae5d-e0123f6260cd",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a831bfc0-a5dc-490e-ae5d-e0123f6260cd",
+        "subject": {
+          "reference": "urn:uuid:d5e53017-f5cc-483a-a30a-88649fd7fa46"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "E03.9",
+              "display": "Hypothyroidism, unspecified"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:95a10fb7-d76c-4fa5-a55d-b841e3157e55",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "95a10fb7-d76c-4fa5-a55d-b841e3157e55",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:d5e53017-f5cc-483a-a30a-88649fd7fa46"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 14.4,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ee4c575d-4038-46c8-a68c-af2ecc81452d",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "ee4c575d-4038-46c8-a68c-af2ecc81452d",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:d5e53017-f5cc-483a-a30a-88649fd7fa46"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogRGViYXNoaXNoIE9yYW9uClBob25lOiArOTEgNzAwMDYgMzU0NDgKRHg6IEh5cG90aHlyb2lkaXNtLCB1bnNwZWNpZmllZAo="
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

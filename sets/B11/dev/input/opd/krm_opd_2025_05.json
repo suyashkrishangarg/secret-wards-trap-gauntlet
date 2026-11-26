@@ -1,0 +1,33 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Bhupendra_Shekhawat_KR-9959738.xlsx",
+    "rows": 1
+  },
+  "facility": {
+    "name": "Konkan Rural Mission Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Bhupendra S.",
+        "hosp_no": "KR-9959738",
+        "age_sex": "26/M"
+      },
+      "date": "2025-05-14",
+      "complaint": "C/O joint pains x 1 month",
+      "vitals": {
+        "bp": "119/79",
+        "pulse": 80
+      },
+      "dx": {
+        "code": "N39.0",
+        "display": "Urinary tract infection, site not specified"
+      },
+      "advice": "Tab. Furosemide 40 mg TDS x 7 days",
+      "doctor": "Dr. Meenakshi Sundaram",
+      "contact": "085080-96804"
+    }
+  ]
+}

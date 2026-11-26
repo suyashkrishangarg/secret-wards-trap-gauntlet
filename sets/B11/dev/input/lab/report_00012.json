@@ -1,0 +1,30 @@
+{
+  "lab": "Lifecare Diagnostics",
+  "subject": {
+    "name": "Arivazhagan Kushwaha",
+    "hosp_id": "KR-3565087",
+    "mobile": "+91 82387 24065",
+    "age": "66 Yrs"
+  },
+  "referred_by": "Dr. Anirban Saha",
+  "collected": "2025-09-06",
+  "panels": [
+    {
+      "name": "Routine",
+      "results": [
+        {
+          "test": "Haemoglobin",
+          "value": "10.3",
+          "unit": "g/dL",
+          "range": "12-16"
+        },
+        {
+          "test": "Platelet count",
+          "value": "143646",
+          "unit": "/cumm",
+          "range": "150000-450000"
+        }
+      ]
+    }
+  ]
+}

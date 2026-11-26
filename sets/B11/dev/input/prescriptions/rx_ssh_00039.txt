@@ -1,0 +1,11 @@
+Sahyadri Sevashram Hospital - OPD Prescription
+Name: Debjani Ansari   Age: 40 yrs   Sex: F
+UHID: SSH-R-25-055152   Mob: 7623-082947
+Aadhaar: XXXX XXXX 0502
+Date: 24/11/2025
+C/O fever x 3 days
+Dx: Essential (primary) hypertension (I10)
+Rx:
+ 1. Tab Atorvastatin 10 mg  1-0-1 x 30 days
+ 2. Dolo 650 BD x 5 days
+Dr. Pandurang Joshi (MBBS, MD)

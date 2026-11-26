@@ -1,0 +1,53 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Jitendra_Kharbanda_SSH-R-25-060661.xlsx",
+    "rows": 2
+  },
+  "facility": {
+    "name": "Sahyadri Sevashram Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Jitendra K.",
+        "ref": "SSH-R-25-060661",
+        "age_sex": "62/M"
+      },
+      "date": "2025-07-14",
+      "complaint": "C/O burning micturition x 4 days",
+      "vitals": {
+        "bp": "130/94",
+        "pulse": 108
+      },
+      "dx": {
+        "code": "A15.0",
+        "display": "Tuberculosis of lung"
+      },
+      "advice": "Tab. Azithromycin 500 mg 1-0-0 x 7 days",
+      "doctor": "Dr. Imtiaz Hussain",
+      "callback_no": "092307-34600"
+    },
+    {
+      "slip": 2,
+      "pt": {
+        "nm": "Thiruvenkadam Lodhi",
+        "ref": "SSH-R-25-079253",
+        "age_sex": "32/M"
+      },
+      "date": "2025-07-23",
+      "complaint": "C/O breathlessness on exertion",
+      "vitals": {
+        "bp": "113/77",
+        "pulse": 80
+      },
+      "dx": {
+        "code": "E03.9",
+        "display": "Hypothyroidism, unspecified"
+      },
+      "advice": "Tab. Cefixime 200 mg 1-0-1 x 30 days",
+      "doctor": "Dr. Anirban Saha"
+    }
+  ]
+}

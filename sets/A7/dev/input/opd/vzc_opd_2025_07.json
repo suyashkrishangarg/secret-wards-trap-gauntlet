@@ -1,0 +1,53 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Pandurang_Murmu_VZC.25.390552.xlsx",
+    "rows": 2
+  },
+  "facility": {
+    "name": "Vindhya Zila Chikitsalaya"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Pandurang M.",
+        "ref": "VZC.25.390552",
+        "age_sex": "37/M"
+      },
+      "date": "2025-07-19",
+      "complaint": "C/O vomiting x 1 day",
+      "vitals": {
+        "bp": "150/82",
+        "pulse": 104
+      },
+      "dx": {
+        "code": "E11.9",
+        "display": "Type 2 diabetes mellitus without complications"
+      },
+      "advice": "Tab. Azithromycin 500 mg 1-0-1 x 30 days",
+      "doctor": "Dr. Ramesh Iyer",
+      "callback_no": "069745-63425"
+    },
+    {
+      "slip": 2,
+      "pt": {
+        "nm": "Venkatesh Subramaniam",
+        "ref": "VZC.25.926387",
+        "age_sex": "76/M"
+      },
+      "date": "2025-07-22",
+      "complaint": "C/O burning micturition x 4 days",
+      "vitals": {
+        "bp": "160/98",
+        "pulse": 67
+      },
+      "dx": {
+        "code": "E11.9",
+        "display": "Type 2 diabetes mellitus without complications"
+      },
+      "advice": "Tab. Glimepiride 1 mg 1-1-1 x 7 days",
+      "doctor": "Dr. Kaveri Rao"
+    }
+  ]
+}

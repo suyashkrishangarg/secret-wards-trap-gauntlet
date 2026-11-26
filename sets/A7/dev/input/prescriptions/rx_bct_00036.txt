@@ -1,0 +1,11 @@
+Brahmaputra Care Trust Hospital - OPD Prescription
+Name: Imtiaz Pillai   Age: 32 yrs   Sex: M
+UHID: BCT61549643   Mob: 6439562282
+Aadhaar: XXXX XXXX 9279
+Date: 04/11/2025
+C/O vomiting x 1 day
+Dx: Pneumonia, unspecified organism (J18.9)
+Rx:
+ 1. Tab Penicillamine 250 mg  1-0-1 x 30 days
+ 2. Dolo 650 BD x 5 days
+Dr. Anirban Saha (MBBS, MD)

@@ -1,0 +1,53 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Venkatesh_Subramaniam_VZC.25.926387.xlsx",
+    "rows": 2
+  },
+  "facility": {
+    "name": "Vindhya Zila Chikitsalaya"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Venkatesh S.",
+        "ref": "VZC.25.926387",
+        "age_sex": "76/M"
+      },
+      "date": "2025-09-04",
+      "complaint": "C/O vomiting x 1 day",
+      "vitals": {
+        "bp": "147/98",
+        "pulse": 82
+      },
+      "dx": {
+        "code": "I10",
+        "display": "Essential (primary) hypertension"
+      },
+      "advice": "Tab. Atorvastatin 10 mg OD x 30 days",
+      "doctor": "Dr. Anirban Saha",
+      "callback_no": "085924-63852"
+    },
+    {
+      "slip": 2,
+      "pt": {
+        "nm": "Venkatesh Subramaniam",
+        "ref": "VZC.25.926387",
+        "age_sex": "76/M"
+      },
+      "date": "2025-09-15",
+      "complaint": "C/O breathlessness on exertion",
+      "vitals": {
+        "bp": "156/98",
+        "pulse": 76
+      },
+      "dx": {
+        "code": "A01.0",
+        "display": "Typhoid fever"
+      },
+      "advice": "Tab. Prednisolone 10 mg OD x 7 days",
+      "doctor": "Dr. Imtiaz Hussain"
+    }
+  ]
+}

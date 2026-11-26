@@ -1,0 +1,53 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Saroj_Tamang_SSH-R-25-039023.xlsx",
+    "rows": 2
+  },
+  "facility": {
+    "name": "Sahyadri Sevashram Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Kezhokhoto G.",
+        "hosp_no": "SSH-R-25-043366",
+        "age_sex": "84/M"
+      },
+      "date": "2025-07-15",
+      "complaint": "C/O joint pains x 1 month",
+      "vitals": {
+        "bp": "164/75",
+        "pulse": 96
+      },
+      "dx": {
+        "code": "J45.909",
+        "display": "Asthma, uncomplicated"
+      },
+      "advice": "Tab. Ecosprin 75 mg 1-0-0 x 30 days",
+      "doctor": "Dr. Imtiaz Hussain",
+      "contact": "065578-08086"
+    },
+    {
+      "slip": 2,
+      "patient_info": {
+        "full_name": "Saroj Tamang",
+        "hosp_no": "SSH-R-25-039023",
+        "age_sex": "75/F"
+      },
+      "date": "2025-07-27",
+      "complaint": "C/O cough with expectoration x 2 weeks",
+      "vitals": {
+        "bp": "125/79",
+        "pulse": 81
+      },
+      "dx": {
+        "code": "E11.9",
+        "display": "Type 2 diabetes mellitus without complications"
+      },
+      "advice": "Tab. Ramipril 5 mg 1-0-0 x 7 days",
+      "doctor": "Dr. Grace Varghese"
+    }
+  ]
+}

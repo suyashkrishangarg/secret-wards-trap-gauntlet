@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "24cd358e-e7b4-4601-a3ab-e6d9901a8b2e",
+  "type": "document",
+  "meta": {
+    "source": "#KR-8075744"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:8315dc01-d1f8-4cf2-af8d-4a2eef9abcf9",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "8315dc01-d1f8-4cf2-af8d-4a2eef9abcf9",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Yamuna Desai, D/o Bhaskar Desai</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:krm",
+            "value": "KR-8075744"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-3368-7399-5884"
+          }
+        ],
+        "name": [
+          {
+            "text": "Yamuna Desai",
+            "family": "Desai",
+            "given": [
+              "Yamuna"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 95797 13423"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "2002-03-30",
+        "address": [
+          {
+            "line": [
+              "H.No. 373",
+              "Nehru Colony"
+            ],
+            "city": "Motihalli Khurd",
+            "district": "Kamrup",
+            "postalCode": "781539",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:596aba7f-3154-446b-a9b2-596810e46868",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "596aba7f-3154-446b-a9b2-596810e46868",
+        "name": [
+          {
+            "text": "Dr. Grace Varghese"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:189b80a7-2160-4480-acab-31e98b2c37d2",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "189b80a7-2160-4480-acab-31e98b2c37d2",
+        "name": "Konkan Rural Mission Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c47eb7d5-c251-40a6-a866-2737b70aeba3",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "c47eb7d5-c251-40a6-a866-2737b70aeba3",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:8315dc01-d1f8-4cf2-af8d-4a2eef9abcf9"
+        },
+        "period": {
+          "start": "2025-11-24",
+          "end": "2025-12-03"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:189b80a7-2160-4480-acab-31e98b2c37d2"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0f45a443-a236-4d7d-adb7-45791cb1728b",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "0f45a443-a236-4d7d-adb7-45791cb1728b",
+        "subject": {
+          "reference": "urn:uuid:8315dc01-d1f8-4cf2-af8d-4a2eef9abcf9"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "J18.9",
+              "display": "Pneumonia, unspecified organism"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8104fa16-e5d8-46d0-a4a4-d6ad968eb411",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8104fa16-e5d8-46d0-a4a4-d6ad968eb411",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:8315dc01-d1f8-4cf2-af8d-4a2eef9abcf9"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 11.3,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3a3fb082-d1e7-4653-a88d-b0051ea4bcde",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "3a3fb082-d1e7-4653-a88d-b0051ea4bcde",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:8315dc01-d1f8-4cf2-af8d-4a2eef9abcf9"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogWWFtdW5hIERlc2FpClBob25lOiArOTEgOTU3OTcgMTM0MjMKRHg6IFBuZXVtb25pYSwgdW5zcGVjaWZpZWQgb3JnYW5pc20K"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

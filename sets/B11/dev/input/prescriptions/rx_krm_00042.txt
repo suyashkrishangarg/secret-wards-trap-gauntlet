@@ -1,0 +1,11 @@
+Konkan Rural Mission Hospital - OPD Prescription
+Name: Bhupendra Gill   Age: 20 yrs   Sex: M
+UHID: KR-2198599   Mob: 0091 7169768210
+Aadhaar: XXXX XXXX 5098
+Date: 05/09/2025
+C/O breathlessness on exertion
+Dx: Tuberculosis of lung (A15.0)
+Rx:
+ 1. Tab Cefixime 200 mg  1-0-1 x 30 days
+ 2. Dolo 650 BD x 5 days
+Dr. Grace Varghese (MBBS, MD)

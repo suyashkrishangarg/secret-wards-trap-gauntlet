@@ -1,0 +1,33 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Hetal_Soren_BCT56489272.xlsx",
+    "rows": 1
+  },
+  "facility": {
+    "name": "Brahmaputra Care Trust Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Hetal S.",
+        "hosp_no": "BCT56489272",
+        "age_sex": "73/F"
+      },
+      "date": "2025-06-09",
+      "complaint": "C/O fever x 3 days",
+      "vitals": {
+        "bp": "140/90",
+        "pulse": 97
+      },
+      "dx": {
+        "code": "D50.9",
+        "display": "Iron deficiency anaemia, unspecified"
+      },
+      "advice": "Tab. Furosemide 40 mg 1-1-1 x 5 days",
+      "doctor": "Dr. Pandurang Joshi",
+      "contact": "081185-36475"
+    }
+  ]
+}

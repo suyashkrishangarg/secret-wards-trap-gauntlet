@@ -1,0 +1,30 @@
+{
+  "lab": "Lifecare Diagnostics",
+  "subject": {
+    "name": "Bidisha Bora",
+    "hosp_id": "KR-9857295",
+    "mobile": "0091 6483730376",
+    "age": "76 Yrs"
+  },
+  "referred_by": "Dr. Sukhdev Bhalla",
+  "collected": "2025-09-05",
+  "panels": [
+    {
+      "name": "Routine",
+      "results": [
+        {
+          "test": "Haemoglobin",
+          "value": "10.4",
+          "unit": "g/dL",
+          "range": "12-16"
+        },
+        {
+          "test": "Platelet count",
+          "value": "339538",
+          "unit": "/cumm",
+          "range": "150000-450000"
+        }
+      ]
+    }
+  ]
+}

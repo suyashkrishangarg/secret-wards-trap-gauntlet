@@ -1,0 +1,74 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Madhavi_Kulkarni_KR-8748240.xlsx",
+    "rows": 3
+  },
+  "facility": {
+    "name": "Konkan Rural Mission Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Madhavi K.",
+        "hosp_no": "KR-8748240",
+        "age_sex": "27/F"
+      },
+      "date": "2025-10-04",
+      "complaint": "C/O burning micturition x 4 days",
+      "vitals": {
+        "bp": "153/93",
+        "pulse": 104
+      },
+      "dx": {
+        "code": "E03.9",
+        "display": "Hypothyroidism, unspecified"
+      },
+      "advice": "Tab. Pantoprazole 40 mg 1-1-1 x 5 days",
+      "doctor": "Dr. Sukhdev Bhalla",
+      "contact": "098064-65998"
+    },
+    {
+      "slip": 2,
+      "patient_info": {
+        "full_name": "Tulsi Tamang",
+        "hosp_no": "KR-7320740",
+        "age_sex": "51/F"
+      },
+      "date": "2025-10-04",
+      "complaint": "C/O pain abdomen x 2 days",
+      "vitals": {
+        "bp": "164/95",
+        "pulse": 86
+      },
+      "dx": {
+        "code": "D50.9",
+        "display": "Iron deficiency anaemia, unspecified"
+      },
+      "advice": "Tab. Azithromycin 500 mg OD x 30 days",
+      "doctor": "Dr. Grace Varghese"
+    },
+    {
+      "slip": 3,
+      "patient_info": {
+        "full_name": "Bajrangi Shekhawat",
+        "hosp_no": "KR-2606920",
+        "age_sex": "66/M"
+      },
+      "date": "2025-10-10",
+      "complaint": "C/O breathlessness on exertion",
+      "vitals": {
+        "bp": "164/95",
+        "pulse": 93
+      },
+      "dx": {
+        "code": "I10",
+        "display": "Essential (primary) hypertension"
+      },
+      "advice": "Tab. Prednisolone 10 mg TDS x 30 days",
+      "doctor": "Dr. Imtiaz Hussain",
+      "contact": "706 709 6484"
+    }
+  ]
+}

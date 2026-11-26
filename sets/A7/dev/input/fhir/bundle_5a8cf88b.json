@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "f259d100-a9d3-436c-a43e-2df4cf97948b",
+  "type": "document",
+  "meta": {
+    "source": "#SSH-R-25-048967"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:37daf238-2664-4a16-a68f-b4d51a2108b1",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "37daf238-2664-4a16-a68f-b4d51a2108b1",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Ashwini Murmu, W/o Lakhan Murmu</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:ssh",
+            "value": "SSH-R-25-048967"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-3851-4746-9418"
+          }
+        ],
+        "name": [
+          {
+            "text": "Ashwini Murmu",
+            "family": "Murmu",
+            "given": [
+              "Ashwini"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 81883 91777"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "2003-08-18",
+        "address": [
+          {
+            "line": [
+              "H.No. 460/A",
+              "Gandhi Chowk"
+            ],
+            "city": "Hiragaon",
+            "district": "Ratnagiri",
+            "postalCode": "415220",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2d8c6468-fcc5-4dc7-acb2-9464d19de281",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "2d8c6468-fcc5-4dc7-acb2-9464d19de281",
+        "name": [
+          {
+            "text": "Dr. Kaveri Rao"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4f3e0747-e06d-4e5c-a652-eb69ddef7903",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "4f3e0747-e06d-4e5c-a652-eb69ddef7903",
+        "name": "Sahyadri Sevashram Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d5531f9b-4be3-4628-a310-f30177390deb",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "d5531f9b-4be3-4628-a310-f30177390deb",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:37daf238-2664-4a16-a68f-b4d51a2108b1"
+        },
+        "period": {
+          "start": "2025-06-14",
+          "end": "2025-06-24"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:4f3e0747-e06d-4e5c-a652-eb69ddef7903"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d51ae406-c539-4b73-acb0-caeec893afb5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d51ae406-c539-4b73-acb0-caeec893afb5",
+        "subject": {
+          "reference": "urn:uuid:37daf238-2664-4a16-a68f-b4d51a2108b1"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "D50.9",
+              "display": "Iron deficiency anaemia, unspecified"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:db8c909f-245f-4f89-a93c-80efa0d0b705",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "db8c909f-245f-4f89-a93c-80efa0d0b705",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:37daf238-2664-4a16-a68f-b4d51a2108b1"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 8.5,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:03d991fb-88de-4b1f-a24e-31cbe19cba96",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "03d991fb-88de-4b1f-a24e-31cbe19cba96",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:37daf238-2664-4a16-a68f-b4d51a2108b1"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogQXNod2luaSBNdXJtdQpQaG9uZTogKzkxIDgxODgzIDkxNzc3CkR4OiBJcm9uIGRlZmljaWVuY3kgYW5hZW1pYSwgdW5zcGVjaWZpZWQK"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "76926c54-78cf-46fb-ab2f-8cb52938001f",
+  "type": "document",
+  "meta": {
+    "source": "#BCT70192695"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:af8ea99d-c084-4e89-a060-2ba929a59d59",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "af8ea99d-c084-4e89-a060-2ba929a59d59",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Ilavarasi Mukherjee, W/o Anirban Mukherjee</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:bct",
+            "value": "BCT70192695"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-2198-8076-6557"
+          }
+        ],
+        "name": [
+          {
+            "text": "Ilavarasi Mukherjee",
+            "family": "Mukherjee",
+            "given": [
+              "Ilavarasi"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 77298 28414"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1971-02-27",
+        "address": [
+          {
+            "line": [
+              "H.No. 368-B",
+              "Burma Camp Lane 3"
+            ],
+            "city": "Ratanpur Khurd",
+            "district": "Alappuzha",
+            "postalCode": "688934",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:441026b5-f697-4961-af1f-1284e17e6124",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "441026b5-f697-4961-af1f-1284e17e6124",
+        "name": [
+          {
+            "text": "Dr. Anirban Saha"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e835107f-2402-4402-a81d-190e67f32adf",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "e835107f-2402-4402-a81d-190e67f32adf",
+        "name": "Brahmaputra Care Trust Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1f1ed751-e4a1-457d-a061-f21196d34ad6",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "1f1ed751-e4a1-457d-a061-f21196d34ad6",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:af8ea99d-c084-4e89-a060-2ba929a59d59"
+        },
+        "period": {
+          "start": "2025-09-02",
+          "end": "2025-09-08"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:e835107f-2402-4402-a81d-190e67f32adf"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:77c63e27-77d1-41aa-ad7f-d908ea763e3c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "77c63e27-77d1-41aa-ad7f-d908ea763e3c",
+        "subject": {
+          "reference": "urn:uuid:af8ea99d-c084-4e89-a060-2ba929a59d59"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "A15.0",
+              "display": "Tuberculosis of lung"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cd4f2f79-eb16-417a-a000-91ecac919d44",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cd4f2f79-eb16-417a-a000-91ecac919d44",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:af8ea99d-c084-4e89-a060-2ba929a59d59"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 12.9,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:315a88fa-1a22-471a-ac36-46dff706026d",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "315a88fa-1a22-471a-ac36-46dff706026d",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:af8ea99d-c084-4e89-a060-2ba929a59d59"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogSWxhdmFyYXNpIE11a2hlcmplZQpQaG9uZTogKzkxIDc3Mjk4IDI4NDE0CkR4OiBUdWJlcmN1bG9zaXMgb2YgbHVuZwo="
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

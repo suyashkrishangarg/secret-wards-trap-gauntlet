@@ -1,0 +1,74 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Bajrangi_Sema_BCT55263539.xlsx",
+    "rows": 3
+  },
+  "facility": {
+    "name": "Brahmaputra Care Trust Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Hetal S.",
+        "hosp_no": "BCT56489272",
+        "age_sex": "73/F"
+      },
+      "date": "2025-11-12",
+      "complaint": "C/O fever x 3 days",
+      "vitals": {
+        "bp": "144/70",
+        "pulse": 79
+      },
+      "dx": {
+        "code": "J18.9",
+        "display": "Pneumonia, unspecified organism"
+      },
+      "advice": "Tab. Penicillamine 250 mg OD x 7 days",
+      "doctor": "Dr. Grace Varghese",
+      "contact": "081185-36475"
+    },
+    {
+      "slip": 2,
+      "patient_info": {
+        "full_name": "Bajrangi Sema",
+        "hosp_no": "BCT55263539",
+        "age_sex": "34/M"
+      },
+      "date": "2025-11-15",
+      "complaint": "C/O cough with expectoration x 2 weeks",
+      "vitals": {
+        "bp": "164/80",
+        "pulse": 96
+      },
+      "dx": {
+        "code": "E11.9",
+        "display": "Type 2 diabetes mellitus without complications"
+      },
+      "advice": "Tab. Atorvastatin 10 mg OD x 5 days",
+      "doctor": "Dr. Imtiaz Hussain"
+    },
+    {
+      "slip": 3,
+      "patient_info": {
+        "full_name": "Bajrangi Sema",
+        "hosp_no": "BCT55263539",
+        "age_sex": "34/M"
+      },
+      "date": "2025-11-25",
+      "complaint": "C/O breathlessness on exertion",
+      "vitals": {
+        "bp": "149/99",
+        "pulse": 95
+      },
+      "dx": {
+        "code": "K35.80",
+        "display": "Acute appendicitis"
+      },
+      "advice": "Tab. Pantoprazole 40 mg 1-0-1 x 7 days",
+      "doctor": "Dr. Imtiaz Hussain",
+      "contact": "708 750 4284"
+    }
+  ]
+}

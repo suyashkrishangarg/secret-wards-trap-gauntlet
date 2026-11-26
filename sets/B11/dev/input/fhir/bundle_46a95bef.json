@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "04dd8137-4cdf-4773-af95-04c3c81b7870",
+  "type": "document",
+  "meta": {
+    "source": "#BCT96265553"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:819fcef0-ab43-496a-a368-b7690cc65245",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "819fcef0-ab43-496a-a368-b7690cc65245",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Shrikant Kumar Naidu, S/o Bajrangi Naidu</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:bct",
+            "value": "BCT96265553"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-5782-5735-9633"
+          }
+        ],
+        "name": [
+          {
+            "text": "Shrikant Naidu",
+            "family": "Naidu",
+            "given": [
+              "Shrikant"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 61809 65323"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1977-04-09",
+        "address": [
+          {
+            "line": [
+              "H.No. 317",
+              "Gandhi Chowk"
+            ],
+            "city": "Ratangaon",
+            "district": "Alappuzha",
+            "postalCode": "688617",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:11f28557-9027-4131-a011-1e19d55e6575",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "11f28557-9027-4131-a011-1e19d55e6575",
+        "name": [
+          {
+            "text": "Dr. Imtiaz Hussain"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:32d2e9e1-15ad-41f7-a8cb-e5f0ef2a39fa",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "32d2e9e1-15ad-41f7-a8cb-e5f0ef2a39fa",
+        "name": "Brahmaputra Care Trust Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:08f688f5-e011-43e9-a2ae-d306e98e81c3",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "08f688f5-e011-43e9-a2ae-d306e98e81c3",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:819fcef0-ab43-496a-a368-b7690cc65245"
+        },
+        "period": {
+          "start": "2025-05-06",
+          "end": "2025-05-14"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:32d2e9e1-15ad-41f7-a8cb-e5f0ef2a39fa"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9cf1d3f1-bde1-42ca-ac0f-ee90d3020762",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "9cf1d3f1-bde1-42ca-ac0f-ee90d3020762",
+        "subject": {
+          "reference": "urn:uuid:819fcef0-ab43-496a-a368-b7690cc65245"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "J45.909",
+              "display": "Asthma, uncomplicated"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:747b0b8f-6579-42a2-a485-b8c3874dca02",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "747b0b8f-6579-42a2-a485-b8c3874dca02",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:819fcef0-ab43-496a-a368-b7690cc65245"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 11.9,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9eb3aa8d-d545-4c78-ab1e-c84ede1dcb6b",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "9eb3aa8d-d545-4c78-ab1e-c84ede1dcb6b",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:819fcef0-ab43-496a-a368-b7690cc65245"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogU2hyaWthbnQgTmFpZHUKUGhvbmU6ICs5MSA2MTgwOSA2NTMyMwpEeDogQXN0aG1hLCB1bmNvbXBsaWNhdGVkCg=="
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

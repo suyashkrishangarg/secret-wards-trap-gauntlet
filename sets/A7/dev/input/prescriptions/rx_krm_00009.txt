@@ -1,0 +1,11 @@
+Konkan Rural Mission Hospital - OPD Prescription
+Name: Yamuna Pillai   Age: 34 yrs   Sex: F
+UHID: KR-5210112   Mob: +919532994930
+Aadhaar: XXXX XXXX 4474
+Date: 20/05/2025
+C/O cough with expectoration x 2 weeks
+Dx: Essential (primary) hypertension (I10)
+Rx:
+ 1. Tab Amlodipine 5 mg  1-0-1 x 30 days
+ 2. Dolo 650 BD x 5 days
+Dr. Anirban Saha (MBBS, MD)

@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "e6f8d2e0-d295-4d2f-a717-9545e94994b0",
+  "type": "document",
+  "meta": {
+    "source": "#KR-6361141"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:d4f780c9-1fe9-4a2e-a572-d7b7f69664b0",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "d4f780c9-1fe9-4a2e-a572-d7b7f69664b0",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Anirban Murmu, S/o Venkatesh Murmu</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:krm",
+            "value": "KR-6361141"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-1148-8293-2831"
+          }
+        ],
+        "name": [
+          {
+            "text": "Anirban Murmu",
+            "family": "Murmu",
+            "given": [
+              "Anirban"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 86439 81378"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1976-08-13",
+        "address": [
+          {
+            "line": [
+              "H.No. 456",
+              "Shivaji Peth"
+            ],
+            "city": "Bakhrikhera",
+            "district": "Ratnagiri",
+            "postalCode": "415673",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ea728154-6032-422d-a7b3-aef3bab34b52",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "ea728154-6032-422d-a7b3-aef3bab34b52",
+        "name": [
+          {
+            "text": "Dr. Sukhdev Bhalla"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0e5a6f46-a36b-40f3-a486-51d0fc122b1d",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "0e5a6f46-a36b-40f3-a486-51d0fc122b1d",
+        "name": "Konkan Rural Mission Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6102142e-f9b8-400d-af59-096c2cb5fc07",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "6102142e-f9b8-400d-af59-096c2cb5fc07",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:d4f780c9-1fe9-4a2e-a572-d7b7f69664b0"
+        },
+        "period": {
+          "start": "2025-10-30",
+          "end": "2025-11-09"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:0e5a6f46-a36b-40f3-a486-51d0fc122b1d"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fe0cd7e0-bf0f-4ac9-a8ab-16c06260098a",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "fe0cd7e0-bf0f-4ac9-a8ab-16c06260098a",
+        "subject": {
+          "reference": "urn:uuid:d4f780c9-1fe9-4a2e-a572-d7b7f69664b0"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "A90",
+              "display": "Dengue fever"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:99393f34-e4a6-40a2-a8f3-288e138f9054",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "99393f34-e4a6-40a2-a8f3-288e138f9054",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:d4f780c9-1fe9-4a2e-a572-d7b7f69664b0"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 9.0,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e9be78d1-7abe-4420-a6d0-199e36846bac",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "e9be78d1-7abe-4420-a6d0-199e36846bac",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:d4f780c9-1fe9-4a2e-a572-d7b7f69664b0"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogQW5pcmJhbiBNdXJtdQpQaG9uZTogKzkxIDg2NDM5IDgxMzc4CkR4OiBEZW5ndWUgZmV2ZXIK"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

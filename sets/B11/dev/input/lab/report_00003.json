@@ -1,0 +1,30 @@
+{
+  "lab": "Lifecare Diagnostics",
+  "subject": {
+    "name": "Rukhsana Devi Parmar",
+    "hosp_id": "BCT81592143",
+    "mobile": "998 836 4666",
+    "age": "57 Yrs"
+  },
+  "referred_by": "Dr. Anirban Saha",
+  "collected": "2025-09-04",
+  "panels": [
+    {
+      "name": "Routine",
+      "results": [
+        {
+          "test": "Haemoglobin",
+          "value": "9.8",
+          "unit": "g/dL",
+          "range": "12-16"
+        },
+        {
+          "test": "Platelet count",
+          "value": "173728",
+          "unit": "/cumm",
+          "range": "150000-450000"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+Brahmaputra Care Trust Hospital - OPD Prescription
+Name: Vimala Sandhu   Age: 55 yrs   Sex: F
+UHID: BCT92173426   Mob: +919149303994
+Aadhaar: XXXX XXXX 8934
+Date: 10/11/2025
+C/O pain abdomen x 2 days
+Dx: Typhoid fever (A01.0)
+Rx:
+ 1. Tab Rifampicin 450 mg  1-0-1 x 30 days
+ 2. Dolo 650 BD x 5 days
+Dr. Grace Varghese (MBBS, MD)

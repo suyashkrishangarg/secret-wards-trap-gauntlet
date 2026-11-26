@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "d802738f-18bf-49c2-a7b2-1e902ceefdee",
+  "type": "document",
+  "meta": {
+    "source": "#SSH-R-25-079253"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:f935b2f9-ed40-4035-ab6a-e5049aa81e10",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "f935b2f9-ed40-4035-ab6a-e5049aa81e10",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Thiruvenkadam Lodhi, S/o Jayesh Lodhi</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:ssh",
+            "value": "SSH-R-25-079253"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-5236-1717-4611"
+          }
+        ],
+        "name": [
+          {
+            "text": "Thiruvenkadam Lodhi",
+            "family": "Lodhi",
+            "given": [
+              "Thiruvenkadam"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 92431 04610"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1993-09-30",
+        "address": [
+          {
+            "line": [
+              "H.No. 73-B",
+              "Shivaji Peth"
+            ],
+            "city": "Hirahalli",
+            "district": "Jhunjhunu",
+            "postalCode": "333481",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:70a11712-e99c-4077-a5dc-5b53e95e9a76",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "70a11712-e99c-4077-a5dc-5b53e95e9a76",
+        "name": [
+          {
+            "text": "Dr. Imtiaz Hussain"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ad04e414-7ca4-42df-a8a6-15279e0386e2",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "ad04e414-7ca4-42df-a8a6-15279e0386e2",
+        "name": "Sahyadri Sevashram Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:31ceb2e1-41d9-4869-a5a7-9824bdce76c0",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "31ceb2e1-41d9-4869-a5a7-9824bdce76c0",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:f935b2f9-ed40-4035-ab6a-e5049aa81e10"
+        },
+        "period": {
+          "start": "2025-11-15",
+          "end": "2025-11-25"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:ad04e414-7ca4-42df-a8a6-15279e0386e2"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2aaa9fe6-38df-46d4-aea9-7031f0dd545b",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "2aaa9fe6-38df-46d4-aea9-7031f0dd545b",
+        "subject": {
+          "reference": "urn:uuid:f935b2f9-ed40-4035-ab6a-e5049aa81e10"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "I10",
+              "display": "Essential (primary) hypertension"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:68aba905-2508-4fd1-abde-21b1564cbd6c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "68aba905-2508-4fd1-abde-21b1564cbd6c",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f935b2f9-ed40-4035-ab6a-e5049aa81e10"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 14.0,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3e81e581-b249-4165-a6d0-e7c36e134301",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "3e81e581-b249-4165-a6d0-e7c36e134301",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:f935b2f9-ed40-4035-ab6a-e5049aa81e10"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogVGhpcnV2ZW5rYWRhbSBMb2RoaQpQaG9uZTogKzkxIDkyNDMxIDA0NjEwCkR4OiBFc3NlbnRpYWwgKHByaW1hcnkpIGh5cGVydGVuc2lvbgo="
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

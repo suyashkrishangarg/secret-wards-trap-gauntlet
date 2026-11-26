@@ -1,0 +1,30 @@
+{
+  "lab": "Lifecare Diagnostics",
+  "patient": {
+    "name": "Jitendra Kharbanda",
+    "hosp_id": "BCT84227930",
+    "mobile": "+91-709-299-5922",
+    "age": "65 Yrs"
+  },
+  "referred_by": "Dr. Kaveri Rao",
+  "collected": "2025-06-15",
+  "panels": [
+    {
+      "name": "Routine",
+      "results": [
+        {
+          "test": "Haemoglobin",
+          "value": "12.5",
+          "unit": "g/dL",
+          "range": "12-16"
+        },
+        {
+          "test": "Platelet count",
+          "value": "192661",
+          "unit": "/cumm",
+          "range": "150000-450000"
+        }
+      ]
+    }
+  ]
+}

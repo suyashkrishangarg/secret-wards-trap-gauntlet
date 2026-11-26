@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "dd56626a-dfda-4963-a0a7-5bd76fb20dda",
+  "type": "document",
+  "meta": {
+    "source": "#VZC.25.125457"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:729507e3-6232-46ff-afe7-35c46266a716",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "729507e3-6232-46ff-afe7-35c46266a716",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bajrangi Chakraborty, S/o Sukhdev Chakraborty</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:vzc",
+            "value": "VZC.25.125457"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-1152-7047-4945"
+          }
+        ],
+        "name": [
+          {
+            "text": "Bajrangi Chakraborty",
+            "family": "Chakraborty",
+            "given": [
+              "Bajrangi"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 90009 90933"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1958-09-27",
+        "address": [
+          {
+            "line": [
+              "H.No. 134/A",
+              "Shivaji Peth"
+            ],
+            "city": "Motidih Khurd",
+            "district": "Jhunjhunu",
+            "postalCode": "333364",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:628f64ac-3646-4883-aa98-951bb042a319",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "628f64ac-3646-4883-aa98-951bb042a319",
+        "name": [
+          {
+            "text": "Dr. Pandurang Joshi"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:06a6cd66-c3bb-44f9-abac-428486227e43",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "06a6cd66-c3bb-44f9-abac-428486227e43",
+        "name": "Vindhya Zila Chikitsalaya"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:44032026-6af3-426c-a424-dae7629e94ae",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "44032026-6af3-426c-a424-dae7629e94ae",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:729507e3-6232-46ff-afe7-35c46266a716"
+        },
+        "period": {
+          "start": "2025-03-07",
+          "end": "2025-03-09"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:06a6cd66-c3bb-44f9-abac-428486227e43"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ae9905d3-b8d1-4310-a01a-78199481e977",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "ae9905d3-b8d1-4310-a01a-78199481e977",
+        "subject": {
+          "reference": "urn:uuid:729507e3-6232-46ff-afe7-35c46266a716"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "B54",
+              "display": "Unspecified malaria"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:beb5600a-a970-49b9-ad69-665bcdb160f2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "beb5600a-a970-49b9-ad69-665bcdb160f2",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:729507e3-6232-46ff-afe7-35c46266a716"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 9.0,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:564ee5e2-cd08-4575-a026-fff7ba7c2722",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "564ee5e2-cd08-4575-a026-fff7ba7c2722",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:729507e3-6232-46ff-afe7-35c46266a716"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogQmFqcmFuZ2kgQ2hha3JhYm9ydHkKUGhvbmU6ICs5MSA5MDAwOSA5MDkzMwpEeDogVW5zcGVjaWZpZWQgbWFsYXJpYQo="
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

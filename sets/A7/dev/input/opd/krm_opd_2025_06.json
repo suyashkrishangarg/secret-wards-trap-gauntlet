@@ -1,0 +1,74 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Debashish_Oraon_KR-7189698.xlsx",
+    "rows": 3
+  },
+  "facility": {
+    "name": "Konkan Rural Mission Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Philomena D.",
+        "ref": "KR-2175874",
+        "age_sex": "20/F"
+      },
+      "date": "2025-06-10",
+      "complaint": "C/O breathlessness on exertion",
+      "vitals": {
+        "bp": "150/70",
+        "pulse": 78
+      },
+      "dx": {
+        "code": "D50.9",
+        "display": "Iron deficiency anaemia, unspecified"
+      },
+      "advice": "Tab. Azithromycin 500 mg 0-0-1 x 7 days",
+      "doctor": "Dr. Anirban Saha",
+      "callback_no": "090707-34805"
+    },
+    {
+      "slip": 2,
+      "pt": {
+        "nm": "Debashish Oraon",
+        "ref": "KR-7189698",
+        "age_sex": "31/M"
+      },
+      "date": "2025-06-24",
+      "complaint": "C/O fever x 3 days",
+      "vitals": {
+        "bp": "148/70",
+        "pulse": 80
+      },
+      "dx": {
+        "code": "A01.0",
+        "display": "Typhoid fever"
+      },
+      "advice": "Tab. Amlodipine 5 mg 0-0-1 x 7 days",
+      "doctor": "Dr. Grace Varghese"
+    },
+    {
+      "slip": 3,
+      "pt": {
+        "nm": "Shabnam Prajapati",
+        "ref": "KR-5788100",
+        "age_sex": "73/F"
+      },
+      "date": "2025-06-28",
+      "complaint": "C/O giddiness x 1 week",
+      "vitals": {
+        "bp": "169/78",
+        "pulse": 64
+      },
+      "dx": {
+        "code": "N39.0",
+        "display": "Urinary tract infection, site not specified"
+      },
+      "advice": "Tab. Furosemide 40 mg 1-1-1 x 30 days",
+      "doctor": "Dr. Meenakshi Sundaram",
+      "callback_no": "916 317 6156"
+    }
+  ]
+}

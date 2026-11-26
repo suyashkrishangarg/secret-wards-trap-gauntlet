@@ -1,0 +1,53 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Harpreet_Shekhawat_VZC.25.489530.xlsx",
+    "rows": 2
+  },
+  "facility": {
+    "name": "Vindhya Zila Chikitsalaya"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Muthuswamy S.",
+        "hosp_no": "VZC.25.191648",
+        "age_sex": "19/M"
+      },
+      "date": "2025-01-19",
+      "complaint": "C/O vomiting x 1 day",
+      "vitals": {
+        "bp": "116/99",
+        "pulse": 89
+      },
+      "dx": {
+        "code": "D50.9",
+        "display": "Iron deficiency anaemia, unspecified"
+      },
+      "advice": "Tab. Azithromycin 500 mg BD x 30 days",
+      "doctor": "Dr. Anirban Saha",
+      "contact": "094337-68575"
+    },
+    {
+      "slip": 2,
+      "patient_info": {
+        "full_name": "Harpreet Shekhawat",
+        "hosp_no": "VZC.25.489530",
+        "age_sex": "97/M"
+      },
+      "date": "2025-01-23",
+      "complaint": "C/O giddiness x 1 week",
+      "vitals": {
+        "bp": "143/97",
+        "pulse": 93
+      },
+      "dx": {
+        "code": "J45.909",
+        "display": "Asthma, uncomplicated"
+      },
+      "advice": "Tab. Pantoprazole 40 mg HS x 30 days",
+      "doctor": "Dr. Grace Varghese"
+    }
+  ]
+}

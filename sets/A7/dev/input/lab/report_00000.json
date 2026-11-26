@@ -1,0 +1,30 @@
+{
+  "lab": "Lifecare Diagnostics",
+  "patient": {
+    "name": "Anirban Murmu",
+    "hosp_id": "KR-6361141",
+    "mobile": "+91 86439 81378",
+    "age": "49 Yrs"
+  },
+  "referred_by": "Dr. Pandurang Joshi",
+  "collected": "2025-08-30",
+  "panels": [
+    {
+      "name": "Routine",
+      "results": [
+        {
+          "test": "Haemoglobin",
+          "value": "8.8",
+          "unit": "g/dL",
+          "range": "12-16"
+        },
+        {
+          "test": "Platelet count",
+          "value": "287363",
+          "unit": "/cumm",
+          "range": "150000-450000"
+        }
+      ]
+    }
+  ]
+}

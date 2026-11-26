@@ -1,0 +1,33 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Jitendra_Bhattacharya_VZC.25.824740.xlsx",
+    "rows": 1
+  },
+  "facility": {
+    "name": "Vindhya Zila Chikitsalaya"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Jitendra B.",
+        "ref": "VZC.25.824740",
+        "age_sex": "50/M"
+      },
+      "date": "2025-06-11",
+      "complaint": "C/O giddiness x 1 week",
+      "vitals": {
+        "bp": "136/75",
+        "pulse": 95
+      },
+      "dx": {
+        "code": "A15.0",
+        "display": "Tuberculosis of lung"
+      },
+      "advice": "Tab. Ramipril 5 mg BD x 30 days",
+      "doctor": "Dr. Ramesh Iyer",
+      "callback_no": "088375-69207"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "lab": "Lifecare Diagnostics",
+  "subject": {
+    "name": "Joseph Kumar Kulkarni",
+    "hosp_id": "BCT77870845",
+    "mobile": "65140.50181",
+    "age": "82 Yrs"
+  },
+  "referred_by": "Dr. Ramesh Iyer",
+  "collected": "2025-04-15",
+  "panels": [
+    {
+      "name": "Routine",
+      "results": [
+        {
+          "test": "Haemoglobin",
+          "value": "11.0",
+          "unit": "g/dL",
+          "range": "12-16"
+        },
+        {
+          "test": "Platelet count",
+          "value": "291628",
+          "unit": "/cumm",
+          "range": "150000-450000"
+        }
+      ]
+    }
+  ]
+}

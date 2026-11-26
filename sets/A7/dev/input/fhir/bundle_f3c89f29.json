@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "64d1058c-bfcf-4cd9-ab9b-05d3abec3deb",
+  "type": "document",
+  "meta": {
+    "source": "#KR-5210112"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:6e370949-a7c8-4123-a3e2-e555e5e93ddd",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "6e370949-a7c8-4123-a3e2-e555e5e93ddd",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Yamuna Pillai, D/o Imtiaz Pillai</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:krm",
+            "value": "KR-5210112"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-4793-2946-1396"
+          }
+        ],
+        "name": [
+          {
+            "text": "Yamuna Pillai",
+            "family": "Pillai",
+            "given": [
+              "Yamuna"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 95329 94930"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1991-10-02",
+        "address": [
+          {
+            "line": [
+              "H.No. 397/A",
+              "Shivaji Peth"
+            ],
+            "city": "Jamunwadi",
+            "district": "Ratnagiri",
+            "postalCode": "415887",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a772d918-0dcc-462b-ac79-101da2a215be",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "a772d918-0dcc-462b-ac79-101da2a215be",
+        "name": [
+          {
+            "text": "Dr. Grace Varghese"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5eac8eb7-a693-4199-a4d6-f1a0acc329d3",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "5eac8eb7-a693-4199-a4d6-f1a0acc329d3",
+        "name": "Konkan Rural Mission Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e8611303-3818-45bd-a5fd-42ab294c9b22",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "e8611303-3818-45bd-a5fd-42ab294c9b22",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:6e370949-a7c8-4123-a3e2-e555e5e93ddd"
+        },
+        "period": {
+          "start": "2025-07-01",
+          "end": "2025-07-18"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:5eac8eb7-a693-4199-a4d6-f1a0acc329d3"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:86c5b7aa-cd74-43f1-a594-ba9f59b85c73",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "86c5b7aa-cd74-43f1-a594-ba9f59b85c73",
+        "subject": {
+          "reference": "urn:uuid:6e370949-a7c8-4123-a3e2-e555e5e93ddd"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "M31.4",
+              "display": "Takayasu arteritis"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9f1b0ad5-5969-48ca-a79c-155e7af1444c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9f1b0ad5-5969-48ca-a79c-155e7af1444c",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:6e370949-a7c8-4123-a3e2-e555e5e93ddd"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 11.8,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4918480c-63d4-4d1d-a69a-5c8a4795a142",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "4918480c-63d4-4d1d-a69a-5c8a4795a142",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:6e370949-a7c8-4123-a3e2-e555e5e93ddd"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogWWFtdW5hIFBpbGxhaQpQaG9uZTogKzkxIDk1MzI5IDk0OTMwCkR4OiBUYWtheWFzdSBhcnRlcml0aXMK"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

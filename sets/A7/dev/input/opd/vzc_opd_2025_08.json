@@ -1,0 +1,74 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Yamuna_Menon_VZC.25.768340.xlsx",
+    "rows": 3
+  },
+  "facility": {
+    "name": "Vindhya Zila Chikitsalaya"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Lalitha O.",
+        "ref": "VZC.25.046635",
+        "age_sex": "64/F"
+      },
+      "date": "2025-08-03",
+      "complaint": "C/O fever x 3 days",
+      "vitals": {
+        "bp": "125/76",
+        "pulse": 109
+      },
+      "dx": {
+        "code": "J18.9",
+        "display": "Pneumonia, unspecified organism"
+      },
+      "advice": "Tab. Rifampicin 450 mg 0-0-1 x 30 days",
+      "doctor": "Dr. Anirban Saha",
+      "callback_no": "066470-26676"
+    },
+    {
+      "slip": 2,
+      "pt": {
+        "nm": "Yamuna Menon",
+        "ref": "VZC.25.768340",
+        "age_sex": "23/F"
+      },
+      "date": "2025-08-06",
+      "complaint": "C/O pain abdomen x 2 days",
+      "vitals": {
+        "bp": "124/88",
+        "pulse": 86
+      },
+      "dx": {
+        "code": "J18.9",
+        "display": "Pneumonia, unspecified organism"
+      },
+      "advice": "Tab. Metformin 500 mg 1-0-1 x 5 days",
+      "doctor": "Dr. Grace Varghese"
+    },
+    {
+      "slip": 3,
+      "pt": {
+        "nm": "Yamuna Menon",
+        "ref": "VZC.25.768340",
+        "age_sex": "23/F"
+      },
+      "date": "2025-08-25",
+      "complaint": "C/O cough with expectoration x 2 weeks",
+      "vitals": {
+        "bp": "119/97",
+        "pulse": 86
+      },
+      "dx": {
+        "code": "J18.9",
+        "display": "Pneumonia, unspecified organism"
+      },
+      "advice": "Tab. Rifampicin 450 mg 1-0-0 x 7 days",
+      "doctor": "Dr. Grace Varghese",
+      "callback_no": "609 770 8511"
+    }
+  ]
+}

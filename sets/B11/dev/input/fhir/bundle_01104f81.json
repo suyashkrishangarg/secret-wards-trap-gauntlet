@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "34c9b556-8903-4af4-a23e-655ed58bf5bb",
+  "type": "document",
+  "meta": {
+    "source": "#BCT26108041"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:1a30898a-81ba-4c6d-a74a-50c49f71ea51",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "1a30898a-81ba-4c6d-a74a-50c49f71ea51",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Tanveer Kulkarni, S/o Rajan Kulkarni</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:bct",
+            "value": "BCT26108041"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-7429-8681-5854"
+          }
+        ],
+        "name": [
+          {
+            "text": "Tanveer Kulkarni",
+            "family": "Kulkarni",
+            "given": [
+              "Tanveer"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 78619 68649"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1950-10-20",
+        "address": [
+          {
+            "line": [
+              "H.No. 348",
+              "Ward 14"
+            ],
+            "city": "Ratantola",
+            "district": "Barmer",
+            "postalCode": "344691",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:192e7bc3-d271-46f9-a13f-14c198a99a97",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "192e7bc3-d271-46f9-a13f-14c198a99a97",
+        "name": [
+          {
+            "text": "Dr. Pandurang Joshi"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:66ceb740-d937-4032-a692-023534700840",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "66ceb740-d937-4032-a692-023534700840",
+        "name": "Brahmaputra Care Trust Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:487c2964-7ac8-437f-a55c-839d6ce49690",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "487c2964-7ac8-437f-a55c-839d6ce49690",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:1a30898a-81ba-4c6d-a74a-50c49f71ea51"
+        },
+        "period": {
+          "start": "2025-03-08",
+          "end": "2025-03-16"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:66ceb740-d937-4032-a692-023534700840"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:eb4f236b-6f5f-4eb6-a6f1-a049efd43e06",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "eb4f236b-6f5f-4eb6-a6f1-a049efd43e06",
+        "subject": {
+          "reference": "urn:uuid:1a30898a-81ba-4c6d-a74a-50c49f71ea51"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "A15.0",
+              "display": "Tuberculosis of lung"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c08e3928-b9b7-426d-a4d4-6c629c7ee8a2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c08e3928-b9b7-426d-a4d4-6c629c7ee8a2",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1a30898a-81ba-4c6d-a74a-50c49f71ea51"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 12.7,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:55165064-022c-40b0-a399-f2ea38776d2c",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "55165064-022c-40b0-a399-f2ea38776d2c",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:1a30898a-81ba-4c6d-a74a-50c49f71ea51"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogVGFudmVlciBLdWxrYXJuaQpQaG9uZTogKzkxIDc4NjE5IDY4NjQ5CkR4OiBUdWJlcmN1bG9zaXMgb2YgbHVuZwo="
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Bajrangi_Shekhawat_BCT46924849.xlsx",
+    "rows": 3
+  },
+  "facility": {
+    "name": "Brahmaputra Care Trust Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Bajrangi S.",
+        "hosp_no": "BCT46924849",
+        "age_sex": "66/M"
+      },
+      "date": "2025-02-04",
+      "complaint": "C/O burning micturition x 4 days",
+      "vitals": {
+        "bp": "143/87",
+        "pulse": 91
+      },
+      "dx": {
+        "code": "D50.9",
+        "display": "Iron deficiency anaemia, unspecified"
+      },
+      "advice": "Tab. Metformin 500 mg TDS x 30 days",
+      "doctor": "Dr. Pandurang Joshi",
+      "contact": "070670-96484"
+    },
+    {
+      "slip": 2,
+      "patient_info": {
+        "full_name": "Shrikant Kumar Naidu",
+        "hosp_no": "BCT96265553",
+        "age_sex": "48/M"
+      },
+      "date": "2025-02-09",
+      "complaint": "C/O vomiting x 1 day",
+      "vitals": {
+        "bp": "166/81",
+        "pulse": 92
+      },
+      "dx": {
+        "code": "I10",
+        "display": "Essential (primary) hypertension"
+      },
+      "advice": "Tab. Glimepiride 1 mg 1-0-1 x 5 days",
+      "doctor": "Dr. Kaveri Rao"
+    },
+    {
+      "slip": 3,
+      "patient_info": {
+        "full_name": "Tanveer Kulkarni",
+        "hosp_no": "BCT26108041",
+        "age_sex": "75/M"
+      },
+      "date": "2025-02-10",
+      "complaint": "C/O fever x 3 days",
+      "vitals": {
+        "bp": "120/73",
+        "pulse": 75
+      },
+      "dx": {
+        "code": "A90",
+        "display": "Dengue fever"
+      },
+      "advice": "Tab. Ramipril 5 mg BD x 30 days",
+      "doctor": "Dr. Anirban Saha",
+      "contact": "786 196 8649"
+    }
+  ]
+}

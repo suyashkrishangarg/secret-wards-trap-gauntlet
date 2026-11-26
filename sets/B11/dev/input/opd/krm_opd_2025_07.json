@@ -1,0 +1,33 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Bhupendra_Gill_KR-6302910.xlsx",
+    "rows": 1
+  },
+  "facility": {
+    "name": "Konkan Rural Mission Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Mohammad Bhupendra G.",
+        "hosp_no": "KR-6302910",
+        "age_sex": "79/M"
+      },
+      "date": "2025-07-03",
+      "complaint": "C/O giddiness x 1 week",
+      "vitals": {
+        "bp": "137/77",
+        "pulse": 82
+      },
+      "dx": {
+        "code": "A15.0",
+        "display": "Tuberculosis of lung"
+      },
+      "advice": "Tab. Penicillamine 250 mg 1-0-1 x 5 days",
+      "doctor": "Dr. Grace Varghese",
+      "contact": "084732-09666"
+    }
+  ]
+}

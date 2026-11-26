@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "91627284-f610-4ac9-aa21-b1994f4ad8ed",
+  "type": "document",
+  "meta": {
+    "source": "#VZC.25.824740"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:8a334442-1c74-4c29-a6ae-ec02c47347d8",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "8a334442-1c74-4c29-a6ae-ec02c47347d8",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Jitendra Bhattacharya, S/o Hemant Bhattacharya</div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:hospital:vzc",
+            "value": "VZC.25.824740"
+          },
+          {
+            "system": "https://healthid.abdm.gov.in",
+            "value": "91-3059-2336-3399"
+          }
+        ],
+        "name": [
+          {
+            "text": "Jitendra Bhattacharya",
+            "family": "Bhattacharya",
+            "given": [
+              "Jitendra"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91 88375 69207"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1975-10-04",
+        "address": [
+          {
+            "line": [
+              "H.No. 284-B",
+              "Gandhi Chowk"
+            ],
+            "city": "Ratanpur",
+            "district": "Jhunjhunu",
+            "postalCode": "333654",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ac14cb74-3ca3-4517-a053-9cd5d85a3706",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "ac14cb74-3ca3-4517-a053-9cd5d85a3706",
+        "name": [
+          {
+            "text": "Dr. Imtiaz Hussain"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:31b9c4bc-059c-4008-af8b-6ef5ca048bb7",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "31b9c4bc-059c-4008-af8b-6ef5ca048bb7",
+        "name": "Vindhya Zila Chikitsalaya"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:34627305-bc0a-47f3-a522-be62c361d2ad",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "34627305-bc0a-47f3-a522-be62c361d2ad",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "subject": {
+          "reference": "urn:uuid:8a334442-1c74-4c29-a6ae-ec02c47347d8"
+        },
+        "period": {
+          "start": "2025-06-22",
+          "end": "2025-07-04"
+        },
+        "serviceProvider": {
+          "reference": "urn:uuid:31b9c4bc-059c-4008-af8b-6ef5ca048bb7"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e2531a4c-a23a-456c-a662-adef0fc2571d",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "e2531a4c-a23a-456c-a662-adef0fc2571d",
+        "subject": {
+          "reference": "urn:uuid:8a334442-1c74-4c29-a6ae-ec02c47347d8"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "N39.0",
+              "display": "Urinary tract infection, site not specified"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b1ee662d-896e-4c85-a978-49d56360da53",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b1ee662d-896e-4c85-a978-49d56360da53",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:8a334442-1c74-4c29-a6ae-ec02c47347d8"
+        },
+        "code": {
+          "text": "Haemoglobin"
+        },
+        "valueQuantity": {
+          "value": 9.9,
+          "unit": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cd04ab2b-8a74-4541-aa40-2460a7ff1c23",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "cd04ab2b-8a74-4541-aa40-2460a7ff1c23",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:8a334442-1c74-4c29-a6ae-ec02c47347d8"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlIHN1bW1hcnkKUGF0aWVudDogSml0ZW5kcmEgQmhhdHRhY2hhcnlhClBob25lOiArOTEgODgzNzUgNjkyMDcKRHg6IFVyaW5hcnkgdHJhY3QgaW5mZWN0aW9uLCBzaXRlIG5vdCBzcGVjaWZpZWQK"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

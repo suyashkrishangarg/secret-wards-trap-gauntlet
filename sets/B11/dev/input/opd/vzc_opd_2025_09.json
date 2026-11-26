@@ -1,0 +1,74 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Harpreet_Shekhawat_VZC.25.489530.xlsx",
+    "rows": 3
+  },
+  "facility": {
+    "name": "Vindhya Zila Chikitsalaya"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "patient_info": {
+        "full_name": "Harpreet S.",
+        "hosp_no": "VZC.25.489530",
+        "age_sex": "97/M"
+      },
+      "date": "2025-09-04",
+      "complaint": "C/O fever x 3 days",
+      "vitals": {
+        "bp": "134/96",
+        "pulse": 107
+      },
+      "dx": {
+        "code": "N39.0",
+        "display": "Urinary tract infection, site not specified"
+      },
+      "advice": "Tab. Prednisolone 10 mg TDS x 30 days",
+      "doctor": "Dr. Kaveri Rao",
+      "contact": "088305-60856"
+    },
+    {
+      "slip": 2,
+      "patient_info": {
+        "full_name": "Arivazhagan Kushwaha",
+        "hosp_no": "VZC.25.813711",
+        "age_sex": "66/M"
+      },
+      "date": "2025-09-06",
+      "complaint": "C/O giddiness x 1 week",
+      "vitals": {
+        "bp": "169/98",
+        "pulse": 65
+      },
+      "dx": {
+        "code": "N39.0",
+        "display": "Urinary tract infection, site not specified"
+      },
+      "advice": "Tab. Ondansetron 4 mg BD x 30 days",
+      "doctor": "Dr. Sukhdev Bhalla"
+    },
+    {
+      "slip": 3,
+      "patient_info": {
+        "full_name": "Meenakshi Devi Nambiar",
+        "hosp_no": "VZC.25.968178",
+        "age_sex": "75/F"
+      },
+      "date": "2025-09-16",
+      "complaint": "C/O joint pains x 1 month",
+      "vitals": {
+        "bp": "116/80",
+        "pulse": 71
+      },
+      "dx": {
+        "code": "N39.0",
+        "display": "Urinary tract infection, site not specified"
+      },
+      "advice": "Tab. Levothyroxine 50 mcg 0-0-1 x 30 days",
+      "doctor": "Dr. Pandurang Joshi",
+      "contact": "954 042 7906"
+    }
+  ]
+}

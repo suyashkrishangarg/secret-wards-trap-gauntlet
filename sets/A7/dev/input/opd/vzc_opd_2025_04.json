@@ -1,0 +1,53 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Jitendra_Kharbanda_VZC.25.031808.xlsx",
+    "rows": 2
+  },
+  "facility": {
+    "name": "Vindhya Zila Chikitsalaya"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Meera P.",
+        "ref": "VZC.25.901251",
+        "age_sex": "77/F"
+      },
+      "date": "2025-04-10",
+      "complaint": "C/O breathlessness on exertion",
+      "vitals": {
+        "bp": "116/72",
+        "pulse": 81
+      },
+      "dx": {
+        "code": "E03.9",
+        "display": "Hypothyroidism, unspecified"
+      },
+      "advice": "Tab. Amlodipine 5 mg 0-0-1 x 7 days",
+      "doctor": "Dr. Pandurang Joshi",
+      "callback_no": "076304-28450"
+    },
+    {
+      "slip": 2,
+      "pt": {
+        "nm": "Jitendra Kharbanda",
+        "ref": "VZC.25.031808",
+        "age_sex": "65/M"
+      },
+      "date": "2025-04-24",
+      "complaint": "C/O fever x 3 days",
+      "vitals": {
+        "bp": "165/98",
+        "pulse": 95
+      },
+      "dx": {
+        "code": "N39.0",
+        "display": "Urinary tract infection, site not specified"
+      },
+      "advice": "Tab. Ramipril 5 mg TDS x 5 days",
+      "doctor": "Dr. Ramesh Iyer"
+    }
+  ]
+}

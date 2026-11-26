@@ -1,0 +1,33 @@
+{
+  "export_info": {
+    "system": "HMIS v3.2",
+    "source_file": "D:\\HMIS\\dump\\Anirban_Murmu_SSH-R-25-035580.xlsx",
+    "rows": 1
+  },
+  "facility": {
+    "name": "Sahyadri Sevashram Hospital"
+  },
+  "visits": [
+    {
+      "slip": 1,
+      "pt": {
+        "nm": "Anirban M.",
+        "ref": "SSH-R-25-035580",
+        "age_sex": "57/M"
+      },
+      "date": "2025-03-28",
+      "complaint": "C/O fever x 3 days",
+      "vitals": {
+        "bp": "152/86",
+        "pulse": 91
+      },
+      "dx": {
+        "code": "N39.0",
+        "display": "Urinary tract infection, site not specified"
+      },
+      "advice": "Tab. Prednisolone 10 mg OD x 7 days",
+      "doctor": "Dr. Ramesh Iyer",
+      "callback_no": "078601-14017"
+    }
+  ]
+}

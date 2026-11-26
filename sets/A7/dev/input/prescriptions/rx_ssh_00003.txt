@@ -1,0 +1,11 @@
+Sahyadri Sevashram Hospital - OPD Prescription
+Name: Bhagwati Bhutia   Age: 38 yrs   Sex: F
+UHID: SSH-R-25-007287   Mob: 7616-508212
+Aadhaar: XXXX XXXX 4060
+Date: 06/09/2025
+C/O joint pains x 1 month
+Dx: Unspecified malaria (B54)
+Rx:
+ 1. Tab Penicillamine 250 mg  1-0-1 x 30 days
+ 2. Dolo 650 BD x 5 days
+Dr. Pandurang Joshi (MBBS, MD)

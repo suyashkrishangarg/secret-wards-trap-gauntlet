@@ -1,0 +1,11 @@
+Brahmaputra Care Trust Hospital - OPD Prescription
+Name: Philomena Deshpande   Age: 20 yrs   Sex: F
+UHID: BCT57414503   Mob: +919070734805
+Aadhaar: XXXX XXXX 2930
+Date: 11/09/2025
+C/O breathlessness on exertion
+Dx: Pneumonia, unspecified organism (J18.9)
+Rx:
+ 1. Tab Pantoprazole 40 mg  1-0-1 x 30 days
+ 2. Dolo 650 BD x 5 days
+Dr. Meenakshi Sundaram (MBBS, MD)

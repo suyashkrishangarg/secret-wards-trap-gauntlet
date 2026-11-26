@@ -1,0 +1,19 @@
+accession,patient,hosp_no,agesex,investigation,value,uom,drawn,signed,referring
+S228880,Hitesh Grewal,SSH-R-25-043312,19/M,Random Blood Sugar,93,mg/dL,24/04/2025,24/04/2025,Dr. Grace Varghese
+S651504,Hitesh Grewal,SSH-R-25-043312,19Y/M,Serum Creatinine,3.2,mg/dL,24/04/2025,24/04/2025,Dr. Grace Varghese
+S554700,Anupama Naidu,SSH-R-25-009467,22/F,Total Leucocyte Count,12257,/cumm,10/08/2025,10/08/2025,Dr. Kaveri Rao
+S854177,Anupama Devi Naidu,SSH-R-25-009467,22Y/F,Serum Creatinine,2.8,mg/dL,10/08/2025,10/08/2025,Dr. Anirban Saha
+S540404,Rukmini Tamang,SSH-R-25-080733,41/F,Haemoglobin,11.0,g/dL,01/05/2025,01/05/2025,Dr. Sukhdev Bhalla
+S600337,Rukmini Tamang,SSH-R-25-080733,41Y/F,TSH,4.87,mIU/L,01/05/2025,01/05/2025,Dr. Pandurang Joshi
+S927487,Bhupendra Gill,SSH-R-25-052516,79/M,Random Blood Sugar,129,mg/dL,04/10/2025,04/10/2025,Dr. Anirban Saha
+S190178,Bhupendra Gill,SSH-R-25-052516,79Y/M,Serum Creatinine,2.2,mg/dL,04/10/2025,04/10/2025,Dr. Imtiaz Hussain
+S394691,Saroj Tamang,SSH-R-25-039023,75/F,Haemoglobin,13.2,g/dL,27/07/2025,27/07/2025,Dr. Grace Varghese
+S417573,Saroj Tamang,SSH-R-25-039023,75Y/F,Serum Creatinine,2.0,mg/dL,27/07/2025,27/07/2025,Dr. Pandurang Joshi
+S266348,Prabhakar Mahato,SSH-R-25-052674,80/M,HbA1c,7.3,%,16/02/2025,16/02/2025,Dr. Sukhdev Bhalla
+S904194,Prabhakar Mahato,SSH-R-25-052674,80Y/M,Random Blood Sugar,295,mg/dL,16/02/2025,16/02/2025,Dr. Grace Varghese
+S529308,Harpreet Kulkarni,SSH-R-25-068909,42/M,Total Leucocyte Count,5239,/cumm,25/11/2025,25/11/2025,Dr. Sukhdev Bhalla
+S673939,Harpreet Kumar Kulkarni,SSH-R-25-068909,42Y/M,Platelet count,143993,/cumm,25/11/2025,25/11/2025,Dr. Meenakshi Sundaram
+S311745,Debjani Ansari,SSH-R-25-055152,40/F,Serum Creatinine,0.7,mg/dL,24/11/2025,24/11/2025,Dr. Pandurang Joshi
+S326307,Debjani Ansari,SSH-R-25-055152,40Y/F,HbA1c,7.6,%,24/11/2025,24/11/2025,Dr. Grace Varghese
+S934071,Kezhokhoto Ganguly,SSH-R-25-043366,84/M,Serum Creatinine,1.3,mg/dL,08/10/2025,08/10/2025,Dr. Ramesh Iyer
+S292293,Kezhokhoto Ganguly,SSH-R-25-043366,84Y/M,Total Leucocyte Count,6462,/cumm,08/10/2025,08/10/2025,Dr. Grace Varghese

@@ -1,0 +1,2 @@
+# Byte-exact test data: truth.json pins SHA-256 of every input file, so git must never rewrite line endings.
+* -text
