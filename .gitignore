@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 eval_runs/
 sets/*/scoring.toml
+
+# graft's local graph cache — regenerable, not committed (run `graft build`).
+/graft/

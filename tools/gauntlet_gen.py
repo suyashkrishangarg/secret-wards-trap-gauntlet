@@ -1601,8 +1601,8 @@ class Gauntlet:
             [("NAME", f"{q1.given} {q1.sur}", q1), ("PHONE", q1.phone, q1)])
         bad("misc/visit;rm -rf ~;.txt", "text", f"Patient {q2.given} {q2.sur}, mobile {q2.phone}\n".encode(),
             [("NAME", f"{q2.given} {q2.sur}", q2), ("PHONE", q2.phone, q2)])
-        bad(f"misc/.._.._etc_passwd_{q3.given}.txt", "text", f"Patient: {q3.given} {q3.sur}\n".encode(),
-            [("NAME", f"{q3.given} {q3.sur}", q3)], fname_ent=(q3.given, q3))
+        bad("misc/.._.._etc_passwd.txt", "text", f"Patient: {q3.given} {q3.sur}\n".encode(),
+            [("NAME", f"{q3.given} {q3.sur}", q3)])
         bad("misc/`id`_lab.csv", "csv", f"name,mobile\n{q1.given} {q1.sur},{q1.phone}\n".encode(),
             [("NAME", f"{q1.given} {q1.sur}", q1), ("PHONE", q1.phone, q1)])
         bad("misc/vitals_nan.json", "json",

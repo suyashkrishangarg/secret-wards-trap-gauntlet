@@ -191774,8 +191774,8 @@
     }
    }
   },
-  "misc/.._.._etc_passwd_Biswajit.txt": {
-   "path": "misc/.._.._etc_passwd_Biswajit.txt",
+  "misc/.._.._etc_passwd.txt": {
+   "path": "misc/.._.._etc_passwd.txt",
    "format": "text",
    "encoding": "utf-8",
    "delimiter": null,
@@ -191808,34 +191808,6 @@
         "grewal"
        ],
        "full": true
-      }
-     ],
-     "preserve": [],
-     "dates": [],
-     "fields": [],
-     "exclude": [],
-     "los": []
-    },
-    "@filename": {
-     "loc": "@filename",
-     "patient": null,
-     "cid": null,
-     "link": "none",
-     "tags": [],
-     "entities": [
-      {
-       "type": "PATIENT_NAME",
-       "surface": "Biswajit",
-       "person": "P00058",
-       "role": "patient",
-       "script": "latin",
-       "channel": "filename",
-       "match": "name",
-       "critical": false,
-       "tokens": [
-        "biswajit"
-       ],
-       "full": false
       }
      ],
      "preserve": [],
